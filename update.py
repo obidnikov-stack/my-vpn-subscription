@@ -46,7 +46,9 @@ for file in files:
 configs = sorted(configs)
 
 with open("unified.txt", "w", encoding="utf-8") as f:
-    for config in configs:
+    f.write("# profile-title: VolkovVPN\n")
+
+    for config in sorted(configs):
         f.write(config + "\n")
 
 print(f"Готово. Конфигов собрано: {len(configs)}")
