@@ -1,107 +1,83 @@
 name: Update VolkovVPN
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "*/5 * * * *"
+    - cron: "0,30 * * * *"
 
-  workflow_dispatch:
+permissions:
+  contents: write
+
+concurrency:
+  group: volkovvpn-update
+  cancel-in-progress: true
 
 jobs:
-
   update:
-
     runs-on: ubuntu-latest
-
-    timeout-minutes: 5
-
-    concurrency:
-      group: volkovvpn-update
-      cancel-in-progress: true
-
-    permissions:
-      contents: write
-
+    timeout-minutes: 8
     steps:
-
-      # ==========================================
-      # Репозиторий
-      # ==========================================
-
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      # ==========================================
-      # Python
-      # ==========================================
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
-      # ==========================================
-      # Зависимости
-      # ==========================================
-
       - name: Install dependencies
+        run: python -m pip install --upgrade pip requests pysocks
+
+      - name: Download sing-box
+        shell: bash
         run: |
-          python -m pip install --upgrade pip
-          pip install requests
-
-      # ==========================================
-      # Установка sing-box 1.14.0
-      # ==========================================
-
-      - name: Install sing-box
-        run: |
-
+          set -e
           VERSION="1.14.0"
-
-          wget -q \
-            "https://github.com/SagerNet/sing-box/releases/download/v${VERSION}/sing-box-${VERSION}-linux-amd64.tar.gz" \
-            -O sing-box.tar.gz
-
+          curl -L --fail --retry 3 -o sing-box.tar.gz \
+            "https://github.com/SagerNet/sing-box/releases/download/v${VERSION}/sing-box-${VERSION}-linux-amd64.tar.gz"
           tar -xzf sing-box.tar.gz
-
-          SING_DIR=$(find . -maxdepth 1 -type d -name "sing-box-*")
-
-          cp "$SING_DIR/sing-box" ./sing-box
-
+          mv "sing-box-${VERSION}-linux-amd64/sing-box" ./sing-box
           chmod +x ./sing-box
-
           ./sing-box version
 
-      # ==========================================
-      # Обновление
-      # ==========================================
-
-      - name: Update and check VPN servers
+      - name: Decide check mode
+        id: mode
+        shell: bash
         run: |
-          python update.py
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "deep=true" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "0,30 * * * *" ]; then
+            echo "deep=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "deep=false" >> "$GITHUB_OUTPUT"
+          fi
 
-      # ==========================================
-      # Сохраняем результат
-      # ==========================================
+      - name: Update subscription
+        env:
+          DEEP_CHECK: ${{ steps.mode.outputs.deep }}
+        run: python update.py
+
+      - name: Show result
+        run: |
+          echo "=== unified.txt ==="
+          grep -E '^(vless|vmess|ss|trojan|hysteria2|hy2|tuic)://' unified.txt | wc -l
+          echo "=== fastest.txt ==="
+          grep -E '^(vless|vmess|ss|trojan|hysteria2|hy2|tuic)://' fastest.txt | wc -l
+          echo "=== failed.txt ==="
+          grep -E '^(vless|vmess|ss|trojan|hysteria2|hy2|tuic)://' failed.txt | wc -l || true
 
       - name: Commit changes
+        shell: bash
         run: |
-
           git config user.name "github-actions[bot]"
-
-          git config user.email \
-            "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git add unified.txt
-
-          if git diff --staged --quiet; then
-
-            echo "Изменений нет."
-
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add unified.txt fastest.txt failed.txt server_state.json
+          if git diff --cached --quiet; then
+            echo "No changes"
           else
-
-            git commit \
-              -m "Update VolkovVPN configs"
-
+            git commit -m "Update VolkovVPN subscriptions"
             git push
-
           fi
