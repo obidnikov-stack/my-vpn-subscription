@@ -49,57 +49,63 @@ def cfg_id(url: str) -> str:
     return hashlib.sha256(url.strip().encode()).hexdigest()[:16]
 
 
-def get_json(url):
-    r = session.get(url, timeout=15)
-    r.raise_for_status()
-    return r.json()
+def collect_txt_files():
+    """Collect all .txt files from the locally cloned upstream repository."""
+    root = Path("source_repo")
+    if not root.exists():
+        raise RuntimeError("source_repo not found. Clone the upstream repository first.")
 
+    files = []
+    for path in root.rglob("*.txt"):
+        if path.is_file():
+            files.append(path)
 
-def collect_txt_files(path=""):
-    """Recursively collect all .txt files in the upstream repo."""
-    api = f"https://api.github.com/repos/{OWNER}/{REPO}/contents/{path}"
-    items = get_json(api)
-    result = []
-    for item in items:
-        if item.get("type") == "dir":
-            result.extend(collect_txt_files(item["path"]))
-        elif item.get("type") == "file" and item.get("name", "").lower().endswith(".txt"):
-            result.append((item["path"], item.get("download_url")))
-    return result
+    files.sort()
+    return files
 
 
 def extract_configs(files):
+    """Extract supported VPN URLs from locally downloaded source files."""
     configs = []
     by_file = {}
     seen = set()
-    for path, url in files:
+
+    for path in files:
+        rel = str(path.relative_to("source_repo")).replace("\\", "/")
         try:
-            text = session.get(url, timeout=20).text
+            text = path.read_text(encoding="utf-8", errors="ignore")
         except Exception as e:
-            by_file[path] = f"download_error: {e}"
+            by_file[rel] = f"read_error: {e}"
             continue
+
         count = 0
         for raw in text.splitlines():
             line = raw.strip()
             if not line or line.startswith("#"):
                 continue
-            # A source file can contain labels/comments after the URI.
-            m = re.search(r"(?:vless|vmess|ss|trojan|hysteria2|hy2|tuic)://\S+", line, re.I)
+
+            m = re.search(
+                r"(?:vless|vmess|ss|trojan|hysteria2|hy2|tuic)://\S+",
+                line,
+                re.I,
+            )
             if not m:
                 continue
+
             u = m.group(0).rstrip("'\"),;]")
-            # Strip obvious inline comment markers.
-            if "#" in u:
-                u = u.split("#", 1)[0] + ("#" + u.split("#", 1)[1] if "%23" not in u else "")
             if not u.lower().startswith(ALLOWED):
                 continue
+
+            # Keep the URI fragment (usually the server name), but do not
+            # accidentally include a plain text comment after the URL.
             if u not in seen:
                 seen.add(u)
-                configs.append((u, path))
+                configs.append((u, rel))
                 count += 1
-        by_file[path] = count
-    return configs, by_file
 
+        by_file[rel] = count
+
+    return configs, by_file
 
 def q1(qs, key, default=""):
     v = qs.get(key, [default])
