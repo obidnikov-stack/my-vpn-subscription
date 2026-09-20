@@ -28,6 +28,12 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Clone upstream VPN configs
+        run: |
+          git clone --depth 1 --branch main https://github.com/igareck/vpn-configs-for-russia.git source_repo
+          echo "Upstream commit:"
+          git -C source_repo rev-parse --short HEAD
+
       - name: Install dependencies
         run: python -m pip install --upgrade pip requests pysocks
 
