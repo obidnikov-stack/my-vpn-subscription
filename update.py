@@ -1,956 +1,631 @@
 import base64
+import hashlib
 import json
 import os
-import random
 import re
 import socket
 import subprocess
 import tempfile
 import time
-import urllib.parse
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from pathlib import Path
+from urllib.parse import parse_qs, unquote, urlparse
 
 import requests
 
-
 OWNER = "igareck"
 REPO = "vpn-configs-for-russia"
-
-API = f"https://api.github.com/repos/{OWNER}/{REPO}/contents"
-
-SING_BOX = "./sing-box"
-
-# Сколько серверов проверять одновременно
-MAX_WORKERS = 8
-
-# Сколько секунд максимум ждать один сервер
-CHECK_TIMEOUT = 8
-
-# Сайт для проверки реального выхода через VPN
-TEST_URL = "https://www.gstatic.com/generate_204"
+BRANCH = "main"
 
 ALLOWED = (
-    "vless://",
-    "vmess://",
-    "ss://",
-    "trojan://",
-    "hysteria2://",
-    "hy2://",
-    "tuic://",
+    "vless://", "vmess://", "ss://", "trojan://",
+    "hysteria2://", "hy2://", "tuic://"
 )
 
+SING_BOX = "./sing-box"
+SOCKS_BASE_PORT = 18080
+MAX_WORKERS = 16
+PROXY_TIMEOUT = 7
+TCP_TIMEOUT = 3
+TOP_FOR_DEEP_TEST = 80
+TOP_FASTEST = 20
+SPEED_TEST_CANDIDATES = 40
+SPEED_TEST_BYTES = 512_000
+STATE_FILE = Path("server_state.json")
+FAILED_FILE = Path("failed.txt")
+UNIFIED_FILE = Path("unified.txt")
+FASTEST_FILE = Path("fastest.txt")
 
-# ============================================================
-# GitHub
-# ============================================================
+TEST_URLS = [
+    "https://www.gstatic.com/generate_204",
+    "https://www.google.com/generate_204",
+]
 
-def get_files():
-    response = requests.get(
-        API,
-        headers={"Accept": "application/vnd.github+json"},
-        timeout=30,
-    )
-
-    response.raise_for_status()
-
-    return response.json()
+session = requests.Session()
+session.headers.update({"User-Agent": "VolkovVPN-Updater/2.0"})
 
 
-def download_configs(files):
-    configs = set()
+def cfg_id(url: str) -> str:
+    return hashlib.sha256(url.strip().encode()).hexdigest()[:16]
 
-    for file in files:
 
-        name = file.get("name", "")
-        url = file.get("download_url")
+def get_json(url):
+    r = session.get(url, timeout=15)
+    r.raise_for_status()
+    return r.json()
 
-        if not name.lower().endswith(".txt"):
-            continue
 
-        if not url:
-            continue
+def collect_txt_files(path=""):
+    """Recursively collect all .txt files in the upstream repo."""
+    api = f"https://api.github.com/repos/{OWNER}/{REPO}/contents/{path}"
+    items = get_json(api)
+    result = []
+    for item in items:
+        if item.get("type") == "dir":
+            result.extend(collect_txt_files(item["path"]))
+        elif item.get("type") == "file" and item.get("name", "").lower().endswith(".txt"):
+            result.append((item["path"], item.get("download_url")))
+    return result
 
-        print(f"Скачиваем: {name}")
 
+def extract_configs(files):
+    configs = []
+    by_file = {}
+    seen = set()
+    for path, url in files:
         try:
-            response = requests.get(
-                url,
-                timeout=30,
-            )
-
-            response.raise_for_status()
-
-            for line in response.text.splitlines():
-
-                line = line.strip()
-
-                if not line:
-                    continue
-
-                if line.startswith("#"):
-                    continue
-
-                if line.startswith(ALLOWED):
-                    configs.add(line)
-
+            text = session.get(url, timeout=20).text
         except Exception as e:
-            print(f"Ошибка {name}: {e}")
-
-    return sorted(configs)
-
-
-# ============================================================
-# Base64
-# ============================================================
-
-def b64decode(text):
-
-    try:
-        text = text.strip()
-
-        text += "=" * (-len(text) % 4)
-
-        return base64.urlsafe_b64decode(
-            text
-        ).decode(
-            "utf-8",
-            errors="ignore"
-        )
-
-    except Exception:
-        return ""
+            by_file[path] = f"download_error: {e}"
+            continue
+        count = 0
+        for raw in text.splitlines():
+            line = raw.strip()
+            if not line or line.startswith("#"):
+                continue
+            # A source file can contain labels/comments after the URI.
+            m = re.search(r"(?:vless|vmess|ss|trojan|hysteria2|hy2|tuic)://\S+", line, re.I)
+            if not m:
+                continue
+            u = m.group(0).rstrip("'\"),;]")
+            # Strip obvious inline comment markers.
+            if "#" in u:
+                u = u.split("#", 1)[0] + ("#" + u.split("#", 1)[1] if "%23" not in u else "")
+            if not u.lower().startswith(ALLOWED):
+                continue
+            if u not in seen:
+                seen.add(u)
+                configs.append((u, path))
+                count += 1
+        by_file[path] = count
+    return configs, by_file
 
 
-def b64encode(text):
-
-    return base64.urlsafe_b64encode(
-        text.encode()
-    ).decode()
+def q1(qs, key, default=""):
+    v = qs.get(key, [default])
+    return v[0] if v else default
 
 
-# ============================================================
-# VLESS
-# ============================================================
-
-def parse_vless(uri):
-
-    parsed = urllib.parse.urlparse(uri)
-
-    query = urllib.parse.parse_qs(
-        parsed.query
-    )
-
-    server = parsed.hostname
-    port = parsed.port
-    uuid = parsed.username
-
-    if not server or not port or not uuid:
+def tls_obj(qs):
+    sec = q1(qs, "security", "")
+    if sec not in ("tls", "reality"):
         return None
-
-    outbound = {
-        "type": "vless",
-        "tag": "proxy",
-        "server": server,
-        "server_port": port,
-        "uuid": uuid,
-    }
-
-    # flow
-    flow = query.get("flow", [None])[0]
-
-    if flow:
-        outbound["flow"] = flow
-
-    # network
-    network = query.get(
-        "type",
-        query.get("network", ["tcp"])
-    )[0]
-
-    if network:
-        outbound["network"] = network
-
-    # TLS
-    security = query.get(
-        "security",
-        [""]
-    )[0]
-
-    if security == "tls":
-
-        tls = {
-            "enabled": True
-        }
-
-        sni = query.get("sni", [None])[0]
-
-        if sni:
-            tls["server_name"] = sni
-
-        fp = query.get("fp", [None])[0]
-
-        if fp:
-            tls["utls"] = {
-                "enabled": True,
-                "fingerprint": fp,
-            }
-
-        outbound["tls"] = tls
-
-    # Reality
-    if security == "reality":
-
-        tls = {
-            "enabled": True
-        }
-
-        sni = query.get("sni", [None])[0]
-
-        if sni:
-            tls["server_name"] = sni
-
-        fp = query.get("fp", [None])[0]
-
-        if fp:
-            tls["utls"] = {
-                "enabled": True,
-                "fingerprint": fp,
-            }
-
-        pbk = query.get("pbk", [None])[0]
-
-        sid = query.get("sid", [None])[0]
-
-        reality = {
-            "enabled": True
-        }
-
+    tls = {"enabled": True}
+    sni = q1(qs, "sni") or q1(qs, "serverName") or q1(qs, "host")
+    if sni:
+        tls["server_name"] = sni
+    fp = q1(qs, "fp") or q1(qs, "fingerprint")
+    if fp:
+        tls["utls"] = {"enabled": True, "fingerprint": fp}
+    if sec == "reality":
+        pbk = q1(qs, "pbk") or q1(qs, "publicKey")
+        sid = q1(qs, "sid") or q1(qs, "shortId")
+        reality = {"enabled": True}
         if pbk:
             reality["public_key"] = pbk
-
         if sid:
             reality["short_id"] = sid
-
         tls["reality"] = reality
+    return tls
 
-        outbound["tls"] = tls
 
-    # Transport
-    transport_type = network
-
-    if transport_type == "ws":
-
-        transport = {
-            "type": "ws"
-        }
-
-        path = query.get(
-            "path",
-            ["/"]
-        )[0]
-
-        transport["path"] = path
-
-        host = query.get(
-            "host",
-            [None]
-        )[0]
-
+def transport_obj(qs):
+    net = q1(qs, "type") or q1(qs, "network", "tcp")
+    net = net.lower()
+    if net in ("tcp", "none", ""):
+        return None
+    if net == "ws":
+        tr = {"type": "ws"}
+        path = q1(qs, "path")
+        host = q1(qs, "host")
+        if path:
+            tr["path"] = unquote(path)
         if host:
-            transport["headers"] = {
-                "Host": host
-            }
-
-        outbound["transport"] = transport
-
-    elif transport_type == "grpc":
-
-        service_name = query.get(
-            "serviceName",
-            [""]
-        )[0]
-
-        outbound["transport"] = {
-            "type": "grpc",
-            "service_name": service_name,
-        }
-
-    return outbound
-
-
-# ============================================================
-# VMESS
-# ============================================================
-
-def parse_vmess(uri):
-
-    encoded = uri[len("vmess://"):]
-
-    encoded = encoded.split("#")[0]
-
-    decoded = b64decode(encoded)
-
-    if not decoded:
-        return None
-
-    try:
-        data = json.loads(decoded)
-    except Exception:
-        return None
-
-    server = data.get("add")
-    port = data.get("port")
-    uuid = data.get("id")
-
-    if not server or not port or not uuid:
-        return None
-
-    outbound = {
-        "type": "vmess",
-        "tag": "proxy",
-        "server": server,
-        "server_port": int(port),
-        "uuid": uuid,
-        "security": data.get("scy", "auto"),
-    }
-
-    network = data.get(
-        "net",
-        "tcp"
-    )
-
-    outbound["network"] = network
-
-    if data.get("tls"):
-
-        tls = {
-            "enabled": True
-        }
-
-        if data.get("sni"):
-            tls["server_name"] = data["sni"]
-
-        outbound["tls"] = tls
-
-    if network == "ws":
-
-        transport = {
-            "type": "ws",
-            "path": data.get(
-                "path",
-                "/"
-            )
-        }
-
-        host = data.get("host")
-
+            tr["headers"] = {"Host": host}
+        return tr
+    if net == "grpc":
+        tr = {"type": "grpc"}
+        service = q1(qs, "serviceName") or q1(qs, "service_name")
+        if service:
+            tr["service_name"] = service
+        return tr
+    if net == "http":
+        tr = {"type": "http"}
+        host = q1(qs, "host")
+        path = q1(qs, "path")
         if host:
-            transport["headers"] = {
-                "Host": host
-            }
-
-        outbound["transport"] = transport
-
-    elif network == "grpc":
-
-        outbound["transport"] = {
-            "type": "grpc",
-            "service_name": data.get(
-                "path",
-                ""
-            )
-        }
-
-    return outbound
-
-
-# ============================================================
-# TROJAN
-# ============================================================
-
-def parse_trojan(uri):
-
-    parsed = urllib.parse.urlparse(uri)
-
-    query = urllib.parse.parse_qs(
-        parsed.query
-    )
-
-    server = parsed.hostname
-    port = parsed.port
-    password = parsed.username
-
-    if not server or not port or not password:
-        return None
-
-    outbound = {
-        "type": "trojan",
-        "tag": "proxy",
-        "server": server,
-        "server_port": port,
-        "password": urllib.parse.unquote(
-            password
-        ),
-    }
-
-    tls = {
-        "enabled": True
-    }
-
-    sni = query.get(
-        "sni",
-        [None]
-    )[0]
-
-    if sni:
-        tls["server_name"] = sni
-
-    fp = query.get(
-        "fp",
-        [None]
-    )[0]
-
-    if fp:
-
-        tls["utls"] = {
-            "enabled": True,
-            "fingerprint": fp,
-        }
-
-    outbound["tls"] = tls
-
-    network = query.get(
-        "type",
-        ["tcp"]
-    )[0]
-
-    if network == "ws":
-
-        outbound["transport"] = {
-            "type": "ws",
-            "path": query.get(
-                "path",
-                ["/"]
-            )[0],
-        }
-
-    elif network == "grpc":
-
-        outbound["transport"] = {
-            "type": "grpc",
-            "service_name": query.get(
-                "serviceName",
-                [""]
-            )[0],
-        }
-
-    return outbound
-
-
-# ============================================================
-# SHADOWSOCKS
-# ============================================================
-
-def parse_ss(uri):
-
-    value = uri[len("ss://"):]
-
-    value = value.split("#")[0]
-
-    # SIP002:
-    # ss://base64(method:password)@host:port
-    if "@" in value:
-
-        encoded_user, server_part = value.rsplit(
-            "@",
-            1
-        )
-
-        decoded = b64decode(
-            encoded_user
-        )
-
-        if ":" not in decoded:
-            return None
-
-        method, password = decoded.split(
-            ":",
-            1
-        )
-
-        parsed = urllib.parse.urlparse(
-            "dummy://" + server_part
-        )
-
-    else:
-
-        decoded = b64decode(value)
-
-        if "@" not in decoded:
-            return None
-
-        credentials, server_part = decoded.rsplit(
-            "@",
-            1
-        )
-
-        if ":" not in credentials:
-            return None
-
-        method, password = credentials.split(
-            ":",
-            1
-        )
-
-        parsed = urllib.parse.urlparse(
-            "dummy://" + server_part
-        )
-
-    host = parsed.hostname
-    port = parsed.port
-
-    if not host or not port:
-        return None
-
-    return {
-        "type": "shadowsocks",
-        "tag": "proxy",
-        "server": host,
-        "server_port": port,
-        "method": method,
-        "password": password,
-    }
-
-
-# ============================================================
-# HYSTERIA2
-# ============================================================
-
-def parse_hysteria2(uri):
-
-    parsed = urllib.parse.urlparse(uri)
-
-    query = urllib.parse.parse_qs(
-        parsed.query
-    )
-
-    server = parsed.hostname
-    port = parsed.port
-
-    password = parsed.username
-
-    if not server or not port or not password:
-        return None
-
-    outbound = {
-        "type": "hysteria2",
-        "tag": "proxy",
-        "server": server,
-        "server_port": port,
-        "password": urllib.parse.unquote(
-            password
-        ),
-    }
-
-    tls = {
-        "enabled": True
-    }
-
-    sni = query.get(
-        "sni",
-        [None]
-    )[0]
-
-    if sni:
-        tls["server_name"] = sni
-
-    outbound["tls"] = tls
-
-    return outbound
-
-
-# ============================================================
-# TUIC
-# ============================================================
-
-def parse_tuic(uri):
-
-    parsed = urllib.parse.urlparse(uri)
-
-    query = urllib.parse.parse_qs(
-        parsed.query
-    )
-
-    server = parsed.hostname
-    port = parsed.port
-
-    uuid = parsed.username
-    password = parsed.password
-
-    if (
-        not server
-        or not port
-        or not uuid
-        or not password
-    ):
-        return None
-
-    outbound = {
-        "type": "tuic",
-        "tag": "proxy",
-        "server": server,
-        "server_port": port,
-        "uuid": uuid,
-        "password": password,
-    }
-
-    tls = {
-        "enabled": True
-    }
-
-    sni = query.get(
-        "sni",
-        [None]
-    )[0]
-
-    if sni:
-        tls["server_name"] = sni
-
-    outbound["tls"] = tls
-
-    return outbound
-
-
-# ============================================================
-# URI → sing-box
-# ============================================================
-
-def convert_config(uri):
-
-    try:
-
-        if uri.startswith("vless://"):
-            return parse_vless(uri)
-
-        if uri.startswith("vmess://"):
-            return parse_vmess(uri)
-
-        if uri.startswith("trojan://"):
-            return parse_trojan(uri)
-
-        if uri.startswith("ss://"):
-            return parse_ss(uri)
-
-        if uri.startswith(
-            ("hysteria2://", "hy2://")
-        ):
-            return parse_hysteria2(uri)
-
-        if uri.startswith("tuic://"):
-            return parse_tuic(uri)
-
-    except Exception:
-        return None
-
+            tr["host"] = [host]
+        if path:
+            tr["path"] = unquote(path)
+        return tr
     return None
 
 
-# ============================================================
-# Проверка
-# ============================================================
+def parse_vless(url):
+    p = urlparse(url)
+    if not p.hostname or not p.port or not p.username:
+        raise ValueError("invalid_vless")
+    qs = parse_qs(p.query, keep_blank_values=True)
+    out = {
+        "type": "vless", "tag": "proxy",
+        "server": p.hostname, "server_port": p.port,
+        "uuid": unquote(p.username),
+        "network": q1(qs, "type", "tcp"),
+    }
+    flow = q1(qs, "flow")
+    if flow:
+        out["flow"] = flow
+    tls = tls_obj(qs)
+    if tls:
+        out["tls"] = tls
+    tr = transport_obj(qs)
+    if tr:
+        out["transport"] = tr
+    return out
 
-def check_server(uri):
 
-    outbound = convert_config(uri)
+def parse_vmess(url):
+    raw = url.split("//", 1)[1]
+    raw += "=" * (-len(raw) % 4)
+    data = json.loads(base64.urlsafe_b64decode(raw).decode("utf-8"))
+    host = data.get("add") or data.get("host")
+    port = int(data.get("port"))
+    uuid = data.get("id")
+    if not host or not port or not uuid:
+        raise ValueError("invalid_vmess")
+    out = {
+        "type": "vmess", "tag": "proxy", "server": host,
+        "server_port": port, "uuid": uuid,
+        "security": data.get("scy") or "auto",
+        "alter_id": int(data.get("aid") or 0),
+        "network": data.get("net") or "tcp",
+    }
+    if str(data.get("tls", "")).lower() in ("tls", "true", "1"):
+        tls = {"enabled": True}
+        sni = data.get("sni") or data.get("host")
+        if sni:
+            tls["server_name"] = sni
+        if data.get("fp"):
+            tls["utls"] = {"enabled": True, "fingerprint": data["fp"]}
+        out["tls"] = tls
+    qs = {k: [v] for k, v in data.items()}
+    tr = transport_obj(qs)
+    if tr:
+        out["transport"] = tr
+    return out
 
-    if not outbound:
-        return uri, False
 
-    # Уникальный порт для локального SOCKS
-    socks_port = random.randint(
-        20000,
-        50000
-    )
+def parse_trojan(url):
+    p = urlparse(url)
+    if not p.hostname or not p.port or not p.username:
+        raise ValueError("invalid_trojan")
+    qs = parse_qs(p.query, keep_blank_values=True)
+    out = {
+        "type": "trojan", "tag": "proxy",
+        "server": p.hostname, "server_port": p.port,
+        "password": unquote(p.username),
+    }
+    tls = tls_obj({**qs, "security": ["tls"]})
+    out["tls"] = tls or {"enabled": True}
+    tr = transport_obj(qs)
+    if tr:
+        out["transport"] = tr
+    return out
 
-    config = {
-        "log": {
-            "level": "error"
-        },
 
-        "inbounds": [
-            {
-                "type": "mixed",
-                "tag": "local",
-                "listen": "127.0.0.1",
-                "listen_port": socks_port,
-            }
-        ],
-
-        "outbounds": [
-            outbound,
-            {
-                "type": "direct",
-                "tag": "direct"
-            }
-        ],
-
-        "route": {
-            "final": "proxy"
-        }
+def parse_ss(url):
+    p = urlparse(url)
+    if not p.hostname or not p.port:
+        raise ValueError("invalid_ss")
+    user = unquote(p.username or "")
+    if ":" in user:
+        method, password = user.split(":", 1)
+    else:
+        # ss://base64(method:password)@host:port OR ss://base64(method:password)
+        token = url.split("ss://", 1)[1].split("#", 1)[0]
+        if "@" in token:
+            encoded_user = token.split("@", 1)[0]
+            encoded_user += "=" * (-len(encoded_user) % 4)
+            try:
+                dec_user = base64.urlsafe_b64decode(encoded_user).decode()
+                method, password = dec_user.split(":", 1)
+            except Exception:
+                raise ValueError("invalid_ss_base64_userinfo")
+        else:
+            token += "=" * (-len(token) % 4)
+            try:
+                dec = base64.urlsafe_b64decode(token).decode()
+                user, hostpart = dec.rsplit("@", 1)
+                method, password = user.split(":", 1)
+                hp = hostpart.rsplit(":", 1)
+                host, port = hp[0], int(hp[1])
+            except Exception:
+                raise ValueError("invalid_ss_base64")
+    return {
+        "type": "shadowsocks", "tag": "proxy",
+        "server": p.hostname, "server_port": p.port,
+        "method": method, "password": password,
     }
 
-    process = None
 
+def parse_hy2(url):
+    p = urlparse(url)
+    if not p.hostname or not p.port:
+        raise ValueError("invalid_hysteria2")
+    qs = parse_qs(p.query, keep_blank_values=True)
+    password = unquote(p.username or "")
+    if p.password:
+        password += ":" + unquote(p.password)
+    if not password:
+        password = q1(qs, "password")
+    out = {
+        "type": "hysteria2", "tag": "proxy",
+        "server": p.hostname, "server_port": p.port,
+        "password": password,
+        "tls": {"enabled": True},
+    }
+    sni = q1(qs, "sni") or q1(qs, "peer")
+    if sni:
+        out["tls"]["server_name"] = sni
+    insecure = q1(qs, "insecure", "0")
+    if insecure in ("1", "true"):
+        out["tls"]["insecure"] = True
+    obfs = q1(qs, "obfs")
+    obfs_password = q1(qs, "obfs-password") or q1(qs, "obfs_password")
+    if obfs:
+        out["obfs"] = {"type": obfs}
+        if obfs_password:
+            out["obfs"]["password"] = obfs_password
+    return out
+
+
+def parse_tuic(url):
+    p = urlparse(url)
+    if not p.hostname or not p.port or not p.username:
+        raise ValueError("invalid_tuic")
+    qs = parse_qs(p.query, keep_blank_values=True)
+    password = unquote(p.password or "")
+    out = {
+        "type": "tuic", "tag": "proxy",
+        "server": p.hostname, "server_port": p.port,
+        "uuid": unquote(p.username), "password": password,
+        "tls": {"enabled": True},
+    }
+    sni = q1(qs, "sni")
+    if sni:
+        out["tls"]["server_name"] = sni
+    if q1(qs, "insecure", "0") in ("1", "true"):
+        out["tls"]["insecure"] = True
+    return out
+
+
+def to_singbox(url):
+    low = url.lower()
+    if low.startswith("vless://"):
+        return parse_vless(url)
+    if low.startswith("vmess://"):
+        return parse_vmess(url)
+    if low.startswith("ss://"):
+        return parse_ss(url)
+    if low.startswith("trojan://"):
+        return parse_trojan(url)
+    if low.startswith("hysteria2://") or low.startswith("hy2://"):
+        return parse_hy2(url)
+    if low.startswith("tuic://"):
+        return parse_tuic(url)
+    raise ValueError("unsupported_protocol")
+
+
+def tcp_prefilter(url):
     try:
+        p = urlparse(url)
+        if p.scheme == "vmess":
+            # VMess host/port are encoded, so parse it.
+            obj = parse_vmess(url)
+            host, port = obj["server"], obj["server_port"]
+        else:
+            obj = to_singbox(url)
+            host, port = obj["server"], obj["server_port"]
+        with socket.create_connection((host, int(port)), timeout=TCP_TIMEOUT):
+            return True, "tcp_ok"
+    except Exception as e:
+        return False, f"tcp_failed:{type(e).__name__}"
 
-        with tempfile.TemporaryDirectory() as temp:
 
-            config_path = os.path.join(
-                temp,
-                "config.json"
-            )
-
-            with open(
-                config_path,
-                "w",
-                encoding="utf-8"
-            ) as f:
-                json.dump(
-                    config,
-                    f,
-                    ensure_ascii=False
-                )
-
-            # Проверяем конфигурацию
-            check = subprocess.run(
-                [
-                    SING_BOX,
-                    "check",
-                    "-c",
-                    config_path,
-                ],
-                stdout=subprocess.PIPE,
-                stderr=subprocess.PIPE,
-                text=True,
-                timeout=5,
-            )
-
-            if check.returncode != 0:
-                return uri, False
-
-            # Запускаем sing-box
-            process = subprocess.Popen(
-                [
-                    SING_BOX,
-                    "run",
-                    "-c",
-                    config_path,
-                ],
-                stdout=subprocess.DEVNULL,
-                stderr=subprocess.DEVNULL,
-            )
-
-            # Даём прокси запуститься
-            time.sleep(1.2)
-
-            # Проверяем именно запрос ЧЕРЕЗ VPN
-            result = subprocess.run(
-                [
-                    "curl",
-                    "-4",
-                    "-L",
-                    "--max-time",
-                    str(CHECK_TIMEOUT),
-                    "--proxy",
-                    f"socks5h://127.0.0.1:{socks_port}",
-                    "-o",
-                    "/dev/null",
-                    "-s",
-                    "-w",
-                    "%{http_code}",
-                    TEST_URL,
-                ],
-                stdout=subprocess.PIPE,
-                stderr=subprocess.DEVNULL,
-                text=True,
-                timeout=CHECK_TIMEOUT + 3,
-            )
-
-            code = result.stdout.strip()
-
-            if code in (
-                "200",
-                "204",
-                "301",
-                "302",
-            ):
-                return uri, True
-
-    except Exception:
-        pass
-
-    finally:
-
-        if process:
-
+def run_proxy_test(item, deep=False):
+    url, source = item
+    sid = cfg_id(url)
+    port = SOCKS_BASE_PORT + (int(sid[:4], 16) % 2000)
+    work = Path(tempfile.mkdtemp(prefix="volkov_"))
+    conf = work / "config.json"
+    log = work / "singbox.log"
+    try:
+        outbound = to_singbox(url)
+        config = {
+            "log": {"level": "error", "output": str(log)},
+            "inbounds": [{"type": "socks", "tag": "in", "listen": "127.0.0.1", "listen_port": port}],
+            "outbounds": [outbound],
+            "route": {"final": "proxy"},
+        }
+        conf.write_text(json.dumps(config, ensure_ascii=False), encoding="utf-8")
+        proc = subprocess.Popen([SING_BOX, "run", "-c", str(conf)], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        start = time.perf_counter()
+        ok = False
+        latency = None
+        for _ in range(20):
             try:
-                process.terminate()
-
-                process.wait(
-                    timeout=2
-                )
-
+                with socket.create_connection(("127.0.0.1", port), timeout=0.25):
+                    break
             except Exception:
-
+                time.sleep(0.1)
+        for test_url in TEST_URLS:
+            try:
+                t0 = time.perf_counter()
+                r = requests.get(test_url, proxies={"http": f"socks5h://127.0.0.1:{port}", "https": f"socks5h://127.0.0.1:{port}"}, timeout=PROXY_TIMEOUT, allow_redirects=False)
+                dt = (time.perf_counter() - t0) * 1000
+                if r.status_code in (200, 204, 301, 302):
+                    ok = True
+                    latency = dt if latency is None else min(latency, dt)
+                    break
+            except Exception:
+                pass
+        if not ok:
+            return {"id": sid, "url": url, "source": source, "ok": False, "reason": "proxy_test_failed"}
+        score = latency
+        if deep:
+            # A second independent request reduces false positives from transient success.
+            success2 = False
+            for test_url in TEST_URLS:
                 try:
-                    process.kill()
+                    r = requests.get(test_url, proxies={"http": f"socks5h://127.0.0.1:{port}", "https": f"socks5h://127.0.0.1:{port}"}, timeout=PROXY_TIMEOUT, allow_redirects=False)
+                    if r.status_code in (200, 204, 301, 302):
+                        success2 = True
+                        break
                 except Exception:
                     pass
-
-    return uri, False
-
-
-# ============================================================
-# Проверка всех
-# ============================================================
-
-def check_all(configs):
-
-    working = []
-
-    total = len(configs)
-
-    print()
-    print("=" * 60)
-    print("РЕАЛЬНАЯ ПРОВЕРКА VPN")
-    print("=" * 60)
-    print(f"Конфигов: {total}")
-    print(f"Параллельно: {MAX_WORKERS}")
-    print("=" * 60)
-
-    completed = 0
-
-    with ThreadPoolExecutor(
-        max_workers=MAX_WORKERS
-    ) as executor:
-
-        futures = [
-            executor.submit(
-                check_server,
-                config
-            )
-            for config in configs
-        ]
-
-        for future in as_completed(futures):
-
-            completed += 1
-
+            if not success2:
+                return {"id": sid, "url": url, "source": source, "ok": False, "reason": "second_test_failed"}
+        return {"id": sid, "url": url, "source": source, "ok": True, "latency": round(score, 1)}
+    except Exception as e:
+        return {"id": sid, "url": url, "source": source, "ok": False, "reason": f"{type(e).__name__}:{e}"}
+    finally:
+        try:
+            proc.terminate()
+            proc.wait(timeout=1)
+        except Exception:
             try:
-
-                config, status = future.result()
-
-                if status:
-
-                    working.append(config)
-
-                    print(
-                        f"[{completed}/{total}] OK"
-                    )
-
-                else:
-
-                    print(
-                        f"[{completed}/{total}] DEAD"
-                    )
-
+                proc.kill()
             except Exception:
-
-                print(
-                    f"[{completed}/{total}] ERROR"
-                )
-
-    print()
-    print("=" * 60)
-    print(f"Всего:   {total}")
-    print(f"Рабочих: {len(working)}")
-    print(f"Мёртвых: {total - len(working)}")
-    print("=" * 60)
-
-    return sorted(
-        set(working)
-    )
+                pass
+        for f in work.glob("*"):
+            try:
+                f.unlink()
+            except Exception:
+                pass
+        try:
+            work.rmdir()
+        except Exception:
+            pass
 
 
-# ============================================================
-# Сохранение
-# ============================================================
-
-def save_subscription(configs):
-
-    with open(
-        "unified.txt",
-        "w",
-        encoding="utf-8",
-        newline="\n"
-    ) as f:
-
-        f.write(
-            "#profile-title: VolkovVPN\n"
+def benchmark_speed(result):
+    """Measure a small download through the proxy for the already-good candidates."""
+    url = result["url"]
+    sid = result["id"]
+    port = SOCKS_BASE_PORT + (int(sid[:4], 16) % 2000)
+    work = Path(tempfile.mkdtemp(prefix="volkov_speed_"))
+    conf = work / "config.json"
+    try:
+        outbound = to_singbox(url)
+        config = {
+            "log": {"level": "error"},
+            "inbounds": [{"type": "socks", "tag": "in", "listen": "127.0.0.1", "listen_port": port}],
+            "outbounds": [outbound],
+            "route": {"final": "proxy"},
+        }
+        conf.write_text(json.dumps(config), encoding="utf-8")
+        proc = subprocess.Popen([SING_BOX, "run", "-c", str(conf)], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        for _ in range(20):
+            try:
+                with socket.create_connection(("127.0.0.1", port), timeout=0.25):
+                    break
+            except Exception:
+                time.sleep(0.1)
+        t0 = time.perf_counter()
+        r = requests.get(
+            "https://speed.cloudflare.com/__down?bytes=" + str(SPEED_TEST_BYTES),
+            proxies={"http": f"socks5h://127.0.0.1:{port}", "https": f"socks5h://127.0.0.1:{port}"},
+            timeout=8,
+            stream=True,
+            headers={"Range": f"bytes=0-{SPEED_TEST_BYTES-1}"},
         )
+        total = 0
+        for chunk in r.iter_content(64 * 1024):
+            total += len(chunk)
+            if total >= SPEED_TEST_BYTES:
+                break
+        elapsed = max(time.perf_counter() - t0, 0.001)
+        if total < 50_000:
+            raise RuntimeError("too_little_data")
+        result["speed_mbps"] = round((total * 8) / elapsed / 1_000_000, 2)
+        return result
+    except Exception as e:
+        result["speed_mbps"] = 0
+        result["speed_error"] = type(e).__name__
+        return result
+    finally:
+        try:
+            proc.terminate()
+            proc.wait(timeout=1)
+        except Exception:
+            try:
+                proc.kill()
+            except Exception:
+                pass
+        for f in work.glob("*"):
+            try:
+                f.unlink()
+            except Exception:
+                pass
+        try:
+            work.rmdir()
+        except Exception:
+            pass
 
-        f.write(
-            "#profile-update-interval: 6\n"
-        )
 
-        for config in configs:
+def load_state():
+    if not STATE_FILE.exists():
+        return {}
+    try:
+        return json.loads(STATE_FILE.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
 
-            f.write(
-                config + "\n"
-            )
 
+def save_state(state):
+    STATE_FILE.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
 
-# ============================================================
-# MAIN
-# ============================================================
 
 def main():
+    deep = os.getenv("DEEP_CHECK", "false").lower() == "true"
+    print("=== VolkovVPN updater 2.0 ===")
+    print(f"Deep check: {deep}")
 
-    print()
-    print("=" * 60)
-    print("VOLKOVVPN")
-    print("=" * 60)
+    files = collect_txt_files()
+    print(f"TXT файлов найдено: {len(files)}")
+    configs, by_file = extract_configs(files)
+    print(f"Конфигов найдено: {len(configs)}")
+    for path, count in sorted(by_file.items()):
+        print(f"  {path}: {count}")
 
-    files = get_files()
+    # Parse + TCP prefilter first. This prevents wasting a sing-box process on obviously dead endpoints.
+    parsed = []
+    failed = []
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as ex:
+        futures = {ex.submit(tcp_prefilter, item[0]): item for item in configs}
+        for fut in as_completed(futures):
+            item = futures[fut]
+            try:
+                ok, reason = fut.result()
+            except Exception as e:
+                ok, reason = False, f"prefilter_exception:{e}"
+            if ok:
+                parsed.append(item)
+            else:
+                failed.append({"id": cfg_id(item[0]), "url": item[0], "source": item[1], "reason": reason})
+    print(f"После TCP-проверки: {len(parsed)}")
 
-    configs = download_configs(
-        files
-    )
+    state = load_state()
+    results = []
+    # Deep mode tests all candidates. Normal mode tests all candidates too, but only ranks the best 80;
+    # this keeps the list fresh while avoiding a large download benchmark for every server.
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as ex:
+        futures = {ex.submit(run_proxy_test, item, deep): item for item in parsed}
+        for fut in as_completed(futures):
+            item = futures[fut]
+            try:
+                res = fut.result()
+            except Exception as e:
+                res = {"id": cfg_id(item[0]), "url": item[0], "source": item[1], "ok": False, "reason": f"exception:{e}"}
+            results.append(res)
 
-    print(
-        f"\nПолучено конфигов: {len(configs)}"
-    )
+    alive = [r for r in results if r.get("ok")]
+    dead = [r for r in results if not r.get("ok")]
+    print(f"Proxy-тест прошли: {len(alive)}")
+    print(f"Не прошли: {len(dead) + len(failed)}")
 
-    if not configs:
+    # 3-strike quarantine. A server is removed only after 3 consecutive failed proxy tests.
+    current_ids = {r["id"] for r in alive}
+    all_results = results + failed
+    for r in all_results:
+        sid = r["id"]
+        entry = state.get(sid, {"failures": 0, "last_latency": None, "url": r["url"], "source": r["source"]})
+        entry["url"] = r["url"]
+        entry["source"] = r["source"]
+        if r.get("ok"):
+            entry["failures"] = 0
+            entry["last_latency"] = r.get("latency")
+            entry["last_ok"] = int(time.time())
+        else:
+            entry["failures"] = int(entry.get("failures", 0)) + 1
+            entry["last_error"] = r.get("reason", "unknown")
+        state[sid] = entry
 
-        print(
-            "Конфиги не найдены."
-        )
+    stable = []
+    quarantine = []
+    for r in alive:
+        e = state.get(r["id"], {})
+        if e.get("failures", 0) < 3:
+            stable.append(r)
+    for r in all_results:
+        e = state.get(r["id"], {})
+        if e.get("failures", 0) >= 3:
+            quarantine.append(r)
 
-        return
+    # Keep old stable entries only if they were not checked in this run; this protects against transient runner issues.
+    checked_ids = {r["id"] for r in all_results}
+    for sid, e in state.items():
+        if sid not in checked_ids and e.get("failures", 0) < 3 and e.get("url"):
+            stable.append({"id": sid, "url": e["url"], "source": e.get("source", "state"), "latency": e.get("last_latency", 99999)})
 
-    working = check_all(
-        configs
-    )
+    # Deduplicate and sort: measured latency first, then stable historical latency.
+    unique = {}
+    for r in stable:
+        unique[r["url"]] = r
+    stable = list(unique.values())
+    stable.sort(key=lambda r: (r.get("latency") is None, r.get("latency") if r.get("latency") is not None else 99999))
 
-    save_subscription(
-        working
-    )
+    # Benchmark only the fastest latency candidates. This is much cheaper than downloading through all servers.
+    speed_candidates = stable[:SPEED_TEST_CANDIDATES]
+    if speed_candidates:
+        print(f"Замер скорости для {len(speed_candidates)} лучших по latency...")
+        with ThreadPoolExecutor(max_workers=min(MAX_WORKERS, 8)) as ex:
+            futures = [ex.submit(benchmark_speed, r) for r in speed_candidates]
+            for fut in as_completed(futures):
+                fut.result()
 
-    print()
-    print(
-        f"VolkovVPN: {len(working)} рабочих серверов"
-    )
+        # Prefer throughput, with latency as a tie-breaker. Servers without a successful speed test go after tested ones.
+        stable.sort(key=lambda r: (-r.get("speed_mbps", 0), r.get("latency") if r.get("latency") is not None else 99999))
+
+    # Write unified and fastest.
+    header = "#profile-title: VolkovVPN\n#profile-update-interval: 6\n"
+    UNIFIED_FILE.write_text(header + "\n".join(r["url"] for r in stable) + ("\n" if stable else ""), encoding="utf-8")
+    FASTEST_FILE.write_text(header + "\n".join(r["url"] for r in stable[:TOP_FASTEST]) + ("\n" if stable else ""), encoding="utf-8")
+
+    with FAILED_FILE.open("w", encoding="utf-8") as f:
+        f.write("# VolkovVPN failed/quarantine report\n")
+        for r in sorted(quarantine, key=lambda x: state.get(x["id"], {}).get("failures", 0), reverse=True):
+            e = state.get(r["id"], {})
+            f.write(f"# failures={e.get('failures', 0)} reason={e.get('last_error', r.get('reason', 'unknown'))} source={r.get('source', '')}\n")
+            f.write(r["url"] + "\n")
+
+    save_state(state)
+    print(f"Стабильных в unified.txt: {len(stable)}")
+    print(f"Топ-{TOP_FASTEST} записан в fastest.txt")
+    print(f"Карантин (3+ ошибок): {len(quarantine)}")
+    print("Топ-10:")
+    for i, r in enumerate(stable[:10], 1):
+        print(f"  {i}. {r.get('speed_mbps', 0)} Mbps | {r.get('latency', '?')} ms | {r['url'][:100]}")
 
 
 if __name__ == "__main__":
