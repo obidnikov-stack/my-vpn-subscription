@@ -1,127 +1,127 @@
 # VolkovVPN failed/quarantine report
-# failures=354 reason=tcp_failed:ConnectionRefusedError source=WHITE-CIDR-RU-all.txt
-hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?sni=hy.quattro-tech.ru&insecure=1&alpn=h3#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-# failures=354 reason=tcp_failed:ConnectionRefusedError source=WHITE-CIDR-RU-all.txt
-hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?sni=91.240.86.70&insecure=1&alpn=h3#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-# failures=354 reason=tcp_failed:TimeoutError source=WHITE-CIDR-RU-all.txt
+# failures=355 reason=tcp_failed:TimeoutError source=WHITE-CIDR-RU-all.txt
 hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?insecure=1#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-# failures=342 reason=tcp_failed:ConnectionRefusedError source=BLACK_SS+All_RUS.txt
+# failures=355 reason=tcp_failed:TimeoutError source=WHITE-CIDR-RU-all.txt
+hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?sni=91.240.86.70&insecure=1&alpn=h3#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+# failures=355 reason=tcp_failed:TimeoutError source=WHITE-CIDR-RU-all.txt
+hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?sni=hy.quattro-tech.ru&insecure=1&alpn=h3#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+# failures=343 reason=tcp_failed:ConnectionRefusedError source=BLACK_SS+All_RUS.txt
 hysteria2://8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3@nl01ntrhy01.tcp-reset-club.net:443?insecure=1&sni=127.0.0.1#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%28Amsterdam-Zuidoost%29%20%7C%20%5BBL%5D
-# failures=285 reason=tcp_failed:TimeoutError source=WHITE-CIDR-RU-all.txt
+# failures=286 reason=tcp_failed:TimeoutError source=WHITE-CIDR-RU-all.txt
 hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:24443?insecure=1&sni=hy.quattro-tech.ru&alpn=h3#%F0%9F%87%B1%F0%9F%87%BB%20Latvia%20%5B%2ACIDR%5D
-# failures=225 reason=proxy_test_failed source=BLACK_SS+All_RUS.txt
+# failures=226 reason=proxy_test_failed source=BLACK_SS+All_RUS.txt
 trojan://BxceQaOe@100.42.228.109:443?security=tls&sni=t.me%252Fripaojiedian&type=tcp&allowInsecure=1&fp=android#%F0%9F%87%A8%F0%9F%87%B3%20China%2C%20Guilin%20%7C%20%5BBL%5D
-# failures=225 reason=proxy_test_failed source=BLACK_SS+All_RUS.txt
+# failures=226 reason=proxy_test_failed source=BLACK_SS+All_RUS.txt
 trojan://BxceQaOe@100.42.228.109:443?security=tls&sni=t.me%252Fripaojiedian&type=tcp&allowInsecure=1&fp=safari#%F0%9F%87%A8%F0%9F%87%B3%20China%2C%20Guilin%20%7C%20%5BBL%5D
-# failures=222 reason=tcp_failed:TimeoutError source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
+# failures=223 reason=tcp_failed:TimeoutError source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
 hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?sni=itsallproxy.quattro-tech.ru#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-# failures=220 reason=proxy_test_failed source=BLACK_SS+All_RUS.txt
+# failures=221 reason=proxy_test_failed source=BLACK_SS+All_RUS.txt
+trojan://BxceQaOe@100.42.228.109:443?security=tls&sni=t.me%252Fripaojiedian&type=tcp&allowInsecure=1&fp=edge#%F0%9F%87%A8%F0%9F%87%B3%20China%2C%20Guilin%20%7C%20%5BBL%5D
+# failures=221 reason=proxy_test_failed source=BLACK_SS+All_RUS.txt
 trojan://BxceQaOe@100.42.228.109:443?security=tls&sni=100.42.228.109&allowInsecure=1&type=tcp&fp=chrome#%F0%9F%87%A8%F0%9F%87%B3%20China%2C%20Guilin%20%7C%20%5BBL%5D
 # failures=220 reason=proxy_test_failed source=BLACK_SS+All_RUS.txt
-trojan://BxceQaOe@100.42.228.109:443?security=tls&sni=t.me%252Fripaojiedian&type=tcp&allowInsecure=1&fp=edge#%F0%9F%87%A8%F0%9F%87%B3%20China%2C%20Guilin%20%7C%20%5BBL%5D
-# failures=219 reason=proxy_test_failed source=BLACK_SS+All_RUS.txt
 trojan://BxceQaOe@100.42.228.109:443?security=tls&sni=100.42.228.109&allowInsecure=1&type=tcp&fp=edge#%F0%9F%87%A8%F0%9F%87%B3%20China%2C%20Guilin%20%7C%20%5BBL%5D
-# failures=217 reason=proxy_test_failed source=BLACK_SS+All_RUS.txt
+# failures=218 reason=proxy_test_failed source=BLACK_SS+All_RUS.txt
 trojan://BxceQaOe@100.42.228.109:443?security=tls&sni=t.me%252Fripaojiedian&type=tcp&allowInsecure=1&fp=ios#%F0%9F%87%A8%F0%9F%87%B3%20China%2C%20Guilin%20%7C%20%5BBL%5D
-# failures=208 reason=proxy_test_failed source=BLACK_SS+All_RUS.txt
+# failures=209 reason=proxy_test_failed source=BLACK_SS+All_RUS.txt
 trojan://BxceQaOe@100.42.228.109:443?security=tls&sni=100.42.228.109&allowInsecure=1&type=tcp&fp=random#%F0%9F%87%A8%F0%9F%87%B3%20China%2C%20Guilin%20%7C%20%5BBL%5D
-# failures=198 reason=tcp_failed:TimeoutError source=BLACK_SS+All_RUS.txt
+# failures=199 reason=tcp_failed:TimeoutError source=BLACK_SS+All_RUS.txt
 hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?sni=msk.frkn.org&insecure=0#%F0%9F%87%B7%F0%9F%87%BA%20Russia%2C%20Moscow%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-# failures=190 reason=tcp_failed:TimeoutError source=BLACK_SS+All_RUS.txt
+# failures=191 reason=tcp_failed:TimeoutError source=BLACK_SS+All_RUS.txt
 hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443/#%F0%9F%87%B7%F0%9F%87%BA%20Russia%2C%20Moscow%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-# failures=168 reason=tcp_failed:ConnectionRefusedError source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
+# failures=169 reason=tcp_failed:TimeoutError source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
 hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?security=tls&sni=msk.frkn.org&alpn=h3&insecure=0#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
-# failures=123 reason=tcp_failed:ConnectionRefusedError source=BLACK_SS+All_RUS.txt
+# failures=124 reason=tcp_failed:ConnectionRefusedError source=BLACK_SS+All_RUS.txt
 hysteria2://8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3@nl01ntrhy01.tcp-reset-club.net:443?security=tls&sni=127.0.0.1&alpn=h3&insecure=1#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%28Amsterdam-Zuidoost%29%20%7C%20%5BBL%5D
-# failures=118 reason=proxy_test_failed source=BLACK_SS+All_RUS.txt
+# failures=119 reason=proxy_test_failed source=BLACK_SS+All_RUS.txt
 vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7ggVW5pdGVkIFN0YXRlcywgU3QgTG91aXMgKERvd250b3duKSB8IFtCTF0iLCJhZGQiOiIxNzIuNjQuODAuMSIsInBvcnQiOiI4NDQzIiwiaWQiOiI2MDQ0MTU0OC1iNjhlLTQzYjItODE5MS1lM2I4ODRiZTRiM2MiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6Im5vbmUiLCJ0bHMiOiJ0bHMiLCJhbHBuIjoiIiwic25pIjoidjJyYXkxLmRvemFwcC54eXoiLCJwYXRoIjoiL2xNbnNaVU40LyIsImhvc3QiOiJ2MnJheTEuZG96YXBwLnh5eiIsImZwIjoiIn0=
-# failures=114 reason=tcp_failed:TimeoutError source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
+# failures=115 reason=tcp_failed:TimeoutError source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
 hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?insecure=0&sni=hy.quattro-tech.ru#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-# failures=90 reason=proxy_test_failed source=Export/v2rayN_PC/WHITE-SNI-RU-all-v2rayN.txt
+# failures=91 reason=proxy_test_failed source=Export/v2rayN_PC/WHITE-SNI-RU-all-v2rayN.txt
 vless://94006a20-6cd6-4751-a14d-c5a0bacb68bb@179.254.111.0:8443?encryption=none&type=xhttp&security=reality&host=yandex.ru&path=%2Fupd8svpn-xhttp&sni=yandex.ru&pbk=dBvFkg2zny545Ws6H_LXKEohOYV2MW_zACRrRQE1IUg&sid=992e5a9a&allowInsecure=1&fp=chrome#%F0%9F%87%BA%F0%9F%87%A6%20Ukraine%20%5BSNI-RU%5D%20yandex.ru
-# failures=90 reason=proxy_test_failed source=Export/v2rayN_PC/WHITE-SNI-RU-all-v2rayN.txt
+# failures=91 reason=proxy_test_failed source=Export/v2rayN_PC/WHITE-SNI-RU-all-v2rayN.txt
 vless://94006a20-6cd6-4751-a14d-c5a0bacb68bb@179.254.111.0:8443?encryption=none&type=xhttp&security=reality&host=yandex.ru&path=%2Fupd8svpn-xhttp&sni=yandex.ru&pbk=dBvFkg2zny545Ws6H_LXKEohOYV2MW_zACRrRQE1IUg&sid=992e5a9a&allowInsecure=1&fp=edge#%F0%9F%87%BA%F0%9F%87%A6%20Ukraine%20%5BSNI-RU%5D%20yandex.ru
-# failures=84 reason=proxy_test_failed source=BLACK_SS+All_RUS.txt
+# failures=85 reason=proxy_test_failed source=BLACK_SS+All_RUS.txt
 trojan://BxceQaOe@100.42.228.109:443?security=tls&sni=100.42.228.109&allowInsecure=1&type=tcp&fp=ios#%F0%9F%87%A8%F0%9F%87%B3%20China%2C%20Guilin%20%7C%20%5BBL%5D
-# failures=82 reason=proxy_test_failed source=Export/v2rayN_PC/WHITE-SNI-RU-all-v2rayN.txt
+# failures=83 reason=proxy_test_failed source=Export/v2rayN_PC/WHITE-SNI-RU-all-v2rayN.txt
 vless://94006a20-6cd6-4751-a14d-c5a0bacb68bb@179.254.111.0:8443?encryption=none&type=xhttp&security=reality&host=yandex.ru&path=%2Fupd8svpn-xhttp&sni=yandex.ru&pbk=dBvFkg2zny545Ws6H_LXKEohOYV2MW_zACRrRQE1IUg&sid=992e5a9a&allowInsecure=1&fp=firefox#%F0%9F%87%BA%F0%9F%87%A6%20Ukraine%20%5BSNI-RU%5D%20yandex.ru
-# failures=82 reason=proxy_test_failed source=Export/v2rayN_PC/WHITE-SNI-RU-all-v2rayN.txt
+# failures=83 reason=proxy_test_failed source=Export/v2rayN_PC/WHITE-SNI-RU-all-v2rayN.txt
 vless://94006a20-6cd6-4751-a14d-c5a0bacb68bb@179.254.111.0:8443?encryption=none&type=xhttp&security=reality&host=yandex.ru&path=%2Fupd8svpn-xhttp&sni=yandex.ru&pbk=dBvFkg2zny545Ws6H_LXKEohOYV2MW_zACRrRQE1IUg&sid=992e5a9a&allowInsecure=1&fp=ios#%F0%9F%87%BA%F0%9F%87%A6%20Ukraine%20%5BSNI-RU%5D%20yandex.ru
-# failures=82 reason=proxy_test_failed source=Export/v2rayN_PC/WHITE-SNI-RU-all-v2rayN.txt
+# failures=83 reason=proxy_test_failed source=Export/v2rayN_PC/WHITE-SNI-RU-all-v2rayN.txt
 vless://94006a20-6cd6-4751-a14d-c5a0bacb68bb@179.254.111.0:8443?encryption=none&type=xhttp&security=reality&host=yandex.ru&path=%2Fupd8svpn-xhttp&sni=yandex.ru&pbk=dBvFkg2zny545Ws6H_LXKEohOYV2MW_zACRrRQE1IUg&sid=992e5a9a&allowInsecure=1&fp=qq#%F0%9F%87%BA%F0%9F%87%A6%20Ukraine%20%5BSNI-RU%5D%20yandex.ru
-# failures=82 reason=proxy_test_failed source=Export/v2rayN_PC/WHITE-SNI-RU-all-v2rayN.txt
+# failures=83 reason=proxy_test_failed source=Export/v2rayN_PC/WHITE-SNI-RU-all-v2rayN.txt
 vless://94006a20-6cd6-4751-a14d-c5a0bacb68bb@179.254.111.0:8443?encryption=none&type=xhttp&security=reality&host=yandex.ru&path=%2Fupd8svpn-xhttp&sni=yandex.ru&pbk=dBvFkg2zny545Ws6H_LXKEohOYV2MW_zACRrRQE1IUg&sid=992e5a9a&allowInsecure=1&fp=safari#%F0%9F%87%BA%F0%9F%87%A6%20Ukraine%20%5BSNI-RU%5D%20yandex.ru
-# failures=42 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
+# failures=43 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
 vless://56029005-dadd-4c5c-8a3f-24fee9970b3a@151.101.213.155:443?encryption=none&security=tls&sni=accounts.fastly.com&alpn=h3&type=xhttp&mode=packet-up&host=lunex.store&path=%2FLunex&extra=%7B%22scMaxEachPostBytes%22%3A1000000%2C%22scMaxConcurrentPosts%22%3A100%2C%22scMinPostsIntervalMs%22%3A30%2C%22xPaddingBytes%22%3A%22100-1000%22%2C%22noGRPCHeader%22%3Afalse%7D&fp=chrome#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
-# failures=42 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
+# failures=43 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
 vless://56029005-dadd-4c5c-8a3f-24fee9970b3a@151.101.213.155:443?encryption=none&security=tls&sni=accounts.fastly.com&alpn=h3&type=xhttp&mode=packet-up&host=lunex.store&path=%2FLunex&extra=%7B%22scMaxEachPostBytes%22%3A1000000%2C%22scMaxConcurrentPosts%22%3A100%2C%22scMinPostsIntervalMs%22%3A30%2C%22xPaddingBytes%22%3A%22100-1000%22%2C%22noGRPCHeader%22%3Afalse%7D&fp=android#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
-# failures=42 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
+# failures=43 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
 vless://56029005-dadd-4c5c-8a3f-24fee9970b3a@151.101.213.155:443?encryption=none&security=tls&sni=accounts.fastly.com&alpn=h3&type=xhttp&mode=packet-up&host=lunex.store&path=%2FLunex&extra=%7B%22scMaxEachPostBytes%22%3A1000000%2C%22scMaxConcurrentPosts%22%3A100%2C%22scMinPostsIntervalMs%22%3A30%2C%22xPaddingBytes%22%3A%22100-1000%22%2C%22noGRPCHeader%22%3Afalse%7D&fp=qq#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
-# failures=42 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
+# failures=43 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
 vless://56029005-dadd-4c5c-8a3f-24fee9970b3a@151.101.213.155:443?encryption=none&security=tls&sni=accounts.fastly.com&alpn=h3&type=xhttp&mode=packet-up&host=lunex.store&path=%2FLunex&extra=%7B%22scMaxEachPostBytes%22%3A1000000%2C%22scMaxConcurrentPosts%22%3A100%2C%22scMinPostsIntervalMs%22%3A30%2C%22xPaddingBytes%22%3A%22100-1000%22%2C%22noGRPCHeader%22%3Afalse%7D&fp=safari#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
-# failures=38 reason=proxy_test_failed source=BLACK_VLESS_RUS_mobile.txt
+# failures=39 reason=proxy_test_failed source=BLACK_VLESS_RUS_mobile.txt
 vless://5e517b94-e207-47ee-be3c-3020a57594e8@34.39.174.220:443?mode=multi&security=reality&encryption=none&type=tcp&pbk=pCImwRkTjx8OIUiu1WFelZQFt1p3Q0lUoPbvjVq8GTs&sid=b62a4da6cd1c4dd6&sni=www.cloudflare.com&servername=www.cloudflare.com&spx=%2F&fp=android#%F0%9F%87%A7%F0%9F%87%B7%20Brazil%2C%20S%C3%A3o%20Paulo%20%7C%20%5BBL%5D
-# failures=37 reason=proxy_test_failed source=BLACK_VLESS_RUS_mobile.txt
+# failures=38 reason=tcp_failed:TimeoutError source=BLACK_VLESS_RUS_mobile.txt
 vless://bd93a117-2e9d-4e1e-b9b9-69d8d7089bdb@34.65.54.139:443?type=tcp&security=reality&path=%2F&sni=www.cloudflare.com&pbk=DE-S0R0KYYTuBsuQmT-iip6rJ2QsuH6z3SJYlsNyUUI&sid=5214a92cad4ad90e&fp=android#%F0%9F%87%A8%F0%9F%87%AD%20Switzerland%2C%20Zurich%20%7C%20%5BBL%5D
-# failures=33 reason=tcp_failed:TimeoutError source=WHITE-CIDR-RU-all.txt
+# failures=34 reason=tcp_failed:TimeoutError source=WHITE-CIDR-RU-all.txt
 hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?insecure=1&sni=off#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-# failures=26 reason=proxy_test_failed source=BLACK_VLESS_RUS_mobile.txt
+# failures=27 reason=proxy_test_failed source=BLACK_VLESS_RUS_mobile.txt
 vless://56029005-dadd-4c5c-8a3f-24fee9970b3a@151.101.213.155:443?encryption=none&security=tls&sni=accounts.fastly.com&alpn=h3&type=xhttp&mode=packet-up&host=lunex.store&path=%2FLunex&extra=%7B%22scMaxEachPostBytes%22%3A1000000%2C%22scMaxConcurrentPosts%22%3A100%2C%22scMinPostsIntervalMs%22%3A30%2C%22xPaddingBytes%22%3A%22100-1000%22%2C%22noGRPCHeader%22%3Afalse%7D&fp=firefox#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
-# failures=26 reason=proxy_test_failed source=BLACK_VLESS_RUS_mobile.txt
+# failures=27 reason=proxy_test_failed source=BLACK_VLESS_RUS_mobile.txt
 vless://56029005-dadd-4c5c-8a3f-24fee9970b3a@151.101.213.155:443?encryption=none&security=tls&sni=accounts.fastly.com&alpn=h3&type=xhttp&mode=packet-up&host=lunex.store&path=%2FLunex&extra=%7B%22scMaxEachPostBytes%22%3A1000000%2C%22scMaxConcurrentPosts%22%3A100%2C%22scMinPostsIntervalMs%22%3A30%2C%22xPaddingBytes%22%3A%22100-1000%22%2C%22noGRPCHeader%22%3Afalse%7D&fp=ios#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
-# failures=22 reason=tcp_failed:TimeoutError source=WHITE-CIDR-RU-all.txt
+# failures=23 reason=tcp_failed:TimeoutError source=WHITE-CIDR-RU-all.txt
 hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?insecure=1&alpn=h3#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-# failures=21 reason=proxy_test_failed source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
+# failures=22 reason=proxy_test_failed source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
 vless://365de9e9-ba29-4819-af2d-766f9638e3be@dostavitos.stroymatdv.cc:443?encryption=none&security=tls&type=ws&sni=dostavitos.stroymatdv.cc&alpn=http%2F1.1&path=%2Fe9ws&fp=safari#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D%20VK
-# failures=18 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
+# failures=19 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
 vless://56029005-dadd-4c5c-8a3f-24fee9970b3a@151.101.213.155:443?encryption=none&security=tls&sni=accounts.fastly.com&alpn=h3&type=xhttp&mode=packet-up&host=lunex.store&path=%2FLunex&extra=%7B%22scMaxEachPostBytes%22%3A1000000%2C%22scMaxConcurrentPosts%22%3A100%2C%22scMinPostsIntervalMs%22%3A30%2C%22xPaddingBytes%22%3A%22100-1000%22%2C%22noGRPCHeader%22%3Afalse%7D&fp=edge#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
-# failures=16 reason=proxy_test_failed source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
-vless://365de9e9-ba29-4819-af2d-766f9638e3be@dostavitos.stroymatdv.cc:443?encryption=none&security=tls&type=ws&sni=dostavitos.stroymatdv.cc&alpn=http%2F1.1&path=%2Fe9ws&fp=chrome#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D%20VK
-# failures=16 reason=proxy_test_failed source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
+# failures=17 reason=proxy_test_failed source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
 vless://365de9e9-ba29-4819-af2d-766f9638e3be@dostavitos.stroymatdv.cc:443?encryption=none&security=tls&type=ws&sni=dostavitos.stroymatdv.cc&alpn=http%2F1.1&path=%2Fe9ws&fp=android#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D%20VK
-# failures=16 reason=proxy_test_failed source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
+# failures=17 reason=proxy_test_failed source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
+vless://365de9e9-ba29-4819-af2d-766f9638e3be@dostavitos.stroymatdv.cc:443?encryption=none&security=tls&type=ws&sni=dostavitos.stroymatdv.cc&alpn=http%2F1.1&path=%2Fe9ws&fp=chrome#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D%20VK
+# failures=17 reason=proxy_test_failed source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
 vless://365de9e9-ba29-4819-af2d-766f9638e3be@dostavitos.stroymatdv.cc:443?encryption=none&security=tls&type=ws&sni=dostavitos.stroymatdv.cc&alpn=http%2F1.1&path=%2Fe9ws&fp=edge#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D%20VK
-# failures=16 reason=proxy_test_failed source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
+# failures=17 reason=proxy_test_failed source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
 vless://365de9e9-ba29-4819-af2d-766f9638e3be@dostavitos.stroymatdv.cc:443?encryption=none&security=tls&type=ws&sni=dostavitos.stroymatdv.cc&alpn=http%2F1.1&path=%2Fe9ws&fp=firefox#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D%20VK
-# failures=13 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
+# failures=14 reason=tcp_failed:TimeoutError source=BLACK_VLESS_RUS.txt
 vless://bd93a117-2e9d-4e1e-b9b9-69d8d7089bdb@34.65.54.139:443?security=reality&pbk=DE-S0R0KYYTuBsuQmT-iip6rJ2QsuH6z3SJYlsNyUUI&sid=5214a92cad4ad90e&sni=www.cloudflare.com&type=tcp&headerType=none&host=www.cloudflare.com&path=%2F&fp=android#%F0%9F%87%A8%F0%9F%87%AD%20Switzerland%2C%20Zurich%20%7C%20%5BBL%5D
-# failures=11 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
-vless://50cbda48-00ce-4688-8b3d-0177ab8f177c@35.198.230.134:443?security=reality&pbk=GqyMciP_v8rJZKLJd-EgzQmWbi_Qx_c_n1f-nlPkaEA&sid=b1fef7a9181ea31d&sni=www.cloudflare.com&type=tcp&headerType=none&host=www.cloudflare.com&path=%2F&fp=android#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%7C%20%5BBL%5D
-# failures=11 reason=tcp_failed:TimeoutError source=Export/v2rayN_PC/BLACK_VLESS_RUS_mobile_v2rayN.txt
+# failures=12 reason=proxy_test_failed source=Export/v2rayN_PC/BLACK_VLESS_RUS_mobile_v2rayN.txt
 vless://50cbda48-00ce-4688-8b3d-0177ab8f177c@35.198.230.134:443?security=reality&type=tcp&sni=www.cloudflare.com&path=&flow=&pbk=GqyMciP_v8rJZKLJd-EgzQmWbi_Qx_c_n1f-nlPkaEA&sid=b1fef7a9181ea31d#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%7C%20%5BBL%5D
-# failures=5 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
-vless://50cbda48-00ce-4688-8b3d-0177ab8f177c@35.198.230.134:443?encryption=none&type=raw&headerType=none&security=reality&pbk=GqyMciP_v8rJZKLJd-EgzQmWbi_Qx_c_n1f-nlPkaEA&sni=www.cloudflare.com&sid=b1fef7a9181ea31d&fp=android#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%7C%20%5BBL%5D
-# failures=5 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
-vless://50cbda48-00ce-4688-8b3d-0177ab8f177c@35.198.230.134:443?encryption=none&type=raw&headerType=none&security=reality&pbk=GqyMciP_v8rJZKLJd-EgzQmWbi_Qx_c_n1f-nlPkaEA&sni=www.cloudflare.com&sid=b1fef7a9181ea31d&fp=safari#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%7C%20%5BBL%5D
-# failures=5 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
-vless://50cbda48-00ce-4688-8b3d-0177ab8f177c@35.198.230.134:443?encryption=none&type=raw&headerType=none&security=reality&pbk=GqyMciP_v8rJZKLJd-EgzQmWbi_Qx_c_n1f-nlPkaEA&sni=www.cloudflare.com&sid=b1fef7a9181ea31d&fp=qq#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%7C%20%5BBL%5D
-# failures=5 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
-vless://50cbda48-00ce-4688-8b3d-0177ab8f177c@35.198.230.134:443?encryption=none&type=raw&headerType=none&security=reality&pbk=GqyMciP_v8rJZKLJd-EgzQmWbi_Qx_c_n1f-nlPkaEA&sni=www.cloudflare.com&sid=b1fef7a9181ea31d&fp=firefox#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%7C%20%5BBL%5D
-# failures=5 reason=proxy_test_failed source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
+# failures=12 reason=tcp_failed:TimeoutError source=BLACK_VLESS_RUS.txt
+vless://50cbda48-00ce-4688-8b3d-0177ab8f177c@35.198.230.134:443?security=reality&pbk=GqyMciP_v8rJZKLJd-EgzQmWbi_Qx_c_n1f-nlPkaEA&sid=b1fef7a9181ea31d&sni=www.cloudflare.com&type=tcp&headerType=none&host=www.cloudflare.com&path=%2F&fp=android#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%7C%20%5BBL%5D
+# failures=6 reason=proxy_test_failed source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
 vless://365de9e9-ba29-4819-af2d-766f9638e3be@dostavitos.stroymatdv.cc:443?encryption=none&security=tls&type=ws&sni=dostavitos.stroymatdv.cc&alpn=http%2F1.1&path=%2Fe9ws&fp=qq#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D%20VK
-# failures=5 reason=proxy_test_failed source=BLACK_VLESS_RUS_mobile.txt
+# failures=6 reason=tcp_failed:TimeoutError source=BLACK_VLESS_RUS.txt
+vless://50cbda48-00ce-4688-8b3d-0177ab8f177c@35.198.230.134:443?encryption=none&type=raw&headerType=none&security=reality&pbk=GqyMciP_v8rJZKLJd-EgzQmWbi_Qx_c_n1f-nlPkaEA&sni=www.cloudflare.com&sid=b1fef7a9181ea31d&fp=android#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%7C%20%5BBL%5D
+# failures=6 reason=tcp_failed:TimeoutError source=BLACK_VLESS_RUS.txt
+vless://50cbda48-00ce-4688-8b3d-0177ab8f177c@35.198.230.134:443?encryption=none&type=raw&headerType=none&security=reality&pbk=GqyMciP_v8rJZKLJd-EgzQmWbi_Qx_c_n1f-nlPkaEA&sni=www.cloudflare.com&sid=b1fef7a9181ea31d&fp=qq#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%7C%20%5BBL%5D
+# failures=6 reason=tcp_failed:TimeoutError source=BLACK_VLESS_RUS.txt
+vless://50cbda48-00ce-4688-8b3d-0177ab8f177c@35.198.230.134:443?encryption=none&type=raw&headerType=none&security=reality&pbk=GqyMciP_v8rJZKLJd-EgzQmWbi_Qx_c_n1f-nlPkaEA&sni=www.cloudflare.com&sid=b1fef7a9181ea31d&fp=firefox#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%7C%20%5BBL%5D
+# failures=6 reason=tcp_failed:TimeoutError source=BLACK_VLESS_RUS.txt
+vless://50cbda48-00ce-4688-8b3d-0177ab8f177c@35.198.230.134:443?encryption=none&type=raw&headerType=none&security=reality&pbk=GqyMciP_v8rJZKLJd-EgzQmWbi_Qx_c_n1f-nlPkaEA&sni=www.cloudflare.com&sid=b1fef7a9181ea31d&fp=safari#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%7C%20%5BBL%5D
+# failures=6 reason=tcp_failed:TimeoutError source=BLACK_VLESS_RUS_mobile.txt
 vless://50cbda48-00ce-4688-8b3d-0177ab8f177c@35.198.230.134:443?encryption=none&type=raw&headerType=none&security=reality&pbk=GqyMciP_v8rJZKLJd-EgzQmWbi_Qx_c_n1f-nlPkaEA&sni=www.cloudflare.com&sid=b1fef7a9181ea31d&fp=edge#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%7C%20%5BBL%5D
-# failures=5 reason=proxy_test_failed source=BLACK_VLESS_RUS_mobile.txt
+# failures=6 reason=tcp_failed:TimeoutError source=BLACK_VLESS_RUS_mobile.txt
 vless://50cbda48-00ce-4688-8b3d-0177ab8f177c@35.198.230.134:443?encryption=none&type=raw&headerType=none&security=reality&pbk=GqyMciP_v8rJZKLJd-EgzQmWbi_Qx_c_n1f-nlPkaEA&sni=www.cloudflare.com&sid=b1fef7a9181ea31d&fp=ios#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%7C%20%5BBL%5D
-# failures=4 reason=proxy_test_failed source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
+# failures=5 reason=proxy_test_failed source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
 vless://8057eabc-921d-0001-9acb-80ccc6b48379@104.171.138.229:443?encryption=none&mode=multi&pbk=aK5um9qlbrjpXgpI4H9n05FBmWAvKUbmLm7iAj9K9mw&security=reality&serviceName=Piska&sni=cdn.mafioznik.xyz&type=grpc&fp=chrome#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%AB%F0%9F%87%AE%20%F0%9F%87%B8%F0%9F%87%A8%20%7C%20%5B%2ACIDR%5D
-# failures=4 reason=proxy_test_failed source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
-vless://8057eabc-921d-0001-9acb-80ccc6b48379@104.171.138.229:443?encryption=none&mode=multi&pbk=aK5um9qlbrjpXgpI4H9n05FBmWAvKUbmLm7iAj9K9mw&security=reality&serviceName=Piska&sni=cdn.mafioznik.xyz&type=grpc&fp=edge#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%AB%F0%9F%87%AE%20%F0%9F%87%B8%F0%9F%87%A8%20%7C%20%5B%2ACIDR%5D
-# failures=4 reason=proxy_test_failed source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
+# failures=5 reason=proxy_test_failed source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
 vless://8057eabc-921d-0001-9acb-80ccc6b48379@104.171.138.229:443?encryption=none&mode=multi&pbk=aK5um9qlbrjpXgpI4H9n05FBmWAvKUbmLm7iAj9K9mw&security=reality&serviceName=Piska&sni=cdn.mafioznik.xyz&type=grpc&fp=ios#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%AB%F0%9F%87%AE%20%F0%9F%87%B8%F0%9F%87%A8%20%7C%20%5B%2ACIDR%5D
-# failures=4 reason=proxy_test_failed source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
+# failures=5 reason=proxy_test_failed source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
+vless://8057eabc-921d-0001-9acb-80ccc6b48379@104.171.138.229:443?encryption=none&mode=multi&pbk=aK5um9qlbrjpXgpI4H9n05FBmWAvKUbmLm7iAj9K9mw&security=reality&serviceName=Piska&sni=cdn.mafioznik.xyz&type=grpc&fp=edge#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%AB%F0%9F%87%AE%20%F0%9F%87%B8%F0%9F%87%A8%20%7C%20%5B%2ACIDR%5D
+# failures=5 reason=proxy_test_failed source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
 vless://8057eabc-921d-0001-9acb-80ccc6b48379@104.171.138.229:443?encryption=none&mode=multi&pbk=aK5um9qlbrjpXgpI4H9n05FBmWAvKUbmLm7iAj9K9mw&security=reality&serviceName=Piska&sni=cdn.mafioznik.xyz&type=grpc&fp=qq#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%AB%F0%9F%87%AE%20%F0%9F%87%B8%F0%9F%87%A8%20%7C%20%5B%2ACIDR%5D
-# failures=4 reason=proxy_test_failed source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
+# failures=5 reason=proxy_test_failed source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
 vless://8057eabc-921d-0001-9acb-80ccc6b48379@104.171.138.229:443?encryption=none&mode=multi&pbk=aK5um9qlbrjpXgpI4H9n05FBmWAvKUbmLm7iAj9K9mw&security=reality&serviceName=Piska&sni=cdn.mafioznik.xyz&type=grpc&fp=safari#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%AB%F0%9F%87%AE%20%F0%9F%87%B8%F0%9F%87%A8%20%7C%20%5B%2ACIDR%5D
-# failures=3 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
-vless://50cbda48-00ce-4688-8b3d-0177ab8f177c@35.198.230.134:443?security=reality&pbk=GqyMciP_v8rJZKLJd-EgzQmWbi_Qx_c_n1f-nlPkaEA&sid=b1fef7a9181ea31d&sni=www.cloudflare.com&type=tcp&headerType=none&host=www.cloudflare.com&path=%2F&fp=chrome#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%7C%20%5BBL%5D
-# failures=3 reason=proxy_test_failed source=BLACK_VLESS_RUS_mobile.txt
-vless://50cbda48-00ce-4688-8b3d-0177ab8f177c@35.198.230.134:443?security=reality&pbk=GqyMciP_v8rJZKLJd-EgzQmWbi_Qx_c_n1f-nlPkaEA&sid=b1fef7a9181ea31d&sni=www.cloudflare.com&type=tcp&headerType=none&host=www.cloudflare.com&path=%2F&fp=safari#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%7C%20%5BBL%5D
-# failures=3 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
+# failures=4 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
 vless://50cbda48-00ce-4688-8b3d-0177ab8f177c@35.198.230.134:443?security=reality&pbk=GqyMciP_v8rJZKLJd-EgzQmWbi_Qx_c_n1f-nlPkaEA&sid=b1fef7a9181ea31d&sni=www.cloudflare.com&type=tcp&headerType=none&host=www.cloudflare.com&path=%2F&fp=firefox#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%7C%20%5BBL%5D
-# failures=3 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
-vless://50cbda48-00ce-4688-8b3d-0177ab8f177c@35.198.230.134:443?security=reality&pbk=GqyMciP_v8rJZKLJd-EgzQmWbi_Qx_c_n1f-nlPkaEA&sid=b1fef7a9181ea31d&sni=www.cloudflare.com&type=tcp&headerType=none&host=www.cloudflare.com&path=%2F&fp=qq#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%7C%20%5BBL%5D
-# failures=3 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
+# failures=4 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
 vless://50cbda48-00ce-4688-8b3d-0177ab8f177c@35.198.230.134:443?security=reality&pbk=GqyMciP_v8rJZKLJd-EgzQmWbi_Qx_c_n1f-nlPkaEA&sid=b1fef7a9181ea31d&sni=www.cloudflare.com&type=tcp&headerType=none&host=www.cloudflare.com&path=%2F&fp=ios#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%7C%20%5BBL%5D
-# failures=3 reason=proxy_test_failed source=BLACK_VLESS_RUS_mobile.txt
+# failures=4 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
+vless://50cbda48-00ce-4688-8b3d-0177ab8f177c@35.198.230.134:443?security=reality&pbk=GqyMciP_v8rJZKLJd-EgzQmWbi_Qx_c_n1f-nlPkaEA&sid=b1fef7a9181ea31d&sni=www.cloudflare.com&type=tcp&headerType=none&host=www.cloudflare.com&path=%2F&fp=chrome#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%7C%20%5BBL%5D
+# failures=4 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
+vless://50cbda48-00ce-4688-8b3d-0177ab8f177c@35.198.230.134:443?security=reality&pbk=GqyMciP_v8rJZKLJd-EgzQmWbi_Qx_c_n1f-nlPkaEA&sid=b1fef7a9181ea31d&sni=www.cloudflare.com&type=tcp&headerType=none&host=www.cloudflare.com&path=%2F&fp=qq#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%7C%20%5BBL%5D
+# failures=4 reason=tcp_failed:TimeoutError source=BLACK_VLESS_RUS_mobile.txt
 vless://50cbda48-00ce-4688-8b3d-0177ab8f177c@35.198.230.134:443?security=reality&pbk=GqyMciP_v8rJZKLJd-EgzQmWbi_Qx_c_n1f-nlPkaEA&sid=b1fef7a9181ea31d&sni=www.cloudflare.com&type=tcp&headerType=none&host=www.cloudflare.com&path=%2F&fp=edge#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%7C%20%5BBL%5D
+# failures=4 reason=tcp_failed:TimeoutError source=BLACK_VLESS_RUS_mobile.txt
+vless://50cbda48-00ce-4688-8b3d-0177ab8f177c@35.198.230.134:443?security=reality&pbk=GqyMciP_v8rJZKLJd-EgzQmWbi_Qx_c_n1f-nlPkaEA&sid=b1fef7a9181ea31d&sni=www.cloudflare.com&type=tcp&headerType=none&host=www.cloudflare.com&path=%2F&fp=safari#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%7C%20%5BBL%5D
