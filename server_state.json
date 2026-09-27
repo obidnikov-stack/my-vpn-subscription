@@ -1543,21 +1543,21 @@
     "last_error": "tcp_failed:ConnectionRefusedError"
   },
   "f5dfdf1b3da16852": {
-    "failures": 408,
+    "failures": 409,
     "last_latency": null,
     "url": "hysteria2://5d0a6445-a30d-4522-bb1f-94f1d3ad63be@mlxy1.mangshe.xyz:2060?insecure=1&sni=mlxy1.mangshe.xyz#%F0%9F%87%B2%F0%9F%87%BE%20Malaysia%2C%20Cyberjaya%20%7C%20%5BBL%5D",
     "source": "BLACK_SS+All_RUS.txt",
     "last_error": "tcp_failed:ConnectionRefusedError"
   },
   "112157c0ce9c1658": {
-    "failures": 451,
+    "failures": 452,
     "last_latency": null,
     "url": "hysteria2://5d0a6445-a30d-4522-bb1f-94f1d3ad63be@mlxy2.mangshe.xyz:2060?insecure=1&sni=mlxy2.mangshe.xyz#%F0%9F%87%B2%F0%9F%87%BE%20Malaysia%2C%20Cyberjaya%20%7C%20%5BBL%5D",
     "source": "BLACK_SS+All_RUS.txt",
     "last_error": "tcp_failed:ConnectionRefusedError"
   },
   "8bac47b55d53fa91": {
-    "failures": 438,
+    "failures": 439,
     "last_latency": null,
     "url": "hysteria2://5d0a6445-a30d-4522-bb1f-94f1d3ad63be@mlxy2.mangshe.xyz:2060?insecure=1#%F0%9F%87%B2%F0%9F%87%BE%20Malaysia%2C%20Cyberjaya%20%7C%20%5BBL%5D",
     "source": "BLACK_SS+All_RUS.txt",
@@ -1613,7 +1613,7 @@
     "last_error": "tcp_failed:ConnectionRefusedError"
   },
   "37aaeb8714891c8a": {
-    "failures": 466,
+    "failures": 467,
     "last_latency": null,
     "url": "hysteria2://8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3@nl01ntrhy01.tcp-reset-club.net:443?insecure=1&sni=127.0.0.1#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%28Amsterdam-Zuidoost%29%20%7C%20%5BBL%5D",
     "source": "BLACK_SS+All_RUS.txt",
@@ -1704,7 +1704,7 @@
     "last_error": "tcp_failed:TimeoutError"
   },
   "d185d24fe4e57492": {
-    "failures": 17,
+    "failures": 18,
     "last_latency": 433.1,
     "url": "ss://YWVzLTI1Ni1jZmI6N2VhZGM2ZGJlMmFl@194.38.11.86:65443#%F0%9F%87%B7%F0%9F%87%BA%20Russia%2C%20Berdsk%20%7C%20%5BBL%5D",
     "source": "BLACK_SS_WEAK_DPI_RUS.txt",
@@ -1872,11 +1872,11 @@
     "last_error": "tcp_failed:TimeoutError"
   },
   "ae08989b99986ed8": {
-    "failures": 239,
+    "failures": 240,
     "last_latency": null,
     "url": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?security=tls&sni=msk.frkn.org&alpn=h3&insecure=0#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D",
     "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
-    "last_error": "tcp_failed:ConnectionRefusedError"
+    "last_error": "tcp_failed:TimeoutError"
   },
   "6c0d06ff9030d9b7": {
     "failures": 292,
@@ -1961,7 +1961,7 @@
     "last_error": "tcp_failed:ConnectionRefusedError"
   },
   "c491ea96997a1e06": {
-    "failures": 663,
+    "failures": 664,
     "last_latency": null,
     "url": "hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?sni=91.240.86.70&insecure=1&alpn=h3#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D",
     "source": "WHITE-CIDR-RU-all.txt",
@@ -2914,10 +2914,10 @@
   },
   "d881a979122dec99": {
     "failures": 0,
-    "last_latency": 806.4,
+    "last_latency": 595.4,
     "url": "ss://Y2hhY2hhMjAtaWV0Zjphc2QxMjM0NTY=@103.149.182.79:8388#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%2C%20Wan%20Chai%20%7C%20%5BBL%5D",
     "source": "BLACK_SS_WEAK_DPI_RUS.txt",
-    "last_ok": 1790493892,
+    "last_ok": 1790540893,
     "last_error": "proxy_test_failed"
   },
   "694bb0409e12443c": {
@@ -3394,7 +3394,7 @@
     "last_error": "proxy_test_failed"
   },
   "a30d117733f3c4c0": {
-    "failures": 65,
+    "failures": 66,
     "last_latency": null,
     "url": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HrfCfh7AgSG9uZyBLb25nLCBIb25nIEtvbmcgfCBbQkxdIiwiYWRkIjoiMjAuMjM1LjIyMC4xODkiLCJwb3J0IjoiNDQzIiwiaWQiOiJmMjNiYjQyN2MxZjk0MzczODc2YzJmNDNlOWY3OTBmMyIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJob3N0IjoiNkpEdkFyYXpnVTNxUVI2US52LjNkbnMudmlwIiwicGF0aCI6Ii93cy12bWVzcyIsInRscyI6InRscyIsInR5cGUiOiJub25lIiwic25pIjoiIiwiYWxwbiI6IiIsImZwIjoiIn0=",
     "source": "BLACK_SS+All_RUS.txt",
@@ -5835,11 +5835,11 @@
   },
   "f6181c8b1498b5a3": {
     "failures": 0,
-    "last_latency": 710.0,
+    "last_latency": 692.8,
     "url": "ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA==@211.178.105.134:6123#%F0%9F%87%B0%F0%9F%87%B7%20South%20Korea%2C%20Seoul%20%28Toegye-ro%29%20%7C%20%5BBL%5D",
     "source": "BLACK_SS_WEAK_DPI_RUS.txt",
     "last_error": "proxy_test_failed",
-    "last_ok": 1790531528
+    "last_ok": 1790540893
   },
   "3eb19d153debac6f": {
     "failures": 0,
@@ -8968,7 +8968,7 @@
     "last_ok": 1789951660
   },
   "6c9954a907dab570": {
-    "failures": 0,
+    "failures": 1,
     "last_latency": 490.6,
     "url": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ=@r3mrcg001286ek2.cybervena.com:50099#%F0%9F%87%B9%F0%9F%87%BC%20Taiwan%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D",
     "source": "BLACK_SS_WEAK_DPI_RUS.txt",
@@ -11439,7 +11439,7 @@
     "last_error": "proxy_test_failed"
   },
   "5b83822932fff943": {
-    "failures": 0,
+    "failures": 1,
     "last_latency": 394.0,
     "url": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpzZy1wcm94eS0yMDI2@43.173.90.202:8388#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Santa%20Clara%20%7C%20%5BBL%5D",
     "source": "BLACK_SS_WEAK_DPI_RUS.txt",
@@ -15415,7 +15415,7 @@
     "last_error": "proxy_test_failed"
   },
   "595e162ed00ba143": {
-    "failures": 23,
+    "failures": 24,
     "last_latency": null,
     "url": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?encryption=none&extra=null&mode=packet-up&path=%2Fxhttp_client_upload&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&security=reality&sid=5eca&sni=dailycanvas.sysopnova.art&type=xhttp&fp=edge#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D",
     "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
@@ -15436,7 +15436,7 @@
     "last_error": "tcp_failed:TimeoutError"
   },
   "54420292776bb779": {
-    "failures": 24,
+    "failures": 25,
     "last_latency": null,
     "url": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?encryption=none&extra=null&mode=packet-up&path=%2Fxhttp_client_upload&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&security=reality&sid=5eca&sni=dailycanvas.sysopnova.art&type=xhttp&fp=firefox#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D",
     "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
@@ -15458,7 +15458,7 @@
     "last_ok": 1789995723
   },
   "891d42011f8aa725": {
-    "failures": 17,
+    "failures": 18,
     "last_latency": null,
     "url": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?encryption=none&extra=null&mode=packet-up&path=%2Fxhttp_client_upload&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&security=reality&sid=5eca&sni=dailycanvas.sysopnova.art&type=xhttp&fp=ios#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D",
     "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
@@ -16833,7 +16833,7 @@
     "last_error": "proxy_test_failed"
   },
   "efa5095535ab17a7": {
-    "failures": 13,
+    "failures": 14,
     "last_latency": null,
     "url": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HrfCfh7AgSG9uZyBLb25nLCBIb25nIEtvbmcgfCBbQkxdIiwiYWRkIjoiMjAuMjM1LjIyMC4xODkiLCJwb3J0IjoiNDQzIiwiaWQiOiJmMjNiYjQyN2MxZjk0MzczODc2YzJmNDNlOWY3OTBmMyIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInR5cGUiOiJub25lIiwiaG9zdCI6IjZKRHZBcmF6Z1UzcVFSNlEudi4zZG5zLnZpcCIsInBhdGgiOiIvd3Mtdm1lc3MiLCJ0bHMiOiJ0bHMiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwiYWxwbiI6IiIsImZwIjoiIn0=",
     "source": "BLACK_VLESS_RUS_mobile.txt",
@@ -19647,7 +19647,7 @@
     "last_error": "proxy_test_failed"
   },
   "ad800cdc89fdd764": {
-    "failures": 120,
+    "failures": 121,
     "last_latency": null,
     "url": "trojan://sg-trojan-2026@43.173.90.202:443?allowInsecure=1&insecure=1&security=tls&sni=sg-proxy.local&type=tcp&headerType=none&fp=random#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Santa%20Clara%20%7C%20%5BBL%5D",
     "source": "BLACK_SS+All_RUS.txt",
@@ -27317,7 +27317,7 @@
     "last_ok": 1790069746
   },
   "a35fe7b56a07e943": {
-    "failures": 177,
+    "failures": 178,
     "last_latency": null,
     "url": "trojan://sg-trojan-2026@43.173.90.202:443?allowInsecure=1&insecure=1&security=tls&sni=sg-proxy.local&type=tcp&headerType=none&fp=chrome#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Santa%20Clara%20%7C%20%5BBL%5D",
     "source": "BLACK_SS+All_RUS.txt",
@@ -29192,7 +29192,7 @@
     "last_error": "tcp_failed:TimeoutError"
   },
   "3fe87e4e41c545d9": {
-    "failures": 75,
+    "failures": 76,
     "last_latency": null,
     "url": "hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?insecure=0&sni=itsallproxy.quattro-tech.ru#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D",
     "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
@@ -43157,14 +43157,14 @@
     "last_error": "proxy_test_failed"
   },
   "108976f724a53bab": {
-    "failures": 6,
+    "failures": 7,
     "last_latency": null,
     "url": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?security=reality&sni=bl3fk52.sysopnova.art&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&sid=5eca&type=xhttp&path=%2Fxhttp_client_upload&mode=packet-up&encryption=none&fp=edge#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D",
     "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
     "last_error": "proxy_test_failed"
   },
   "e6bedb21bd6a5224": {
-    "failures": 6,
+    "failures": 7,
     "last_latency": null,
     "url": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?security=reality&sni=bl3fk52.sysopnova.art&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&sid=5eca&type=xhttp&path=%2Fxhttp_client_upload&mode=packet-up&encryption=none&fp=firefox#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D",
     "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
@@ -43178,7 +43178,7 @@
     "last_error": "proxy_test_failed"
   },
   "94344626c0e8608c": {
-    "failures": 6,
+    "failures": 7,
     "last_latency": null,
     "url": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?security=reality&sni=bl3fk52.sysopnova.art&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&sid=5eca&type=xhttp&path=%2Fxhttp_client_upload&mode=packet-up&encryption=none&fp=safari#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D",
     "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
@@ -47644,7 +47644,7 @@
     "last_error": "proxy_test_failed"
   },
   "7bb5d810359d06e9": {
-    "failures": 40,
+    "failures": 41,
     "last_latency": null,
     "url": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HrfCfh7AgSG9uZyBLb25nLCBIb25nIEtvbmcgfCBbQkxdIiwiYWRkIjoiMjAuMjM1LjIyMC4xODkiLCJwb3J0IjoiNDQzIiwiaWQiOiJmMjNiYjQyNy1jMWY5LTQzNzMtODc2Yy0yZjQzZTlmNzkwZjMiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiNkpEdkFyYXpnVTNxUVI2US52LjNkbnMudmlwIiwicGF0aCI6Ii93cy12bWVzcyIsInRscyI6InRscyIsInNuaSI6IjZKRHZBcmF6Z1UzcVFSNlEudi4zZG5zLnZpcCIsImZwIjoicmFuZG9tIiwiYWxwbiI6IiJ9",
     "source": "BLACK_SS+All_RUS.txt",
@@ -48603,7 +48603,7 @@
     "last_ok": 1790234575
   },
   "77e8183ac8f85861": {
-    "failures": 191,
+    "failures": 192,
     "last_latency": null,
     "url": "hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?sni=hy.quattro-tech.ru&fp=random&alpn=h3#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D",
     "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
@@ -50815,7 +50815,7 @@
     "last_error": "tcp_failed:TimeoutError"
   },
   "1160159d9f6515fb": {
-    "failures": 254,
+    "failures": 255,
     "last_latency": null,
     "url": "hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:24443?alpn=h3&insecure=1&sni=hy.quattro-tech.ru#%F0%9F%87%B1%F0%9F%87%BB%20Latvia%20%5B%2ACIDR%5D",
     "source": "WHITE-CIDR-RU-all.txt",
@@ -51967,7 +51967,7 @@
     "last_error": "tcp_failed:TimeoutError"
   },
   "3d6050a423ca5811": {
-    "failures": 240,
+    "failures": 241,
     "last_latency": null,
     "url": "hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?sni=itsallproxy.quattro-tech.ru&alpn=h3#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D",
     "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
@@ -55504,7 +55504,7 @@
     "last_error": "proxy_test_failed"
   },
   "d2329f2f1eb5ff84": {
-    "failures": 147,
+    "failures": 148,
     "last_latency": null,
     "url": "hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?sni=91.240.86.70&insecure=1#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D",
     "source": "WHITE-CIDR-RU-all.txt",
@@ -57259,7 +57259,7 @@
     "last_error": "tcp_failed:TimeoutError"
   },
   "e9391c5e872cefe7": {
-    "failures": 178,
+    "failures": 179,
     "last_latency": null,
     "url": "hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:24443?sni=hy.quattro-tech.ru&insecure=1#%F0%9F%87%B1%F0%9F%87%BB%20Latvia%20%5B%2ACIDR%5D",
     "source": "WHITE-CIDR-RU-all.txt",
@@ -59055,7 +59055,7 @@
     "last_error": "proxy_test_failed"
   },
   "2ae65c9bbcaddfed": {
-    "failures": 0,
+    "failures": 1,
     "last_latency": 741.3,
     "url": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4QzV2YWxoT2Q4dmZ3YVRYVVNaNlp5YjBJcDM0bFJSNXo3UDhheg@103.160.63.199:31348#%F0%9F%87%AE%F0%9F%87%A9%20Indonesia%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D",
     "source": "BLACK_SS_WEAK_DPI_RUS.txt",
@@ -61003,7 +61003,7 @@
     "last_error": "proxy_test_failed"
   },
   "e01cb4b423b9eadf": {
-    "failures": 129,
+    "failures": 130,
     "last_latency": null,
     "url": "hysteria2://5d0a6445-a30d-4522-bb1f-94f1d3ad63be@mlxy1.mangshe.xyz:2060?insecure=1#%F0%9F%87%B2%F0%9F%87%BE%20Malaysia%2C%20Cyberjaya%20%7C%20%5BBL%5D",
     "source": "BLACK_SS+All_RUS.txt",
@@ -61045,7 +61045,7 @@
     "last_error": "proxy_test_failed"
   },
   "ec6952348567a5c0": {
-    "failures": 15,
+    "failures": 16,
     "last_latency": null,
     "url": "vless://5d16ac22-6eea-426f-b778-6f4c2961faef@176.123.167.90:9881?security=reality&encryption=none&pbk=Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0&type=grpc&serviceName=grpc-tunnel&sni=dl.google.com&sid=aa&fp=chrome#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20%5B%2ACIDR%5D",
     "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
@@ -61999,7 +61999,7 @@
     "last_error": "tcp_failed:TimeoutError"
   },
   "294e4aa36ba413e7": {
-    "failures": 63,
+    "failures": 64,
     "last_latency": null,
     "url": "hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?sni=off&insecure=1#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D",
     "source": "WHITE-CIDR-RU-all.txt",
@@ -62945,10 +62945,10 @@
   },
   "4623735b6114df05": {
     "failures": 0,
-    "last_latency": 772.6,
+    "last_latency": 497.2,
     "url": "hysteria2://RQBXe4kpsRant_2u1PzdneBOPuCSwUSI@43.167.208.94:443?insecure=1#%F0%9F%87%AF%F0%9F%87%B5%20Japan%2C%20Shibuya%20City%20%7C%20%5BBL%5D",
     "source": "BLACK_SS+All_RUS.txt",
-    "last_ok": 1790466157,
+    "last_ok": 1790540893,
     "last_error": "proxy_test_failed"
   },
   "57f45129a0eeb66f": {
@@ -65230,7 +65230,7 @@
     "last_error": "proxy_test_failed"
   },
   "200a31eebe05d9c3": {
-    "failures": 84,
+    "failures": 85,
     "last_latency": null,
     "url": "hysteria2://5d0a6445-a30d-4522-bb1f-94f1d3ad63be@103.117.141.124:2060?insecure=1#%F0%9F%87%B2%F0%9F%87%BE%20Malaysia%2C%20Cyberjaya%20%7C%20%5BBL%5D",
     "source": "BLACK_SS+All_RUS.txt",
@@ -67394,7 +67394,7 @@
     "last_error": "proxy_test_failed"
   },
   "2c40af0d6555f919": {
-    "failures": 33,
+    "failures": 34,
     "last_latency": null,
     "url": "trojan://sg-trojan-2026@43.173.90.202:443?security=tls&sni=43.173.90.202&allowInsecure=1&insecure=1&type=tcp&fp=qq#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Santa%20Clara%20%7C%20%5BBL%5D",
     "source": "BLACK_SS+All_RUS.txt",
@@ -67804,7 +67804,7 @@
     "last_error": "proxy_test_failed"
   },
   "36e7e318dc942710": {
-    "failures": 5,
+    "failures": 6,
     "last_latency": null,
     "url": "trojan://sg-trojan-2026@43.173.90.202:443?security=tls&sni=43.173.90.202&allowInsecure=1&insecure=1&type=tcp&fp=random#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D",
     "source": "BLACK_SS+All_RUS.txt",
@@ -69045,7 +69045,7 @@
     "last_error": "tcp_failed:TimeoutError"
   },
   "a4e739adcbf7fa1f": {
-    "failures": 6,
+    "failures": 7,
     "last_latency": null,
     "url": "trojan://sg-trojan-2026@43.173.90.202:443?security=tls&sni=43.173.90.202&allowInsecure=1&insecure=1&type=tcp&fp=safari#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Santa%20Clara%20%7C%20%5BBL%5D",
     "source": "BLACK_SS+All_RUS.txt",
@@ -69751,7 +69751,7 @@
     "last_error": "proxy_test_failed"
   },
   "868fe97e2979c708": {
-    "failures": 13,
+    "failures": 14,
     "last_latency": null,
     "url": "trojan://sg-trojan-2026@43.173.90.202:443?security=tls&sni=43.173.90.202&allowInsecure=1&insecure=1&type=tcp&fp=chrome#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Santa%20Clara%20%7C%20%5BBL%5D",
     "source": "BLACK_SS+All_RUS.txt",
@@ -70083,7 +70083,7 @@
     "last_error": "proxy_test_failed"
   },
   "c94eb80c5a971480": {
-    "failures": 12,
+    "failures": 13,
     "last_latency": null,
     "url": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?insecure=false&up-mbps=0&sni=msk.frkn.org#%F0%9F%87%B7%F0%9F%87%BA%20Russia%2C%20Moscow%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D",
     "source": "BLACK_SS+All_RUS.txt",
@@ -70468,11 +70468,12 @@
     "last_error": "proxy_test_failed"
   },
   "6754ea876ef60033": {
-    "failures": 0,
+    "failures": 1,
     "last_latency": 576.7,
     "url": "vless://85261643-2fd5-4889-8da9-43abc3c08405@31.77.17.176:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=gag.fl.iki-servers.com&pbk=ssz8kvl1tH0TUaFREVSV_X-ED0AR-eeaWpKg2jQM8D8&spx=%2F&allowInsecure=1&fp=safari#%F0%9F%87%A7%F0%9F%87%BB%20Bouvet%20Island%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS.txt",
-    "last_ok": 1790383378
+    "last_ok": 1790383378,
+    "last_error": "proxy_test_failed"
   },
   "224e55964ec1b207": {
     "failures": 3,
@@ -71126,14 +71127,14 @@
     "last_ok": 1790383378
   },
   "878a6f234f4d0209": {
-    "failures": 18,
+    "failures": 19,
     "last_latency": null,
     "url": "hysteria2://02bd8b5a-170b-4a79-8e68-9cec710272c7@fi2.chromevpn.cc:443?sni=fi2.chromevpn.cc&fp=random#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D",
     "source": "BLACK_SS+All_RUS.txt",
     "last_error": "tcp_failed:ConnectionRefusedError"
   },
   "ce2fe5bf669b365e": {
-    "failures": 20,
+    "failures": 21,
     "last_latency": null,
     "url": "hysteria2://Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0@85.204.107.190:8443?sni=hopp-romania-new.roxa.org#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%5BBL%5D",
     "source": "BLACK_SS+All_RUS.txt",
@@ -72699,10 +72700,10 @@
   },
   "0c9787d98187bbf8": {
     "failures": 0,
-    "last_latency": 614.3,
+    "last_latency": 603.1,
     "url": "vless://cd3bb7d9-7df3-4644-ac05-c260990ac277@50.7.197.206:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=hub-mori-new.failspace.top&type=tcp&fp=qq#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Halfweg%20%7C%20%5BBL%5D",
-    "source": "BLACK_VLESS_RUS_mobile.txt",
-    "last_ok": 1790514606
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_ok": 1790540893
   },
   "13c507ed7241cff4": {
     "failures": 0,
@@ -73399,7 +73400,7 @@
     "last_error": "proxy_test_failed"
   },
   "6f19ff0ac36770f4": {
-    "failures": 6,
+    "failures": 7,
     "last_latency": null,
     "url": "vless://5d16ac22-6eea-426f-b778-6f4c2961faef@176.123.167.90:9881?encryption=none&security=reality&sni=dl.google.com&pbk=Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0&sid=aabb&type=grpc&authority=&serviceName=grpc-tunnel&mode=gun&fp=edge#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20%5B%2ACIDR%5D",
     "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
@@ -73413,14 +73414,14 @@
     "last_ok": 1790418092
   },
   "13ebf2c60c86845d": {
-    "failures": 4,
+    "failures": 5,
     "last_latency": null,
     "url": "vless://5d16ac22-6eea-426f-b778-6f4c2961faef@176.123.167.90:9881?encryption=none&security=reality&sni=dl.google.com&pbk=Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0&sid=aabb&type=grpc&authority=&serviceName=grpc-tunnel&mode=gun&fp=firefox#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20%5B%2ACIDR%5D",
     "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
     "last_error": "proxy_test_failed"
   },
   "5473b8625d47e646": {
-    "failures": 4,
+    "failures": 5,
     "last_latency": null,
     "url": "vless://5d16ac22-6eea-426f-b778-6f4c2961faef@176.123.167.90:9881?encryption=none&security=reality&sni=dl.google.com&pbk=Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0&sid=aabb&type=grpc&authority=&serviceName=grpc-tunnel&mode=gun&fp=ios#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20%5B%2ACIDR%5D",
     "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
@@ -73709,7 +73710,7 @@
     "last_ok": 1790418092
   },
   "2f198a7e4df4696a": {
-    "failures": 8,
+    "failures": 9,
     "last_latency": null,
     "url": "vless://5d16ac22-6eea-426f-b778-6f4c2961faef@176.123.167.90:9881?type=grpc&security=reality&pbk=Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0&sni=dl.google.com&serviceName=grpc-tunnel&fp=edge#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D",
     "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
@@ -73807,14 +73808,14 @@
     "last_ok": 1790418092
   },
   "6be9c85d4f12b4d9": {
-    "failures": 17,
+    "failures": 18,
     "last_latency": null,
     "url": "hysteria2://pbgLTkd5276SN1sZ@144.24.46.175:8443?insecure=1&sni=www.bing.com#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Phoenix%20%7C%20%5BBL%5D",
     "source": "BLACK_SS+All_RUS.txt",
     "last_error": "tcp_failed:ConnectionRefusedError"
   },
   "b8ecfe1827ffe63f": {
-    "failures": 17,
+    "failures": 18,
     "last_latency": null,
     "url": "hysteria2://s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z@77.74.123.100:8443?sni=grape-test-italy.dynuddns.net#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%5BBL%5D",
     "source": "BLACK_SS+All_RUS.txt",
@@ -74352,7 +74353,7 @@
     "last_error": "proxy_test_failed"
   },
   "683da928ae0e6af2": {
-    "failures": 16,
+    "failures": 17,
     "last_latency": null,
     "url": "hysteria2://5d0a6445-a30d-4522-bb1f-94f1d3ad63be@mlxy1.mangshe.xyz:2060?insecure=1&sni=127.0.0.1#%F0%9F%87%B2%F0%9F%87%BE%20Malaysia%2C%20Cyberjaya%20%7C%20%5BBL%5D",
     "source": "BLACK_SS+All_RUS.txt",
@@ -74443,24 +74444,24 @@
     "last_error": "proxy_test_failed"
   },
   "5cd26cec3bd8d229": {
-    "failures": 5,
+    "failures": 6,
     "last_latency": null,
     "url": "vless://692e3be7-ec0b-4256-b91a-1b5ac66e245e@151.101.71.148:443?alpn=h3&encryption=none&host=lonerbosstm.online&mode=packet-up&path=%2F&security=tls&sni=Qr.fastly.com&type=xhttp&allowInsecure=0&insecure=0&fp=chrome#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS.txt",
     "last_error": "proxy_test_failed"
   },
   "60c9da5e71f943de": {
-    "failures": 13,
+    "failures": 14,
     "last_latency": null,
     "url": "vless://692e3be7-ec0b-4256-b91a-1b5ac66e245e@151.101.71.148:443?alpn=h3&encryption=none&host=lonerbosstm.online&mode=packet-up&path=%2F&security=tls&sni=Qr.fastly.com&type=xhttp&allowInsecure=0&insecure=0&fp=firefox#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS.txt",
     "last_error": "proxy_test_failed"
   },
   "4ea9075681a05f47": {
-    "failures": 11,
+    "failures": 12,
     "last_latency": null,
     "url": "vless://692e3be7-ec0b-4256-b91a-1b5ac66e245e@151.101.71.148:443?encryption=none&host=lonerbosstm.online&security=tls&sni=Qr.fastly.com&type=xhttp&fp=chrome#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D",
-    "source": "BLACK_VLESS_RUS.txt",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
     "last_error": "proxy_test_failed"
   },
   "c44640e1e18bebf2": {
@@ -74471,7 +74472,7 @@
     "last_ok": 1790433413
   },
   "14f5637a73b38e62": {
-    "failures": 5,
+    "failures": 6,
     "last_latency": null,
     "url": "vless://692e3be7-ec0b-4256-b91a-1b5ac66e245e@151.101.71.148:443?encryption=none&host=lonerbosstm.online&security=tls&sni=Qr.fastly.com&type=xhttp&fp=firefox#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS.txt",
@@ -74612,7 +74613,7 @@
     "last_error": "proxy_test_failed"
   },
   "427fc0580d0e0ebe": {
-    "failures": 9,
+    "failures": 10,
     "last_latency": null,
     "url": "vless://2b424263-d888-494a-eb6a-79538055d1ad@23.83.224.178:54322?security=false&type=ws&headerType=none&path=%2F&fp=firefox#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Fremont%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS.txt",
@@ -74675,14 +74676,14 @@
     "last_error": "proxy_test_failed"
   },
   "77d55e9f808ce5ce": {
-    "failures": 7,
+    "failures": 8,
     "last_latency": null,
     "url": "vless://692e3be7-ec0b-4256-b91a-1b5ac66e245e@151.101.71.148:443?alpn=h3&encryption=none&host=lonerbosstm.online&mode=packet-up&path=%2F&security=tls&sni=Qr.fastly.com&type=xhttp&allowInsecure=0&insecure=0&fp=qq#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS.txt",
     "last_error": "proxy_test_failed"
   },
   "c1b47adfae7bc164": {
-    "failures": 11,
+    "failures": 12,
     "last_latency": null,
     "url": "vless://692e3be7-ec0b-4256-b91a-1b5ac66e245e@151.101.71.148:443?alpn=h3&encryption=none&host=lonerbosstm.online&mode=packet-up&path=%2F&security=tls&sni=Qr.fastly.com&type=xhttp&allowInsecure=0&insecure=0&fp=safari#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS.txt",
@@ -74773,14 +74774,14 @@
     "last_error": "proxy_test_failed"
   },
   "836c7676e695d330": {
-    "failures": 7,
+    "failures": 8,
     "last_latency": null,
     "url": "vless://2b424263-d888-494a-eb6a-79538055d1ad@23.83.224.178:54322?security=false&type=ws&headerType=none&path=%2F&fp=qq#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Fremont%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS_mobile.txt",
     "last_error": "proxy_test_failed"
   },
   "83e1c102aa80714f": {
-    "failures": 11,
+    "failures": 12,
     "last_latency": null,
     "url": "vless://2b424263-d888-494a-eb6a-79538055d1ad@23.83.224.178:54322?security=false&type=ws&headerType=none&path=%2F&fp=safari#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Fremont%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS.txt",
@@ -74844,7 +74845,7 @@
     "last_error": "proxy_test_failed"
   },
   "c2e31bfdcaf4ce92": {
-    "failures": 1,
+    "failures": 2,
     "last_latency": null,
     "url": "vless://0dca2cfe-98eb-4f9d-9a47-cf87510c558b@72.4.65.116:443?encryption=none&security=tls&serviceName=cdn.v1.AssetService&sni=assets-de2.pleiades.codes&type=grpc&fp=ios#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5B%2ACIDR%5D",
     "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
@@ -74970,11 +74971,11 @@
     "last_error": "tcp_failed:TimeoutError"
   },
   "b33e536a54efbe54": {
-    "failures": 1,
+    "failures": 2,
     "last_latency": null,
     "url": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?insecure=false&up-mbps=0&sni=msk.frkn.org#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D",
     "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
-    "last_error": "tcp_failed:ConnectionRefusedError"
+    "last_error": "tcp_failed:TimeoutError"
   },
   "3181d3364f97c1b5": {
     "failures": 1,
@@ -76009,7 +76010,7 @@
     "last_error": "tcp_failed:ConnectionRefusedError"
   },
   "c5b0d01767acba35": {
-    "failures": 14,
+    "failures": 15,
     "last_latency": null,
     "url": "hysteria2://8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3@rou0001ntrhy01.tcp-reset-club.net:443?sni=tcp-reset-club.net#%F0%9F%87%B7%F0%9F%87%B4%20Romania%20%5BSNI-RU%5D%20tcp-reset-club.net",
     "source": "Export/v2rayN_PC/WHITE-SNI-RU-all-v2rayN.txt",
@@ -76150,10 +76151,10 @@
     "last_error": "proxy_test_failed"
   },
   "511c3f626686e3ac": {
-    "failures": 8,
+    "failures": 9,
     "last_latency": null,
     "url": "vless://eb98ab60-f16d-4662-a740-c89307400939@151.101.213.164:443?encryption=none&security=tls&sni=accounts.fastly.com&alpn=h3&type=xhttp&mode=packet-up&host=fretranxrabet.net&path=%2F&fragment=1-3%2C10-20%2Ctlshello%2Cnull&fm=%7B%22tcp%22%3A%5B%7B%22settings%22%3A%7B%22delay%22%3A%2210-20%22%2C%22length%22%3A%221-3%22%2C%22packets%22%3A%22tlshello%22%7D%2C%22type%22%3A%22fragment%22%7D%5D%7D&fp=chrome#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D",
-    "source": "BLACK_VLESS_RUS.txt",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
     "last_error": "proxy_test_failed"
   },
   "f33408af960ba99b": {
@@ -76178,14 +76179,14 @@
     "last_error": "proxy_test_failed"
   },
   "dd41165c458db140": {
-    "failures": 6,
+    "failures": 7,
     "last_latency": null,
     "url": "vless://692e3be7-ec0b-4256-b91a-1b5ac66e245e@151.101.71.148:443?alpn=h3&encryption=none&host=lonerbosstm.online&mode=packet-up&path=%2F&security=tls&sni=Qr.fastly.com&type=xhttp&allowInsecure=0&insecure=0&fp=android#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS.txt",
     "last_error": "proxy_test_failed"
   },
   "49a5f7afcaed2018": {
-    "failures": 8,
+    "failures": 9,
     "last_latency": null,
     "url": "vless://692e3be7-ec0b-4256-b91a-1b5ac66e245e@151.101.71.148:443?alpn=h3&encryption=none&host=lonerbosstm.online&mode=packet-up&path=%2F&security=tls&sni=Qr.fastly.com&type=xhttp&allowInsecure=0&insecure=0&fp=ios#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS.txt",
@@ -76214,7 +76215,7 @@
     "last_error": "proxy_test_failed"
   },
   "7ad35268927230ca": {
-    "failures": 8,
+    "failures": 9,
     "last_latency": null,
     "url": "vless://692e3be7-ec0b-4256-b91a-1b5ac66e245e@151.101.71.148:443?encryption=none&host=lonerbosstm.online&security=tls&sni=Qr.fastly.com&type=xhttp&fp=random#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS.txt",
@@ -76235,14 +76236,14 @@
     "last_ok": 1790457594
   },
   "a81cc2cce8700e45": {
-    "failures": 8,
+    "failures": 9,
     "last_latency": null,
     "url": "vless://bf419ba4-2713-474e-a2bb-0d10d3e8fd90@146.75.57.25:443?encryption=none&security=tls&sni=community.fastly.com&alpn=h3&type=xhttp&mode=auto&host=taza1.co&path=%2F&fp=android#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS.txt",
     "last_error": "proxy_test_failed"
   },
   "fb260e37afa41a6f": {
-    "failures": 2,
+    "failures": 3,
     "last_latency": null,
     "url": "vless://bf419ba4-2713-474e-a2bb-0d10d3e8fd90@146.75.57.25:443?encryption=none&security=tls&sni=community.fastly.com&alpn=h3&type=xhttp&mode=auto&host=taza1.co&path=%2F&fp=ios#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS.txt",
@@ -76308,10 +76309,10 @@
   },
   "473bbebe356e019a": {
     "failures": 0,
-    "last_latency": 487.1,
+    "last_latency": 609.1,
     "url": "vless://cd3bb7d9-7df3-4644-ac05-c260990ac277@50.7.197.206:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=hub-mori-new.failspace.top&type=tcp&fp=edge#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Halfweg%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS.txt",
-    "last_ok": 1790493892
+    "last_ok": 1790540893
   },
   "45ca82ce8efa43eb": {
     "failures": 2,
@@ -76462,24 +76463,24 @@
     "last_error": "proxy_test_failed"
   },
   "97f1797e03a3528e": {
-    "failures": 8,
+    "failures": 9,
     "last_latency": null,
     "url": "vless://eb98ab60-f16d-4662-a740-c89307400939@151.101.213.164:443?encryption=none&security=tls&sni=accounts.fastly.com&alpn=h3&type=xhttp&mode=packet-up&host=fretranxrabet.net&path=%2F&fragment=1-3%2C10-20%2Ctlshello%2Cnull&fm=%7B%22tcp%22%3A%5B%7B%22settings%22%3A%7B%22delay%22%3A%2210-20%22%2C%22length%22%3A%221-3%22%2C%22packets%22%3A%22tlshello%22%7D%2C%22type%22%3A%22fragment%22%7D%5D%7D&fp=android#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS.txt",
     "last_error": "proxy_test_failed"
   },
   "edc458dc90c3ec3e": {
-    "failures": 6,
+    "failures": 7,
     "last_latency": null,
     "url": "vless://eb98ab60-f16d-4662-a740-c89307400939@151.101.213.164:443?encryption=none&security=tls&sni=accounts.fastly.com&alpn=h3&type=xhttp&mode=packet-up&host=fretranxrabet.net&path=%2F&fragment=1-3%2C10-20%2Ctlshello%2Cnull&fm=%7B%22tcp%22%3A%5B%7B%22settings%22%3A%7B%22delay%22%3A%2210-20%22%2C%22length%22%3A%221-3%22%2C%22packets%22%3A%22tlshello%22%7D%2C%22type%22%3A%22fragment%22%7D%5D%7D&fp=firefox#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS.txt",
     "last_error": "proxy_test_failed"
   },
   "abd449288d59c436": {
-    "failures": 8,
+    "failures": 9,
     "last_latency": null,
     "url": "vless://eb98ab60-f16d-4662-a740-c89307400939@151.101.213.164:443?encryption=none&security=tls&sni=accounts.fastly.com&alpn=h3&type=xhttp&mode=packet-up&host=fretranxrabet.net&path=%2F&fragment=1-3%2C10-20%2Ctlshello%2Cnull&fm=%7B%22tcp%22%3A%5B%7B%22settings%22%3A%7B%22delay%22%3A%2210-20%22%2C%22length%22%3A%221-3%22%2C%22packets%22%3A%22tlshello%22%7D%2C%22type%22%3A%22fragment%22%7D%5D%7D&fp=qq#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D",
-    "source": "BLACK_VLESS_RUS.txt",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
     "last_error": "proxy_test_failed"
   },
   "fbba1594d748abe0": {
@@ -76834,7 +76835,7 @@
     "last_error": "second_test_failed"
   },
   "5ea8d0295047bab1": {
-    "failures": 12,
+    "failures": 13,
     "last_latency": null,
     "url": "hysteria2://8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3@nl01ntrhy01.tcp-reset-club.net:443?sni=1&insecure=1#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%28Amsterdam-Zuidoost%29%20%7C%20%5BBL%5D",
     "source": "BLACK_SS+All_RUS.txt",
@@ -76997,10 +76998,10 @@
   },
   "3d8eb52928552242": {
     "failures": 0,
-    "last_latency": 15316.0,
+    "last_latency": 87.0,
     "url": "hysteria2://RN_3f80eeb4bbd0f13f@192.255.128.123:443/?insecure=1&sni=www.bing.com#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Dallas%20%7C%20%5BBL%5D",
     "source": "BLACK_SS+All_RUS.txt",
-    "last_ok": 1790531528
+    "last_ok": 1790540893
   },
   "da12ca1605ddffe7": {
     "failures": 2,
@@ -77560,24 +77561,24 @@
     "last_ok": 1790466157
   },
   "b677ee7bf189280c": {
-    "failures": 4,
+    "failures": 5,
     "last_latency": null,
     "url": "vless://bf419ba4-2713-474e-a2bb-0d10d3e8fd90@146.75.57.25:443?encryption=none&host=taza1.co&security=tls&sni=community.fastly.com&type=xhttp&fp=chrome#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%5BBL%5D",
-    "source": "BLACK_VLESS_RUS.txt",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
     "last_error": "proxy_test_failed"
   },
   "5e7de6efdb330b4a": {
-    "failures": 4,
+    "failures": 5,
     "last_latency": null,
     "url": "vless://bf419ba4-2713-474e-a2bb-0d10d3e8fd90@146.75.57.25:443?encryption=none&host=taza1.co&security=tls&sni=community.fastly.com&type=xhttp&fp=edge#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS.txt",
     "last_error": "proxy_test_failed"
   },
   "de9043988a3b22a0": {
-    "failures": 6,
+    "failures": 7,
     "last_latency": null,
     "url": "vless://bf419ba4-2713-474e-a2bb-0d10d3e8fd90@146.75.57.25:443?encryption=none&host=taza1.co&security=tls&sni=community.fastly.com&type=xhttp&fp=qq#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%5BBL%5D",
-    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "source": "BLACK_VLESS_RUS.txt",
     "last_error": "proxy_test_failed"
   },
   "8a1864cf5c8faa18": {
@@ -78050,10 +78051,10 @@
     "last_error": "proxy_test_failed"
   },
   "3fa637fc23cde082": {
-    "failures": 6,
+    "failures": 7,
     "last_latency": null,
     "url": "vless://5d16ac22-6eea-426f-b778-6f4c2961faef@176.123.167.90:9881?encryption=none&security=reality&sni=dl.google.com&pbk=Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0&sid=aabbccdd&type=grpc&serviceName=grpc-tunnel&fp=safari#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D",
-    "source": "Export/v2rayN_PC/WHITE-CIDR-RU-all-v2rayN.txt",
+    "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
     "last_error": "proxy_test_failed"
   },
   "90274aeecea5d39e": {
@@ -78071,7 +78072,7 @@
     "last_error": "proxy_test_failed"
   },
   "752ace87fc105480": {
-    "failures": 6,
+    "failures": 7,
     "last_latency": null,
     "url": "vless://5d16ac22-6eea-426f-b778-6f4c2961faef@176.123.167.90:9881?type=grpc&security=reality&pbk=Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0&sni=dl.google.com&serviceName=grpc-tunnel&fp=ios#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D",
     "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
@@ -78295,14 +78296,14 @@
     "last_error": "tcp_failed:ConnectionRefusedError"
   },
   "abfaf055b00f641d": {
-    "failures": 10,
+    "failures": 11,
     "last_latency": null,
     "url": "hysteria2://8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3@rou0001ntrhy01.tcp-reset-club.net:443?sni=tcp-reset-club.net#%F0%9F%87%B7%F0%9F%87%B4%20Romania%2C%20Bucharest%20%7C%20%5BBL%5D",
     "source": "BLACK_SS+All_RUS.txt",
     "last_error": "tcp_failed:ConnectionRefusedError"
   },
   "f89f1e87b50b6164": {
-    "failures": 8,
+    "failures": 9,
     "last_latency": null,
     "url": "hysteria2://b8949dae-cb53-4b5a-ad9c-50f58c4656fb@uk1.xiaoliyu.us:2056?insecure=1#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%2C%20London%20%7C%20%5BBL%5D",
     "source": "BLACK_SS+All_RUS.txt",
@@ -79383,7 +79384,7 @@
     "last_error": "proxy_test_failed"
   },
   "2d4daf859ca91a59": {
-    "failures": 2,
+    "failures": 3,
     "last_latency": null,
     "url": "vless://5d16ac22-6eea-426f-b778-6f4c2961faef@176.123.167.90:9881?encryption=none&security=reality&sni=dl.google.com&pbk=Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0&sid=aabbccdd&type=grpc&serviceName=grpc-tunnel&fp=firefox#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%5B%2ACIDR%5D",
     "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
@@ -79411,7 +79412,7 @@
     "last_error": "proxy_test_failed"
   },
   "ffcc79cb43740edb": {
-    "failures": 2,
+    "failures": 3,
     "last_latency": null,
     "url": "vless://5d16ac22-6eea-426f-b778-6f4c2961faef@176.123.167.90:9881?encryption=none&security=reality&sni=dl.google.com&pbk=Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0&sid=aabbccdd&type=grpc&serviceName=grpc-tunnel&fp=android#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20%5B%2ACIDR%5D",
     "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
@@ -79488,7 +79489,7 @@
     "last_error": "proxy_test_failed"
   },
   "89556311ce9052f2": {
-    "failures": 2,
+    "failures": 3,
     "last_latency": null,
     "url": "vless://0dca2cfe-98eb-4f9d-9a47-cf87510c558b@72.4.65.116:443?encryption=none&security=tls&serviceName=cdn.v1.AssetService&sni=assets-de2.pleiades.codes&type=grpc&fp=safari#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D",
     "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
@@ -79628,7 +79629,7 @@
     "last_error": "tcp_failed:ConnectionRefusedError"
   },
   "8480307b294f33f2": {
-    "failures": 8,
+    "failures": 9,
     "last_latency": null,
     "url": "hysteria2://b8949dae-cb53-4b5a-ad9c-50f58c4656fb@uk2.xiaoliyu.us:2056?sni=uk2.xiaoliyu.us&insecure=1#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%2C%20London%20%7C%20%5BBL%5D",
     "source": "BLACK_SS+All_RUS.txt",
@@ -79656,7 +79657,7 @@
     "last_error": "tcp_failed:TimeoutError"
   },
   "a6a3d5531045b1ad": {
-    "failures": 1,
+    "failures": 2,
     "last_latency": 5585.4,
     "url": "vless://85261643-2fd5-4889-8da9-43abc3c08405@31.77.17.176:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=gag.fl.iki-servers.com&pbk=ssz8kvl1tH0TUaFREVSV_X-ED0AR-eeaWpKg2jQM8D8&spx=%2F&allowInsecure=1&fp=firefox#%F0%9F%87%A7%F0%9F%87%BB%20Bouvet%20Island%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS.txt",
@@ -79664,11 +79665,11 @@
     "last_ok": 1790531125
   },
   "fcb299c41bed9490": {
-    "failures": 1,
+    "failures": 2,
     "last_latency": 5452.2,
     "url": "vless://85261643-2fd5-4889-8da9-43abc3c08405@31.77.17.176:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=gag.fl.iki-servers.com&pbk=ssz8kvl1tH0TUaFREVSV_X-ED0AR-eeaWpKg2jQM8D8&spx=%2F&allowInsecure=1&fp=ios#%F0%9F%87%A7%F0%9F%87%BB%20Bouvet%20Island%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS.txt",
-    "last_error": "second_test_failed",
+    "last_error": "proxy_test_failed",
     "last_ok": 1790531125
   },
   "e7a47d87b14dc97a": {
@@ -79721,11 +79722,12 @@
     "last_error": "tcp_failed:TimeoutError"
   },
   "7e8a74e1185ef844": {
-    "failures": 0,
+    "failures": 1,
     "last_latency": 2068.4,
     "url": "hysteria2://0a11d3b4-682c-4bfb-afb0-820b8285cb4b@mix.pantera-radio.ru:443?sni=mix.pantera-radio.ru&fp=firefox#%F0%9F%87%B5%F0%9F%87%B1%20Poland%2C%20Warsaw%20%28%C5%9Ar%C3%B3dmie%C5%9Bcie%29%20%7C%20%5BBL%5D",
     "source": "BLACK_SS+All_RUS.txt",
-    "last_ok": 1790531528
+    "last_ok": 1790531528,
+    "last_error": "tcp_failed:TimeoutError"
   },
   "bf510fe95c7b6e20": {
     "failures": 2,
@@ -79736,10 +79738,10 @@
   },
   "10bef5c70b2dfb7c": {
     "failures": 0,
-    "last_latency": 614.0,
+    "last_latency": 813.8,
     "url": "vless://cd3bb7d9-7df3-4644-ac05-c260990ac277@67.159.11.2:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=atatat.failspace.top&type=tcp&fp=qq#%F0%9F%87%A6%F0%9F%87%B9%20Austria%2C%20Vienna%20%28Floridsdorf%29%20%7C%20%5BBL%5D",
-    "source": "BLACK_VLESS_RUS.txt",
-    "last_ok": 1790531528
+    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "last_ok": 1790540893
   },
   "8634428456334c2a": {
     "failures": 2,
@@ -79799,10 +79801,10 @@
   },
   "5e5bbff589b81ba7": {
     "failures": 0,
-    "last_latency": 1020.6,
+    "last_latency": 1040.0,
     "url": "vless://cd3bb7d9-7df3-4644-ac05-c260990ac277@atatat.failspace.top:443?security=tls&flow=xtls-rprx-vision&sni=atatat.failspace.top&fp=qq#%F0%9F%87%A6%F0%9F%87%B9%20Austria%2C%20Vienna%20%28Floridsdorf%29%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS.txt",
-    "last_ok": 1790531528
+    "last_ok": 1790540893
   },
   "c744e963195f0d3f": {
     "failures": 2,
@@ -79889,10 +79891,10 @@
     "last_ok": 1790493892
   },
   "1fd1d60ce6719bb7": {
-    "failures": 4,
+    "failures": 5,
     "last_latency": null,
     "url": "vless://692e3be7-ec0b-4256-b91a-1b5ac66e245e@151.101.71.148:443?encryption=none&type=xhttp&security=tls&host=lonerbosstm.online&path=%2F&sni=Qr.fastly.com&allowInsecure=0&insecure=0#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D",
-    "source": "BLACK_VLESS_RUS.txt",
+    "source": "Export/v2rayN_PC/BLACK_VLESS_RUS_mobile_v2rayN.txt",
     "last_error": "proxy_test_failed"
   },
   "e0459d594a021b26": {
@@ -80228,17 +80230,17 @@
   },
   "b7a42035dc5c2751": {
     "failures": 0,
-    "last_latency": 391.8,
+    "last_latency": 600.0,
     "url": "vless://cd3bb7d9-7df3-4644-ac05-c260990ac277@50.7.120.203:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=nl-dedic-mori-4.failspace.top&type=tcp&fp=firefox#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Halfweg%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS.txt",
-    "last_ok": 1790531528
+    "last_ok": 1790540893
   },
   "0bc828ff8fc7a2d1": {
     "failures": 0,
-    "last_latency": 395.7,
+    "last_latency": 607.3,
     "url": "vless://cd3bb7d9-7df3-4644-ac05-c260990ac277@50.7.120.203:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=nl-dedic-mori-4.failspace.top&type=tcp&fp=qq#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Halfweg%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS.txt",
-    "last_ok": 1790531528
+    "last_ok": 1790540893
   },
   "299ddb280de2d925": {
     "failures": 4,
@@ -80516,7 +80518,7 @@
     "last_error": "proxy_test_failed"
   },
   "2bd4187f919588bf": {
-    "failures": 4,
+    "failures": 5,
     "last_latency": null,
     "url": "vless://553d8193-d897-0037-bb46-f075b670f22a@84.38.187.169:443?encryption=none&security=reality&sni=mc.yandex.tr&pbk=rJMYW6mHgjs61mHxfm8Gmm_Re23sV_xe5b0IrTpLsiQ&sid=94c9dbbf07366d96&type=xhttp&path=%2Fscript&mode=auto&extra=%7B%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0.0%2C%22hKeepAlivePeriod%22%3A0.0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%221800-3000%22%2C%22maxConnections%22%3A2.0%7D%7D&fp=qq#%F0%9F%87%B1%F0%9F%87%BB%20Latvia%20%5B%2ACIDR%5D",
     "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
@@ -80537,7 +80539,7 @@
     "last_error": "proxy_test_failed"
   },
   "786f2ece66a4623f": {
-    "failures": 4,
+    "failures": 5,
     "last_latency": null,
     "url": "vless://553d8193-d897-0037-bb46-f075b670f22a@84.38.187.169:443?encryption=none&security=reality&sni=mc.yandex.tr&pbk=rJMYW6mHgjs61mHxfm8Gmm_Re23sV_xe5b0IrTpLsiQ&sid=94c9dbbf07366d96&type=xhttp&path=%2Fscript&mode=auto&extra=%7B%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0.0%2C%22hKeepAlivePeriod%22%3A0.0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%221800-3000%22%2C%22maxConnections%22%3A2.0%7D%7D&fp=random#%F0%9F%87%B1%F0%9F%87%BB%20Latvia%20%7C%20%5B%2ACIDR%5D",
     "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
@@ -80558,17 +80560,17 @@
     "last_error": "proxy_test_failed"
   },
   "aaa7b36cae305fa0": {
-    "failures": 6,
+    "failures": 7,
     "last_latency": null,
     "url": "vless://553d8193-d897-0024-bb46-f075b670f22a@161.104.38.98:443?encryption=none&security=reality&sni=donatov.net&pbk=kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE&sid=8ba6e72ee60667f6&type=xhttp&path=%2Fassets&mode=packet-up&extra=%7B%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0.0%2C%22hKeepAlivePeriod%22%3A0.0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%221800-3000%22%2C%22maxConnections%22%3A2.0%7D%7D&fp=edge#%F0%9F%87%B8%F0%9F%87%AA%20Sweden%20%5B%2ACIDR%5D",
-    "source": "Export/v2rayN_PC/WHITE-CIDR-RU-all-v2rayN.txt",
+    "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
     "last_error": "proxy_test_failed"
   },
   "0cd6aae69abc70fe": {
-    "failures": 6,
+    "failures": 7,
     "last_latency": null,
     "url": "vless://553d8193-d897-0024-bb46-f075b670f22a@161.104.38.98:443?encryption=none&security=reality&sni=donatov.net&pbk=kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE&sid=8ba6e72ee60667f6&type=xhttp&path=%2Fassets&mode=packet-up&extra=%7B%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0.0%2C%22hKeepAlivePeriod%22%3A0.0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%221800-3000%22%2C%22maxConnections%22%3A2.0%7D%7D&fp=firefox#%F0%9F%87%B8%F0%9F%87%AA%20Sweden%20%5B%2ACIDR%5D",
-    "source": "Export/v2rayN_PC/WHITE-CIDR-RU-all-v2rayN.txt",
+    "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
     "last_error": "proxy_test_failed"
   },
   "9e9abeefec447411": {
@@ -80586,14 +80588,14 @@
     "last_error": "proxy_test_failed"
   },
   "0574d147c2f4c44f": {
-    "failures": 6,
+    "failures": 7,
     "last_latency": null,
     "url": "vless://553d8193-d897-0024-bb46-f075b670f22a@161.104.38.98:443?encryption=none&security=reality&sni=donatov.net&pbk=kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE&sid=8ba6e72ee60667f6&type=xhttp&path=%2Fassets&mode=packet-up&extra=%7B%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0.0%2C%22hKeepAlivePeriod%22%3A0.0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%221800-3000%22%2C%22maxConnections%22%3A2.0%7D%7D&fp=ios#%F0%9F%87%B8%F0%9F%87%AA%20Sweden%20%5B%2ACIDR%5D",
     "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
     "last_error": "proxy_test_failed"
   },
   "dcbdb1043d910cb2": {
-    "failures": 2,
+    "failures": 3,
     "last_latency": null,
     "url": "vless://553d8193-d897-0024-bb46-f075b670f22a@161.104.38.98:443?encryption=none&security=reality&sni=donatov.net&pbk=kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE&sid=8ba6e72ee60667f6&type=xhttp&path=%2Fassets&mode=packet-up&extra=%7B%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0.0%2C%22hKeepAlivePeriod%22%3A0.0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%221800-3000%22%2C%22maxConnections%22%3A2.0%7D%7D&fp=random#%F0%9F%87%B8%F0%9F%87%AA%20Sweden%20%7C%20%5B%2ACIDR%5D",
     "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
@@ -80621,10 +80623,10 @@
     "last_error": "proxy_test_failed"
   },
   "01a5dbda1e1458f1": {
-    "failures": 6,
+    "failures": 7,
     "last_latency": null,
     "url": "vless://5d16ac22-6eea-426f-b778-6f4c2961faef@176.123.167.90:9881?security=reality&encryption=none&pbk=Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0&type=grpc&serviceName=grpc-tunnel&sni=dl.google.com&sid=aa&fp=qq#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D",
-    "source": "Export/v2rayN_PC/WHITE-CIDR-RU-all-v2rayN.txt",
+    "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
     "last_error": "proxy_test_failed"
   },
   "6a8b698ccfaf5eb3": {
@@ -80663,35 +80665,35 @@
     "last_error": "proxy_test_failed"
   },
   "6b8db0e2ed0297d2": {
-    "failures": 6,
+    "failures": 7,
     "last_latency": null,
     "url": "vless://553d8193-d897-0032-bb46-f075b670f22a@161.104.38.98:443?encryption=none&security=reality&sni=donatov.net&pbk=kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE&sid=8ba6e72ee60667f6&type=xhttp&path=%2Fassets&mode=packet-up&extra=%7B%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0.0%2C%22hKeepAlivePeriod%22%3A0.0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%221800-3000%22%2C%22maxConnections%22%3A2.0%7D%7D&fp=edge#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D",
     "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
     "last_error": "proxy_test_failed"
   },
   "d588e9ea5a85c15b": {
-    "failures": 2,
+    "failures": 3,
     "last_latency": null,
     "url": "vless://0dca2cfe-98eb-4f9d-9a47-cf87510c558b@72.4.65.116:443?encryption=none&security=tls&serviceName=cdn.v1.AssetService&sni=assets-de2.pleiades.codes&type=grpc&fp=chrome#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5B%2ACIDR%5D",
     "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
     "last_error": "proxy_test_failed"
   },
   "052c3fb3bd9d6aa9": {
-    "failures": 6,
+    "failures": 7,
     "last_latency": null,
     "url": "vless://553d8193-d897-0032-bb46-f075b670f22a@161.104.38.98:443?encryption=none&security=reality&sni=donatov.net&pbk=kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE&sid=8ba6e72ee60667f6&type=xhttp&path=%2Fassets&mode=packet-up&extra=%7B%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0.0%2C%22hKeepAlivePeriod%22%3A0.0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%221800-3000%22%2C%22maxConnections%22%3A2.0%7D%7D&fp=firefox#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D",
-    "source": "Export/v2rayN_PC/WHITE-CIDR-RU-all-v2rayN.txt",
+    "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
     "last_error": "proxy_test_failed"
   },
   "6820f4b4f4b5a09f": {
-    "failures": 6,
+    "failures": 7,
     "last_latency": null,
     "url": "vless://553d8193-d897-0032-bb46-f075b670f22a@161.104.38.98:443?encryption=none&security=reality&sni=donatov.net&pbk=kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE&sid=8ba6e72ee60667f6&type=xhttp&path=%2Fassets&mode=packet-up&extra=%7B%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0.0%2C%22hKeepAlivePeriod%22%3A0.0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%221800-3000%22%2C%22maxConnections%22%3A2.0%7D%7D&fp=qq#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D",
-    "source": "Export/v2rayN_PC/WHITE-CIDR-RU-all-v2rayN.txt",
+    "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
     "last_error": "proxy_test_failed"
   },
   "fb498901cc5f15a2": {
-    "failures": 4,
+    "failures": 5,
     "last_latency": null,
     "url": "vless://553d8193-d897-0032-bb46-f075b670f22a@161.104.38.98:443?encryption=none&security=reality&sni=donatov.net&pbk=kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE&sid=8ba6e72ee60667f6&type=xhttp&path=%2Fassets&mode=packet-up&extra=%7B%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0.0%2C%22hKeepAlivePeriod%22%3A0.0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%221800-3000%22%2C%22maxConnections%22%3A2.0%7D%7D&fp=random#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5B%2ACIDR%5D",
     "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
@@ -80845,7 +80847,7 @@
     "last_error": "tcp_failed:ConnectionRefusedError"
   },
   "42b441bc0adb7add": {
-    "failures": 6,
+    "failures": 7,
     "last_latency": null,
     "url": "hysteria2://8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3@nl01ntrhy01.tcp-reset-club.net:443?alpn=h3&insecure=1&security=tls&sni=127.0.0.1#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%28Amsterdam-Zuidoost%29%20%7C%20%5BBL%5D",
     "source": "BLACK_SS+All_RUS.txt",
@@ -80986,10 +80988,10 @@
   },
   "f4ed8cbc69a6898b": {
     "failures": 0,
-    "last_latency": 3324.1,
+    "last_latency": 8798.1,
     "url": "vless://47b63e55-a4e4-43ce-97dc-946e6a26971d@5.181.201.44:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=bababoy.karp1pdd.life&pbk=98MNvJC4t0ZjK_xHlQjOx2WfLfAPluNDb71MzS9sPT8&sid=38018dde3e27335e&type=tcp&fp=edge#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS.txt",
-    "last_ok": 1790514606
+    "last_ok": 1790540893
   },
   "60de4d4ba7a9092a": {
     "failures": 0,
@@ -81350,17 +81352,17 @@
   },
   "3bdf26208680ab95": {
     "failures": 0,
-    "last_latency": 603.9,
+    "last_latency": 838.6,
     "url": "vless://cd3bb7d9-7df3-4644-ac05-c260990ac277@67.159.11.2:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=atatat.failspace.top&type=tcp&fp=chrome#%F0%9F%87%A6%F0%9F%87%B9%20Austria%2C%20Vienna%20%28Floridsdorf%29%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS_mobile.txt",
-    "last_ok": 1790531528
+    "last_ok": 1790540893
   },
   "176f6f268724325f": {
     "failures": 0,
-    "last_latency": 601.5,
+    "last_latency": 837.4,
     "url": "vless://cd3bb7d9-7df3-4644-ac05-c260990ac277@67.159.11.2:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=atatat.failspace.top&type=tcp&fp=safari#%F0%9F%87%A6%F0%9F%87%B9%20Austria%2C%20Vienna%20%28Floridsdorf%29%20%7C%20%5BBL%5D",
-    "source": "BLACK_VLESS_RUS_mobile.txt",
-    "last_ok": 1790531528
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_ok": 1790540893
   },
   "5c97a83c19e779a8": {
     "failures": 0,
@@ -81420,16 +81422,16 @@
   },
   "74928a3b6d373f97": {
     "failures": 0,
-    "last_latency": 2311.3,
+    "last_latency": 910.7,
     "url": "vless://51e493d4-b275-45e0-a714-e014f40b3c32@34.79.178.1:443?encryption=none&security=reality&type=tcp&sni=www.cloudflare.com&pbk=nTLhc6e5HMgO-hpD8RUMp0cd2t6p2_RqHLHM0P39_xA&sid=95ae4a39d3933191&fp=qq#%F0%9F%87%A7%F0%9F%87%AA%20Belgium%2C%20Brussels%20%7C%20%5BBL%5D",
-    "source": "BLACK_VLESS_RUS_mobile.txt",
-    "last_ok": 1790514606
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_ok": 1790540893
   },
   "bd62018cc8b1a904": {
-    "failures": 2,
+    "failures": 3,
     "last_latency": null,
     "url": "vless://0dca2cfe-98eb-4f9d-9a47-cf87510c558b@143.246.208.113:443?encryption=none&security=tls&serviceName=cdn.v1.AssetService&sni=assets-fr4.pleiades.codes&type=grpc&fp=firefox#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%5BBL%5D",
-    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "source": "BLACK_VLESS_RUS.txt",
     "last_error": "proxy_test_failed"
   },
   "7b7b9e1cbd3cccf7": {
@@ -81469,10 +81471,10 @@
   },
   "6966bab60785fdb8": {
     "failures": 0,
-    "last_latency": 2309.8,
+    "last_latency": 1196.6,
     "url": "vless://51e493d4-b275-45e0-a714-e014f40b3c32@34.79.178.1:443?encryption=none&security=reality&type=tcp&sni=www.cloudflare.com&pbk=nTLhc6e5HMgO-hpD8RUMp0cd2t6p2_RqHLHM0P39_xA&sid=95ae4a39d3933191&fp=chrome#%F0%9F%87%A7%F0%9F%87%AA%20Belgium%2C%20Brussels%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS.txt",
-    "last_ok": 1790531528,
+    "last_ok": 1790540893,
     "last_error": "second_test_failed"
   },
   "29a5f49d068c7ad8": {
@@ -81490,11 +81492,12 @@
     "last_ok": 1790531528
   },
   "a0163331cce60488": {
-    "failures": 0,
+    "failures": 1,
     "last_latency": 1060.8,
     "url": "vless://47b63e55-a4e4-43ce-97dc-946e6a26971d@5.181.201.44:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=bababoy.karp1pdd.life&pbk=98MNvJC4t0ZjK_xHlQjOx2WfLfAPluNDb71MzS9sPT8&sid=38018dde3e27335e&type=tcp&fp=firefox#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D",
-    "source": "BLACK_VLESS_RUS_mobile.txt",
-    "last_ok": 1790514606
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_ok": 1790514606,
+    "last_error": "proxy_test_failed"
   },
   "2ce223275fbd3e3f": {
     "failures": 0,
@@ -81505,10 +81508,10 @@
   },
   "5623ab33afd19917": {
     "failures": 0,
-    "last_latency": 2185.3,
+    "last_latency": 881.5,
     "url": "vless://51e493d4-b275-45e0-a714-e014f40b3c32@34.79.178.1:443?encryption=none&security=reality&type=tcp&sni=www.cloudflare.com&pbk=nTLhc6e5HMgO-hpD8RUMp0cd2t6p2_RqHLHM0P39_xA&sid=95ae4a39d3933191&fp=safari#%F0%9F%87%A7%F0%9F%87%AA%20Belgium%2C%20Brussels%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS.txt",
-    "last_ok": 1790531528
+    "last_ok": 1790540893
   },
   "bd1c330139a1644c": {
     "failures": 2,
@@ -81540,10 +81543,10 @@
   },
   "414b014e883af750": {
     "failures": 0,
-    "last_latency": 6975.5,
+    "last_latency": 2439.5,
     "url": "vless://47b63e55-a4e4-43ce-97dc-946e6a26971d@5.181.201.44:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=bababoy.karp1pdd.life&pbk=98MNvJC4t0ZjK_xHlQjOx2WfLfAPluNDb71MzS9sPT8&sid=38018dde3e27335e&type=tcp&fp=qq#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS_mobile.txt",
-    "last_ok": 1790514606
+    "last_ok": 1790540893
   },
   "5f420e3c6004cf2d": {
     "failures": 0,
@@ -81828,7 +81831,7 @@
     "last_error": "proxy_test_failed"
   },
   "91a26f90c6154a70": {
-    "failures": 2,
+    "failures": 3,
     "last_latency": null,
     "url": "vless://553d8193-d897-0037-bb46-f075b670f22a@84.38.187.169:443?encryption=none&security=reality&sni=mc.yandex.tr&pbk=rJMYW6mHgjs61mHxfm8Gmm_Re23sV_xe5b0IrTpLsiQ&sid=94c9dbbf07366d96&type=xhttp&path=%2Fscript&mode=auto&extra=%7B%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0.0%2C%22hKeepAlivePeriod%22%3A0.0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%221800-3000%22%2C%22maxConnections%22%3A2.0%7D%7D&fp=ios#%F0%9F%87%B1%F0%9F%87%BB%20Latvia%20%5B%2ACIDR%5D",
     "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
@@ -81863,7 +81866,7 @@
     "last_error": "proxy_test_failed"
   },
   "526b74c34eff63b1": {
-    "failures": 4,
+    "failures": 5,
     "last_latency": null,
     "url": "vless://553d8193-d897-0024-bb46-f075b670f22a@161.104.38.98:443?encryption=none&security=reality&sni=donatov.net&pbk=kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE&sid=8ba6e72ee60667f6&type=xhttp&path=%2Fassets&mode=packet-up&extra=%7B%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0.0%2C%22hKeepAlivePeriod%22%3A0.0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%221800-3000%22%2C%22maxConnections%22%3A2.0%7D%7D&fp=chrome#%F0%9F%87%B8%F0%9F%87%AA%20Sweden%20%5B%2ACIDR%5D",
     "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
@@ -81990,14 +81993,14 @@
     "last_error": "proxy_test_failed"
   },
   "04171730a9eabceb": {
-    "failures": 4,
+    "failures": 5,
     "last_latency": null,
     "url": "vless://553d8193-d897-0032-bb46-f075b670f22a@161.104.38.98:443?encryption=none&security=reality&sni=donatov.net&pbk=kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE&sid=8ba6e72ee60667f6&type=xhttp&path=%2Fassets&mode=packet-up&extra=%7B%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0.0%2C%22hKeepAlivePeriod%22%3A0.0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%221800-3000%22%2C%22maxConnections%22%3A2.0%7D%7D&fp=chrome#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D",
     "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
     "last_error": "proxy_test_failed"
   },
   "91e801fa76eb7396": {
-    "failures": 4,
+    "failures": 5,
     "last_latency": null,
     "url": "vless://553d8193-d897-0032-bb46-f075b670f22a@161.104.38.98:443?encryption=none&security=reality&sni=donatov.net&pbk=kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE&sid=8ba6e72ee60667f6&type=xhttp&path=%2Fassets&mode=packet-up&extra=%7B%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0.0%2C%22hKeepAlivePeriod%22%3A0.0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%221800-3000%22%2C%22maxConnections%22%3A2.0%7D%7D&fp=ios#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D",
     "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
@@ -82061,28 +82064,28 @@
     "last_error": "second_test_failed"
   },
   "e8ed01aef90ece18": {
-    "failures": 2,
+    "failures": 3,
     "last_latency": null,
     "url": "hysteria2://02bd8b5a-170b-4a79-8e68-9cec710272c7@fi2.chromevpn.cc:443#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D",
     "source": "BLACK_SS+All_RUS.txt",
     "last_error": "tcp_failed:ConnectionRefusedError"
   },
   "642735685cec34e9": {
-    "failures": 4,
+    "failures": 5,
     "last_latency": null,
     "url": "hysteria2://5d0a6445-a30d-4522-bb1f-94f1d3ad63be@103.117.141.124:2060?sni=mlxy1.mangshe.xyz&insecure=1#%F0%9F%87%B2%F0%9F%87%BE%20Malaysia%2C%20Cyberjaya%20%7C%20%5BBL%5D",
     "source": "BLACK_SS+All_RUS.txt",
     "last_error": "tcp_failed:ConnectionRefusedError"
   },
   "42bab365db255861": {
-    "failures": 4,
+    "failures": 5,
     "last_latency": null,
     "url": "hysteria2://5d0a6445-a30d-4522-bb1f-94f1d3ad63be@xg1.mangshe.xyz:2060?sni=xg1.mangshe.xyz&insecure=1#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%2C%20Hong%20Kong%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D",
     "source": "BLACK_SS+All_RUS.txt",
     "last_error": "tcp_failed:ConnectionRefusedError"
   },
   "3b8d1f49860f80b3": {
-    "failures": 2,
+    "failures": 3,
     "last_latency": null,
     "url": "hysteria2://5d0a6445-a30d-4522-bb1f-94f1d3ad63be@xjp1.mangshe.xyz:2060?sni=xjp1.mangshe.xyz&insecure=1#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D",
     "source": "BLACK_SS+All_RUS.txt",
@@ -82103,14 +82106,14 @@
     "last_error": "tcp_failed:TimeoutError"
   },
   "66dfbeff52206450": {
-    "failures": 4,
+    "failures": 5,
     "last_latency": null,
     "url": "hysteria2://Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0@85.204.107.190:8443?sni=hopp-romania-new.roxa.org&insecure=1&alpn=h3#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%5BBL%5D",
     "source": "BLACK_SS+All_RUS.txt",
     "last_error": "tcp_failed:TimeoutError"
   },
   "6bfa245440d2d259": {
-    "failures": 4,
+    "failures": 5,
     "last_latency": null,
     "url": "hysteria2://s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z@77.74.123.100:8443?sni=grape-test-italy.dynuddns.net&insecure=1&alpn=h3#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%5BBL%5D",
     "source": "BLACK_SS+All_RUS.txt",
@@ -82202,10 +82205,10 @@
     "last_error": "tcp_failed:TimeoutError"
   },
   "3fe9898785b5237a": {
-    "failures": 2,
+    "failures": 3,
     "last_latency": null,
     "url": "vless://eec2f6a7-c10f-43b0-b133-61f9bf9bbc27@45.130.254.10:443?encryption=none&flow=xtls-rprx-vision&pbk=G8SING6Ibc_igZ5vI5578fXCT_mBMRuq_o8_Ymnj2SQ&security=reality&sid=eba1498e012ef580&sni=amazon.de&type=tcp&fp=firefox#%F0%9F%87%B5%F0%9F%87%AD%20Philippines%2C%20Butuan%20%7C%20%5BBL%5D",
-    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "source": "BLACK_VLESS_RUS.txt",
     "last_error": "tcp_failed:TimeoutError"
   },
   "50cfa3a24d5a2c8f": {
@@ -82217,7 +82220,7 @@
     "last_ok": 1790531528
   },
   "10455116c6f0029f": {
-    "failures": 4,
+    "failures": 5,
     "last_latency": null,
     "url": "hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?sni=hy.quattro-tech.ru&insecure=0#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D",
     "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
@@ -82281,7 +82284,7 @@
     "last_error": "proxy_test_failed"
   },
   "b7c2bc11c54576ba": {
-    "failures": 2,
+    "failures": 3,
     "last_latency": null,
     "url": "vmess://eyJhZGQiOiIyMC4yMzUuMjIwLjE4OSIsImlkIjoiZjIzYmI0MjdjMWY5NDM3Mzg3NmMyZjQzZTlmNzkwZjMiLCJwb3J0IjoiNDQzIiwic2N5IjoiYXV0byIsInYiOiIyIiwibmV0Ijoid3MiLCJob3N0IjoiNkpEdkFyYXpnVTNxUVI2US52LjNkbnMudmlwIiwicGF0aCI6Ii93cy12bWVzcyIsInRscyI6InRscyIsImFscG4iOiIiLCJmcCI6IiIsInNuaSI6IjZKRHZBcmF6Z1UzcVFSNlEudi4zZG5zLnZpcCIsInBzIjoi8J+HrfCfh7AgSG9uZyBLb25nLCBIb25nIEtvbmcgfCBbQkxdIiwiYWlkIjoiMCIsInR5cGUiOiJub25lIn0=",
     "source": "BLACK_SS+All_RUS.txt",
@@ -82303,10 +82306,10 @@
   },
   "1f9b5b5bde6129f6": {
     "failures": 0,
-    "last_latency": 2425.8,
+    "last_latency": 889.5,
     "url": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5YmlubVZUNThXbnI2dk56eHVfSm1wekVXNmktRmdBag@80.97.27.106:114#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%2C%20Tallinn%20%7C%20%5BBL%5D",
     "source": "BLACK_SS_WEAK_DPI_RUS.txt",
-    "last_ok": 1790531528
+    "last_ok": 1790540893
   },
   "7f4bcd0ce6ab3c3a": {
     "failures": 0,
@@ -82443,10 +82446,10 @@
   },
   "b5280f42f64f86bc": {
     "failures": 0,
-    "last_latency": 2157.4,
+    "last_latency": 1320.5,
     "url": "vless://51e493d4-b275-45e0-a714-e014f40b3c32@34.79.178.1:443?encryption=none&security=reality&type=tcp&sni=www.cloudflare.com&pbk=nTLhc6e5HMgO-hpD8RUMp0cd2t6p2_RqHLHM0P39_xA&sid=95ae4a39d3933191&fp=firefox#%F0%9F%87%A7%F0%9F%87%AA%20Belgium%2C%20Brussels%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS.txt",
-    "last_ok": 1790531528
+    "last_ok": 1790540893
   },
   "586e167b78fcc6af": {
     "failures": 2,
@@ -82463,7 +82466,7 @@
     "last_error": "proxy_test_failed"
   },
   "a205af68f15b4ad8": {
-    "failures": 2,
+    "failures": 3,
     "last_latency": null,
     "url": "vless://ae0d0211-b7dc-461d-9d41-1eb224876f30@ee2.responsiblecare.uk:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&sni=ee2.responsiblecare.uk&pbk=nilJ07r1KZ0-KhmRNYeICXGhM9HeG9uxnRaqjYz3fWg&sid=13171b0dd8985179&fp=android#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%2C%20Tallinn%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS.txt",
@@ -82477,14 +82480,14 @@
     "last_ok": 1790531528
   },
   "361568b080fe4e89": {
-    "failures": 2,
+    "failures": 3,
     "last_latency": null,
     "url": "vless://ae0d0211-b7dc-461d-9d41-1eb224876f30@ee2.responsiblecare.uk:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&sni=ee2.responsiblecare.uk&pbk=nilJ07r1KZ0-KhmRNYeICXGhM9HeG9uxnRaqjYz3fWg&sid=13171b0dd8985179&fp=chrome#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%2C%20Tallinn%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS.txt",
     "last_error": "proxy_test_failed"
   },
   "193ab50f497186b2": {
-    "failures": 2,
+    "failures": 3,
     "last_latency": null,
     "url": "vless://3d9daa27-6283-406d-a2d4-c6f22c635a14@es.astrafic.ru:443?encryption=none&type=xhttp&security=tls&sni=es.astrafic.ru&alpn=h2%2Chttp%2F1.1&path=%2Fes-vless&mode=stream-up&fp=chrome#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%2C%20Tallinn%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS.txt",
@@ -82505,21 +82508,21 @@
     "last_ok": 1790531528
   },
   "ce652d3005b3946a": {
-    "failures": 2,
+    "failures": 3,
     "last_latency": null,
     "url": "vless://4e94bbd3-e785-480a-a945-59d8243e6867@152.89.244.43:8443?encryption=none&type=xhttp&security=reality&sni=assets-ed0e.qorecache.cc&pbk=9YODtx3Flz7_r4Q8v6t5YaP5lD7Ed7ebZYt4FVjsGVY&sid=427501beb89ffaec&path=%2Fedge%2F0ec204dffd44%2F&host=assets-ed0e.qorecache.cc&mode=auto&extra=%7B%22noGRPCHeader%22%3Afalse%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%22900-1800%22%2C%22maxConcurrency%22%3A0%2C%22maxConnections%22%3A2%7D%7D&fp=firefox#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS.txt",
     "last_error": "proxy_test_failed"
   },
   "b0569d480b18bbaf": {
-    "failures": 2,
+    "failures": 3,
     "last_latency": null,
     "url": "vless://3d9daa27-6283-406d-a2d4-c6f22c635a14@es.astrafic.ru:443?encryption=none&type=xhttp&security=tls&sni=es.astrafic.ru&alpn=h2%2Chttp%2F1.1&path=%2Fes-vless&mode=stream-up&fp=edge#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%2C%20Tallinn%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS.txt",
     "last_error": "proxy_test_failed"
   },
   "c51dfb7394223eeb": {
-    "failures": 2,
+    "failures": 3,
     "last_latency": null,
     "url": "vless://4e94bbd3-e785-480a-a945-59d8243e6867@152.89.244.43:8443?encryption=none&type=xhttp&security=reality&sni=assets-ed0e.qorecache.cc&pbk=9YODtx3Flz7_r4Q8v6t5YaP5lD7Ed7ebZYt4FVjsGVY&sid=427501beb89ffaec&path=%2Fedge%2F0ec204dffd44%2F&host=assets-ed0e.qorecache.cc&mode=auto&extra=%7B%22noGRPCHeader%22%3Afalse%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%22900-1800%22%2C%22maxConcurrency%22%3A0%2C%22maxConnections%22%3A2%7D%7D&fp=qq#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS.txt",
@@ -82527,10 +82530,10 @@
   },
   "e112f807ef8559ce": {
     "failures": 0,
-    "last_latency": 2270.4,
+    "last_latency": 1361.9,
     "url": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5YmlubVZUNThXbnI2dk56eHVfSm1wekVXNmktRmdBag@80.97.27.106:117#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%2C%20Coventry%20%7C%20%5BBL%5D",
     "source": "BLACK_SS_WEAK_DPI_RUS.txt",
-    "last_ok": 1790531528
+    "last_ok": 1790540893
   },
   "4263b093a690c779": {
     "failures": 2,
@@ -82589,14 +82592,14 @@
     "last_error": "proxy_test_failed"
   },
   "177b10f5796b7824": {
-    "failures": 2,
+    "failures": 3,
     "last_latency": null,
     "url": "vless://4e94bbd3-e785-480a-a945-59d8243e6867@88.216.127.220:8443?encryption=none&type=xhttp&security=reality&sni=relay-3c61.strixedge.cc&pbk=olhEFLQwrlDOP4TEtsWWMAUzPo7mhe-LlFvqb4ThP1Y&sid=2eb0cf5bf22f88cb&path=%2Fedge%2F60c2864a48bb%2F&host=relay-3c61.strixedge.cc&mode=auto&extra=%7B%22noGRPCHeader%22%3Afalse%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%22900-1800%22%2C%22maxConcurrency%22%3A0%2C%22maxConnections%22%3A2%7D%7D&fp=chrome#%F0%9F%87%B1%F0%9F%87%B9%20Lithuania%2C%20%C5%A0iauliai%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS.txt",
     "last_error": "proxy_test_failed"
   },
   "6058eda0895210d9": {
-    "failures": 2,
+    "failures": 3,
     "last_latency": null,
     "url": "vless://4e94bbd3-e785-480a-a945-59d8243e6867@88.216.127.220:8443?encryption=none&type=xhttp&security=reality&sni=relay-3c61.strixedge.cc&pbk=olhEFLQwrlDOP4TEtsWWMAUzPo7mhe-LlFvqb4ThP1Y&sid=2eb0cf5bf22f88cb&path=%2Fedge%2F60c2864a48bb%2F&host=relay-3c61.strixedge.cc&mode=auto&extra=%7B%22noGRPCHeader%22%3Afalse%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%22900-1800%22%2C%22maxConcurrency%22%3A0%2C%22maxConnections%22%3A2%7D%7D&fp=qq#%F0%9F%87%B1%F0%9F%87%B9%20Lithuania%2C%20%C5%A0iauliai%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS.txt",
@@ -82611,31 +82614,31 @@
   },
   "aa7fbbf2076829df": {
     "failures": 0,
-    "last_latency": 556.4,
+    "last_latency": 5724.9,
     "url": "vless://7013d889-14f4-4475-a5ff-a5ecd992b522@222.167.248.157:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=www.google.com&pbk=9H_heZMEI3tShkb5pXRrlAzwGWIzGFCRX_HgyPdktnU&allowInsecure=1&fp=firefox#%F0%9F%87%B5%F0%9F%87%B1%20Poland%2C%20Warsaw%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS.txt",
-    "last_ok": 1790531528
+    "last_ok": 1790540893
   },
   "0e76ba75572a4896": {
     "failures": 0,
-    "last_latency": 1448.1,
+    "last_latency": 1040.2,
     "url": "vless://7013d889-14f4-4475-a5ff-a5ecd992b522@222.167.248.156:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=www.google.com&pbk=9H_heZMEI3tShkb5pXRrlAzwGWIzGFCRX_HgyPdktnU&allowInsecure=1&fp=safari#%F0%9F%87%B5%F0%9F%87%B1%20Poland%2C%20Warsaw%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS.txt",
-    "last_ok": 1790531528
+    "last_ok": 1790540893
   },
   "d65837b59620ba7f": {
     "failures": 0,
-    "last_latency": 577.2,
+    "last_latency": 5463.6,
     "url": "vless://7013d889-14f4-4475-a5ff-a5ecd992b522@222.167.248.157:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=www.google.com&pbk=9H_heZMEI3tShkb5pXRrlAzwGWIzGFCRX_HgyPdktnU&allowInsecure=1&fp=safari#%F0%9F%87%B5%F0%9F%87%B1%20Poland%2C%20Warsaw%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS.txt",
-    "last_ok": 1790531528
+    "last_ok": 1790540893
   },
   "fcd74019a0f56ddc": {
     "failures": 0,
-    "last_latency": 1320.4,
+    "last_latency": 749.7,
     "url": "vless://7013d889-14f4-4475-a5ff-a5ecd992b522@222.167.248.156:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=www.google.com&pbk=9H_heZMEI3tShkb5pXRrlAzwGWIzGFCRX_HgyPdktnU&allowInsecure=1&fp=chrome#%F0%9F%87%B5%F0%9F%87%B1%20Poland%2C%20Warsaw%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS.txt",
-    "last_ok": 1790531528
+    "last_ok": 1790540893
   },
   "5a7b0d9ac277a006": {
     "failures": 2,
@@ -82646,10 +82649,10 @@
   },
   "61ad44770c6b215b": {
     "failures": 0,
-    "last_latency": 2217.6,
+    "last_latency": 4477.1,
     "url": "vless://834e5553-d80e-4078-8d7e-482fafe9bbaf@dl2.musicworldtg.com:2018?encryption=none&security=reality&type=tcp&headerType=none&sni=gemini.com&pbk=Sn8z3wbt2Zpoo3mO3HLW6TZTjN8231Ylka7apFNb2X0&sid=cd5f260bcdd9c92d&fp=firefox#%F0%9F%87%B7%F0%9F%87%B4%20Romania%2C%20Bucharest%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS.txt",
-    "last_ok": 1790531528
+    "last_ok": 1790540893
   },
   "9bf5e42264816a46": {
     "failures": 2,
@@ -82660,13 +82663,13 @@
   },
   "b47bbd396616c931": {
     "failures": 0,
-    "last_latency": 3868.4,
+    "last_latency": 4266.0,
     "url": "vless://834e5553-d80e-4078-8d7e-482fafe9bbaf@dl2.musicworldtg.com:2018?encryption=none&security=reality&type=tcp&headerType=none&sni=gemini.com&pbk=Sn8z3wbt2Zpoo3mO3HLW6TZTjN8231Ylka7apFNb2X0&sid=cd5f260bcdd9c92d&fp=chrome#%F0%9F%87%B7%F0%9F%87%B4%20Romania%2C%20Bucharest%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS.txt",
-    "last_ok": 1790531528
+    "last_ok": 1790540893
   },
   "f3840867fa906a12": {
-    "failures": 2,
+    "failures": 3,
     "last_latency": null,
     "url": "vless://4e94bbd3-e785-480a-a945-59d8243e6867@88.216.223.4:8443?encryption=none&type=xhttp&security=reality&sni=edge-399a.qorecache.cc&pbk=4UFlBIuBCcTX5lKd6wZSp7uGwmN2MPt40peZCX8VnE0&sid=4e758137c40bdb36&path=%2Fedge%2F9cbb3f3dfe4a%2F&host=edge-399a.qorecache.cc&mode=auto&extra=%7B%22noGRPCHeader%22%3Afalse%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%22900-1800%22%2C%22maxConcurrency%22%3A0%2C%22maxConnections%22%3A2%7D%7D&fp=edge#%F0%9F%87%B8%F0%9F%87%AA%20Sweden%2C%20Stockholm%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS.txt",
@@ -82680,7 +82683,7 @@
     "last_ok": 1790531528
   },
   "9b7fd1b1a5713276": {
-    "failures": 2,
+    "failures": 3,
     "last_latency": null,
     "url": "vless://4e94bbd3-e785-480a-a945-59d8243e6867@88.216.223.4:8443?encryption=none&type=xhttp&security=reality&sni=edge-399a.qorecache.cc&pbk=4UFlBIuBCcTX5lKd6wZSp7uGwmN2MPt40peZCX8VnE0&sid=4e758137c40bdb36&path=%2Fedge%2F9cbb3f3dfe4a%2F&host=edge-399a.qorecache.cc&mode=auto&extra=%7B%22noGRPCHeader%22%3Afalse%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%22900-1800%22%2C%22maxConcurrency%22%3A0%2C%22maxConnections%22%3A2%7D%7D&fp=qq#%F0%9F%87%B8%F0%9F%87%AA%20Sweden%2C%20Stockholm%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS.txt",
@@ -82914,7 +82917,7 @@
     "last_ok": 1790531528
   },
   "5d4e8c9f60f373fd": {
-    "failures": 1,
+    "failures": 2,
     "last_latency": 4639.3,
     "url": "vless://85261643-2fd5-4889-8da9-43abc3c08405@130.49.188.4:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=lk.s.dn.iki-servers.com&pbk=GW-DWwk3vtXtXBEqQxY_Cf83JIisyyk34rUrtkMZ90g&spx=%2F&type=tcp&fp=random#%F0%9F%87%A9%F0%9F%87%B0%20Denmark%2C%20R%C3%B8dding%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS.txt",
@@ -82943,7 +82946,7 @@
     "last_error": "proxy_test_failed"
   },
   "f5b438cc0a623b79": {
-    "failures": 2,
+    "failures": 3,
     "last_latency": null,
     "url": "vless://ae0d0211-b7dc-461d-9d41-1eb224876f30@ee2.responsiblecare.uk:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&sni=ee2.responsiblecare.uk&pbk=nilJ07r1KZ0-KhmRNYeICXGhM9HeG9uxnRaqjYz3fWg&sid=13171b0dd8985179&fp=qq#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%2C%20Tallinn%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS_mobile.txt",
@@ -82957,7 +82960,7 @@
     "last_error": "proxy_test_failed"
   },
   "bb8becd238679b67": {
-    "failures": 2,
+    "failures": 3,
     "last_latency": null,
     "url": "vless://ae0d0211-b7dc-461d-9d41-1eb224876f30@ee2.responsiblecare.uk:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&sni=ee2.responsiblecare.uk&pbk=nilJ07r1KZ0-KhmRNYeICXGhM9HeG9uxnRaqjYz3fWg&sid=13171b0dd8985179&fp=safari#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%2C%20Tallinn%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS_mobile.txt",
@@ -82999,32 +83002,32 @@
     "last_error": "proxy_test_failed"
   },
   "524c0e298d699e01": {
-    "failures": 2,
+    "failures": 3,
     "last_latency": null,
     "url": "vless://eb98ab60-f16d-4662-a740-c89307400939@151.101.213.164:443?encryption=none&security=tls&sni=accounts.fastly.com&type=xhttp&path=%2F&host=fretranxrabet.net&mode=auto&fp=qq#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS_mobile.txt",
     "last_error": "proxy_test_failed"
   },
   "2fff4cf10551a322": {
-    "failures": 2,
+    "failures": 3,
     "last_latency": null,
     "url": "vless://4e94bbd3-e785-480a-a945-59d8243e6867@152.89.244.43:8443?encryption=none&type=xhttp&security=reality&sni=assets-ed0e.qorecache.cc&pbk=9YODtx3Flz7_r4Q8v6t5YaP5lD7Ed7ebZYt4FVjsGVY&sid=427501beb89ffaec&path=%2Fedge%2F0ec204dffd44%2F&host=assets-ed0e.qorecache.cc&mode=auto&extra=%7B%22noGRPCHeader%22%3Afalse%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%22900-1800%22%2C%22maxConcurrency%22%3A0%2C%22maxConnections%22%3A2%7D%7D&fp=chrome#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D",
-    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "source": "BLACK_VLESS_RUS.txt",
     "last_error": "proxy_test_failed"
   },
   "c2664a100098cca9": {
     "failures": 0,
-    "last_latency": 695.1,
+    "last_latency": 688.4,
     "url": "vless://7013d889-14f4-4475-a5ff-a5ecd992b522@222.167.248.156:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=www.google.com&pbk=9H_heZMEI3tShkb5pXRrlAzwGWIzGFCRX_HgyPdktnU&allowInsecure=1&fp=qq#%F0%9F%87%B5%F0%9F%87%B1%20Poland%2C%20Warsaw%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D",
-    "source": "BLACK_VLESS_RUS_mobile.txt",
-    "last_ok": 1790531528
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_ok": 1790540893
   },
   "f72ee57eae5c520f": {
     "failures": 0,
-    "last_latency": 517.3,
+    "last_latency": 1332.3,
     "url": "vless://7013d889-14f4-4475-a5ff-a5ecd992b522@222.167.248.157:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=www.google.com&pbk=9H_heZMEI3tShkb5pXRrlAzwGWIzGFCRX_HgyPdktnU&allowInsecure=1&fp=chrome#%F0%9F%87%B5%F0%9F%87%B1%20Poland%2C%20Warsaw%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS_mobile.txt",
-    "last_ok": 1790531528
+    "last_ok": 1790540893
   },
   "5afd57c715c64540": {
     "failures": 2,
@@ -83035,20 +83038,20 @@
   },
   "399206c5270019b2": {
     "failures": 0,
-    "last_latency": 559.8,
+    "last_latency": 783.2,
     "url": "vless://7013d889-14f4-4475-a5ff-a5ecd992b522@222.167.248.157:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=www.google.com&pbk=9H_heZMEI3tShkb5pXRrlAzwGWIzGFCRX_HgyPdktnU&allowInsecure=1&fp=qq#%F0%9F%87%B5%F0%9F%87%B1%20Poland%2C%20Warsaw%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS_mobile.txt",
-    "last_ok": 1790531528
+    "last_ok": 1790540893
   },
   "5f224fddddd2dfd9": {
-    "failures": 2,
+    "failures": 3,
     "last_latency": null,
     "url": "vless://3d9daa27-6283-406d-a2d4-c6f22c635a14@es.astrafic.ru:443?encryption=none&type=xhttp&security=tls&sni=es.astrafic.ru&alpn=h2%2Chttp%2F1.1&path=%2Fes-vless&mode=stream-up&fp=safari#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%2C%20Tallinn%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS_mobile.txt",
     "last_error": "proxy_test_failed"
   },
   "df6586bcfbde9dc7": {
-    "failures": 2,
+    "failures": 3,
     "last_latency": null,
     "url": "vless://3d9daa27-6283-406d-a2d4-c6f22c635a14@es.astrafic.ru:443?encryption=none&type=xhttp&security=tls&sni=es.astrafic.ru&alpn=h2%2Chttp%2F1.1&path=%2Fes-vless&mode=stream-up&fp=qq#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%2C%20Tallinn%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS_mobile.txt",
@@ -83119,10 +83122,10 @@
     "last_error": "proxy_test_failed"
   },
   "3630c139eff35926": {
-    "failures": 2,
+    "failures": 3,
     "last_latency": null,
     "url": "vless://4e94bbd3-e785-480a-a945-59d8243e6867@88.216.223.4:8443?encryption=none&type=xhttp&security=reality&sni=edge-399a.qorecache.cc&pbk=4UFlBIuBCcTX5lKd6wZSp7uGwmN2MPt40peZCX8VnE0&sid=4e758137c40bdb36&path=%2Fedge%2F9cbb3f3dfe4a%2F&host=edge-399a.qorecache.cc&mode=auto&extra=%7B%22noGRPCHeader%22%3Afalse%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%22900-1800%22%2C%22maxConcurrency%22%3A0%2C%22maxConnections%22%3A2%7D%7D&fp=chrome#%F0%9F%87%B8%F0%9F%87%AA%20Sweden%2C%20Stockholm%20%7C%20%5BBL%5D",
-    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "source": "BLACK_VLESS_RUS.txt",
     "last_error": "proxy_test_failed"
   },
   "685d1c52e0f21ea5": {
@@ -83232,10 +83235,10 @@
   },
   "6431cf958c84a18e": {
     "failures": 0,
-    "last_latency": 4684.6,
+    "last_latency": 9128.0,
     "url": "vless://834e5553-d80e-4078-8d7e-482fafe9bbaf@dl2.musicworldtg.com:2018?encryption=none&security=reality&type=tcp&headerType=none&sni=gemini.com&pbk=Sn8z3wbt2Zpoo3mO3HLW6TZTjN8231Ylka7apFNb2X0&sid=cd5f260bcdd9c92d&fp=qq#%F0%9F%87%B7%F0%9F%87%B4%20Romania%2C%20Bucharest%20%7C%20%5BBL%5D",
     "source": "BLACK_VLESS_RUS_mobile.txt",
-    "last_ok": 1790531528
+    "last_ok": 1790540893
   },
   "1af29cd5ca416968": {
     "failures": 2,
@@ -83779,17 +83782,17 @@
     "last_error": "proxy_test_failed"
   },
   "3b9106d31fac1f02": {
-    "failures": 2,
+    "failures": 3,
     "last_latency": null,
     "url": "vless://1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200@84.201.180.13:443?encryption=none&extra=null&fp=firefox&host=api-maps.yandex.ru&pbk=DuxQy3KWEZTU_sBhXSfeo_1Q0-0lMcSnx21bWvUi5hQ&security=reality&sni=api-maps.yandex.ru&type=xhttp#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%5B%2ACIDR%5D%20YA",
-    "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
+    "source": "Export/v2rayN_PC/WHITE-CIDR-RU-checked-v2rayN.txt",
     "last_error": "proxy_test_failed"
   },
   "14e1b905c23ce78a": {
-    "failures": 2,
+    "failures": 3,
     "last_latency": null,
     "url": "vless://1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200@84.201.180.13:443?mode=auto&path=%2F&security=reality&encryption=none&pbk=DuxQy3KWEZTU_sBhXSfeo_1Q0-0lMcSnx21bWvUi5hQ&fp=firefox&type=xhttp&sni=api-maps.yandex.ru#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%5B%2ACIDR%5D%20YA",
-    "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
+    "source": "Export/v2rayN_PC/WHITE-CIDR-RU-checked-v2rayN.txt",
     "last_error": "proxy_test_failed"
   },
   "149e3bf8c8d11ac6": {
@@ -83976,7 +83979,7 @@
     "last_error": "proxy_test_failed"
   },
   "888649eaa347e67a": {
-    "failures": 2,
+    "failures": 3,
     "last_latency": null,
     "url": "vless://553d8193-d897-0032-bb46-f075b670f22a@161.104.38.98:443?encryption=none&security=reality&sni=donatov.net&pbk=kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE&sid=8ba6e72ee60667f6&type=xhttp&path=%2Fassets&host=161.104.38.98&mode=auto&fp=ios#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D",
     "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
@@ -84315,10 +84318,10 @@
     "last_error": "tcp_failed:TimeoutError"
   },
   "0f3eeec034ef2aac": {
-    "failures": 2,
+    "failures": 3,
     "last_latency": null,
     "url": "vless://85261643-2fd5-4889-8da9-43abc3c08405@130.49.188.4:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=lk.s.dn.iki-servers.com&pbk=GW-DWwk3vtXtXBEqQxY_Cf83JIisyyk34rUrtkMZ90g&spx=%2F&type=tcp&fp=chrome#%F0%9F%87%A9%F0%9F%87%B0%20Denmark%2C%20R%C3%B8dding%20%7C%20%5BBL%5D",
-    "source": "BLACK_VLESS_RUS.txt",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
     "last_error": "tcp_failed:TimeoutError"
   },
   "68c9ce53691a93d1": {
@@ -84409,6 +84412,1119 @@
     "failures": 2,
     "last_latency": null,
     "url": "hysteria2://d900526f-30d7-4f4b-9dbe-e98f17b6fbcc@vpn.ai-boost.tech:2086?sni=vpn.ai-boost.tech&insecure=1&alpn=h3#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%AA%F0%9F%87%B8%20%F0%9F%87%B3%F0%9F%87%B1%20%F0%9F%87%BA%F0%9F%87%B8%20%5B%2ACIDR%5D",
+    "source": "WHITE-CIDR-RU-all.txt",
+    "last_error": "tcp_failed:TimeoutError"
+  },
+  "02387b4421d60481": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://61da8f4b-6ab1-4ca7-bae0-1cec4f9be2f8@13.143.166.112:443?type=tcp&security=reality&flow=xtls-rprx-vision&pbk=V-cWjK_GZ0PTJ3wnUHgwey_dNWI6_QNXsC9CdmA0mVI&sid=408c85938839e89f&sni=unpkg.com&fp=android#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "b9d776fa9c384b1e": {
+    "failures": 0,
+    "last_latency": 743.4,
+    "url": "vless://68d89911-b92d-46fe-9007-3645c3b285f0@2.26.101.148:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=se.chick-chirik.com&pbk=RjRxUMkBaWZPU2GlovSFYV4UdIFhc2LETtVUJVgoVj8&sid=e9eb910e5af883e3&type=tcp&fp=edge#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_ok": 1790540893
+  },
+  "0754b1fefe7e008c": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vmess://eyJhZGQiOiJxdGtkcjhqeGUzd2VmeGptLnYuM2Rucy52aXAiLCJhaWQiOiIwIiwiaG9zdCI6InFUS0RSOGpYRTN3RUZ4Sk0udi4zZG5zLnZpcCIsImlkIjoiZjIzYmI0MjdjMWY5NDM3Mzg3NmMyZjQzZTlmNzkwZjMiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3Mtdm1lc3MiLCJwb3J0IjoiNDQzIiwicHMiOiIu8JallCDdgSDLlta08J+buOC8hMuWwrAuIHwgW0JMXSIsInNlY3VyaXR5IjoiYXV0byIsInNuaSI6InFUS0RSOGpYRTN3RUZ4Sk0udi4zZG5zLnZpcCIsInRscyI6InRscyIsInYiOiIyIiwidHlwZSI6Im5vbmUiLCJzY3kiOiJhdXRvIiwiYWxwbiI6IiIsImZwIjoiIn0=",
+    "source": "BLACK_SS+All_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "549b3072f7dd72a5": {
+    "failures": 0,
+    "last_latency": 1038.6,
+    "url": "vless://68d89911-b92d-46fe-9007-3645c3b285f0@2.26.101.148:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=se.chick-chirik.com&pbk=RjRxUMkBaWZPU2GlovSFYV4UdIFhc2LETtVUJVgoVj8&sid=e9eb910e5af883e3&type=tcp&fp=random#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_ok": 1790540893
+  },
+  "dfcdb7bd0ac2efbf": {
+    "failures": 0,
+    "last_latency": 919.7,
+    "url": "vless://cd3bb7d9-7df3-4644-ac05-c260990ac277@atatat.failspace.top:443?security=tls&flow=xtls-rprx-vision&sni=atatat.failspace.top&fp=firefox#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_ok": 1790540893
+  },
+  "601bc2f08e50e072": {
+    "failures": 0,
+    "last_latency": 724.3,
+    "url": "vless://cd3bb7d9-7df3-4644-ac05-c260990ac277@nl-dedic-mori-4.failspace.top:443?security=tls&flow=xtls-rprx-vision&sni=nl-dedic-mori-4.failspace.top&encryption=none&type=tcp&fp=firefox#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_ok": 1790540893
+  },
+  "6ead81930d54867d": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://0dca2cfe-98eb-4f9d-9a47-cf87510c558b@assets-nl3.pleiades.codes:443?encryption=none&security=tls&sni=assets-nl3.pleiades.codes&type=grpc&serviceName=cdn.v1.AssetService&fp=firefox#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "3a57142317f23d63": {
+    "failures": 0,
+    "last_latency": 3003.2,
+    "url": "vless://61da8f4b-6ab1-4ca7-bae0-1cec4f9be2f8@13.143.166.112:443?type=tcp&security=reality&flow=xtls-rprx-vision&pbk=V-cWjK_GZ0PTJ3wnUHgwey_dNWI6_QNXsC9CdmA0mVI&sid=408c85938839e89f&sni=unpkg.com&fp=qq#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_ok": 1790540893
+  },
+  "e492249963da194e": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vmess://eyJ2IjoiMiIsInBzIjoiLvCWpZQg3YEgy5bWtPCfm7jgvITLlsKwLiB8IFtCTF0iLCJhZGQiOiJpMnBzbTNrbm9mNXFqaml4LnYuM2Rucy52aXAiLCJwb3J0IjoiNDQzIiwiaWQiOiJmMjNiYjQyN2MxZjk0MzczODc2YzJmNDNlOWY3OTBmMyIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoibm9uZSIsInRscyI6InRscyIsInNuaSI6ImkycHNtM2tub2Y1cWpqaXgudi4zZG5zLnZpcCIsInBhdGgiOiIvd3Mtdm1lc3MiLCJob3N0IjoiIiwiYWxwbiI6IiIsImZwIjoiIn0=",
+    "source": "BLACK_SS+All_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "97b62b35dc95d7c1": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://0dca2cfe-98eb-4f9d-9a47-cf87510c558b@assets-nl3.pleiades.codes:443?encryption=none&security=tls&sni=assets-nl3.pleiades.codes&type=grpc&serviceName=cdn.v1.AssetService&fp=safari#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "cac45774ecfc6d33": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "trojan://sg-trojan-2026@43.173.90.202:443?allowInsecure=1&insecure=1&security=tls&sni=sg-proxy.local&type=tcp&headerType=none&fp=edge#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D",
+    "source": "BLACK_SS+All_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "ebd5939a6ba29661": {
+    "failures": 0,
+    "last_latency": 827.6,
+    "url": "vless://cd3bb7d9-7df3-4644-ac05-c260990ac277@67.159.11.2:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=atatat.failspace.top&type=tcp&fp=edge#%F0%9F%87%A6%F0%9F%87%B9%20Austria%2C%20Vienna%20%28Floridsdorf%29%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_ok": 1790540893
+  },
+  "86ba04352071dbee": {
+    "failures": 0,
+    "last_latency": 1693.3,
+    "url": "vless://cd3bb7d9-7df3-4644-ac05-c260990ac277@nl-dedic-mori-4.failspace.top:443?security=tls&flow=xtls-rprx-vision&sni=nl-dedic-mori-4.failspace.top&encryption=none&type=tcp&fp=qq#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_ok": 1790540893
+  },
+  "dd31d5e0ce13c99a": {
+    "failures": 0,
+    "last_latency": 4446.2,
+    "url": "vless://68d89911-b92d-46fe-9007-3645c3b285f0@2.26.101.148:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=se.chick-chirik.com&pbk=RjRxUMkBaWZPU2GlovSFYV4UdIFhc2LETtVUJVgoVj8&sid=e9eb910e5af883e3&type=tcp&fp=firefox#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_ok": 1790540893
+  },
+  "a5072ddf9087995a": {
+    "failures": 0,
+    "last_latency": 707.5,
+    "url": "vless://68d89911-b92d-46fe-9007-3645c3b285f0@2.26.101.148:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=se.chick-chirik.com&pbk=RjRxUMkBaWZPU2GlovSFYV4UdIFhc2LETtVUJVgoVj8&sid=e9eb910e5af883e3&type=tcp&fp=qq#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_ok": 1790540893
+  },
+  "dd2086e368854d54": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://8ac4b519-287e-4ac0-8c95-4c1721c1ab76@153.76.185.144:3090?encryption=none&security=none&type=grpc&serviceName=vless&mode=multi#%F0%9F%87%A8%F0%9F%87%BF%20Czechia%2C%20Prague%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "1d94232703d89708": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://8ac4b519-287e-4ac0-8c95-4c1721c1ab76@153.76.185.91:3090?encryption=none&security=none&type=grpc&serviceName=vless&mode=multi#%F0%9F%87%A8%F0%9F%87%BF%20Czechia%2C%20Prague%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "0e768e4fecdef26e": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://b55a33d7-83ee-416a-971e-eaaa0c928043@153.76.185.152:3090?encryption=none&security=none&type=grpc&serviceName=vless&mode=multi#%F0%9F%87%A8%F0%9F%87%BF%20Czechia%2C%20Prague%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "3ad900e1c8680a70": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://b55a33d7-83ee-416a-971e-eaaa0c928043@153.76.185.86:3090?encryption=none&security=none&type=grpc&serviceName=vless&mode=multi#%F0%9F%87%A8%F0%9F%87%BF%20Czechia%2C%20Prague%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "f8f4be3937b09d11": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://b55a33d7-83ee-416a-971e-eaaa0c928043@194.87.59.19:2085?encryption=none&security=none&type=grpc&serviceName=vless&mode=multi#%F0%9F%87%A8%F0%9F%87%BF%20Czechia%2C%20Prague%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "b1d194adc0d972cd": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://3d9daa27-6283-406d-a2d4-c6f22c635a14@153.52.117.131:443?encryption=none&security=tls&serviceName=vless-grpc&sni=fi.astrafic.ru&type=grpc&fp=firefox#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "3177fc55b9a630ce": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://3d9daa27-6283-406d-a2d4-c6f22c635a14@153.52.117.131:443?encryption=none&security=tls&serviceName=vless-grpc&sni=fi.astrafic.ru&type=grpc&fp=safari#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "b9bf36d1bd5aa56f": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://3d9daa27-6283-406d-a2d4-c6f22c635a14@fi.astrafic.ru:443?encryption=none&type=grpc&security=tls&sni=fi.astrafic.ru&alpn=h2%2Chttp%2F1.1&serviceName=vless-grpc&fp=chrome#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "ce0f31e224ba1a22": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://3d9daa27-6283-406d-a2d4-c6f22c635a14@fi.astrafic.ru:443?encryption=none&type=grpc&security=tls&sni=fi.astrafic.ru&alpn=h2%2Chttp%2F1.1&serviceName=vless-grpc&fp=android#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "b5a7ec6784c3f5eb": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://3d9daa27-6283-406d-a2d4-c6f22c635a14@fi.astrafic.ru:443?type=grpc&security=tls&sni=fi.astrafic.ru&serviceName=vless-grpc&fp=chrome#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "0f71b5c13d5c1fad": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://0dca2cfe-98eb-4f9d-9a47-cf87510c558b@143.246.208.113:443?encryption=none&security=tls&serviceName=cdn.v1.AssetService&sni=assets-fr4.pleiades.codes&type=grpc&fp=random#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "0d517622b040ce9a": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://0dca2cfe-98eb-4f9d-9a47-cf87510c558b@143.246.208.113:443?encryption=none&security=tls&serviceName=cdn.v1.AssetService&sni=assets-fr4.pleiades.codes&type=grpc&fp=safari#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "3df127555c02557b": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://eb98ab60-f16d-4662-a740-c89307400939@151.101.213.164:443?encryption=none&security=tls&sni=accounts.fastly.com&type=xhttp&path=%2F&host=fretranxrabet.net&mode=auto&fp=ios#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "618245c27d4035c0": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://eb98ab60-f16d-4662-a740-c89307400939@151.101.213.164:443?encryption=none&security=tls&sni=accounts.fastly.com&type=xhttp&path=%2F&host=fretranxrabet.net&mode=auto&fp=chrome#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "815952063e281d93": {
+    "failures": 0,
+    "last_latency": 618.3,
+    "url": "vless://ce5949b7-5137-4007-8a0a-063aad88b920@147.45.46.3:443?security=reality&encryption=none&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=sellflow.org&fp=chrome#%F0%9F%87%AC%F0%9F%87%AA%20Georgia%2C%20Sukhumi%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_ok": 1790540893
+  },
+  "7b3c9f3b003dc180": {
+    "failures": 0,
+    "last_latency": 622.5,
+    "url": "vless://ce5949b7-5137-4007-8a0a-063aad88b920@147.45.46.3:443?security=reality&encryption=none&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=sellflow.org&fp=firefox#%F0%9F%87%AC%F0%9F%87%AA%20Georgia%2C%20Sukhumi%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_ok": 1790540893
+  },
+  "b8350af1f3597510": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://4e94bbd3-e785-480a-a945-59d8243e6867@185.150.116.246:8443?encryption=none&type=xhttp&security=reality&sni=lt-z513.nodeflux-cache.cc&pbk=olhEFLQwrlDOP4TEtsWWMAUzPo7mhe-LlFvqb4ThP1Y&sid=2eb0cf5bf22f88cb&path=%2Fedge%2F60c2864a48bb%2F&host=lt-z513.nodeflux-cache.cc&mode=auto&extra=%7B%22noGRPCHeader%22%3Afalse%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%22900-1800%22%2C%22maxConcurrency%22%3A0%2C%22maxConnections%22%3A2%7D%7D&fp=firefox#%F0%9F%87%B1%F0%9F%87%B9%20Lithuania%2C%20%C5%A0iauliai%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "3b6ece0b3386e340": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://4e94bbd3-e785-480a-a945-59d8243e6867@84.32.151.208:8443?encryption=none&type=xhttp&security=reality&sni=sw8-fe87.nodeflux-cache.cc&pbk=olhEFLQwrlDOP4TEtsWWMAUzPo7mhe-LlFvqb4ThP1Y&sid=2eb0cf5bf22f88cb&path=%2Fedge%2F60c2864a48bb%2F&host=sw8-fe87.nodeflux-cache.cc&mode=auto&extra=%7B%22noGRPCHeader%22%3Afalse%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%22900-1800%22%2C%22maxConcurrency%22%3A0%2C%22maxConnections%22%3A2%7D%7D&fp=firefox#%F0%9F%87%B1%F0%9F%87%B9%20Lithuania%2C%20%C5%A0iauliai%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "23f47ff61bfc4bb3": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://4e94bbd3-e785-480a-a945-59d8243e6867@185.150.116.246:8443?encryption=none&type=xhttp&security=reality&sni=lt-z513.nodeflux-cache.cc&pbk=olhEFLQwrlDOP4TEtsWWMAUzPo7mhe-LlFvqb4ThP1Y&sid=2eb0cf5bf22f88cb&path=%2Fedge%2F60c2864a48bb%2F&host=lt-z513.nodeflux-cache.cc&mode=auto&extra=%7B%22noGRPCHeader%22%3Afalse%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%22900-1800%22%2C%22maxConcurrency%22%3A0%2C%22maxConnections%22%3A2%7D%7D&fp=qq#%F0%9F%87%B1%F0%9F%87%B9%20Lithuania%2C%20%C5%A0iauliai%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "4a16695a601e3165": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://4e94bbd3-e785-480a-a945-59d8243e6867@84.32.151.208:8443?encryption=none&type=xhttp&security=reality&sni=sw8-fe87.nodeflux-cache.cc&pbk=olhEFLQwrlDOP4TEtsWWMAUzPo7mhe-LlFvqb4ThP1Y&sid=2eb0cf5bf22f88cb&path=%2Fedge%2F60c2864a48bb%2F&host=sw8-fe87.nodeflux-cache.cc&mode=auto&extra=%7B%22noGRPCHeader%22%3Afalse%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%22900-1800%22%2C%22maxConcurrency%22%3A0%2C%22maxConnections%22%3A2%7D%7D&fp=qq#%F0%9F%87%B1%F0%9F%87%B9%20Lithuania%2C%20%C5%A0iauliai%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "05d7977eef91d3b2": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://4e94bbd3-e785-480a-a945-59d8243e6867@88.216.127.220:8443?encryption=none&type=xhttp&security=reality&sni=relay-3c61.strixedge.cc&pbk=olhEFLQwrlDOP4TEtsWWMAUzPo7mhe-LlFvqb4ThP1Y&sid=2eb0cf5bf22f88cb&path=%2Fedge%2F60c2864a48bb%2F&host=relay-3c61.strixedge.cc&mode=auto&extra=%7B%22noGRPCHeader%22%3Afalse%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%22900-1800%22%2C%22maxConcurrency%22%3A0%2C%22maxConnections%22%3A2%7D%7D&fp=random#%F0%9F%87%B1%F0%9F%87%B9%20Lithuania%2C%20%C5%A0iauliai%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "143f9ee4db9d7220": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://3d9daa27-6283-406d-a2d4-c6f22c635a14@fi.astrafic.ru:443?type=grpc&security=tls&sni=fi.astrafic.ru&serviceName=vless-grpc&fp=firefox#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "8f4c1432e1808ba3": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://0dca2cfe-98eb-4f9d-9a47-cf87510c558b@assets-fr4.pleiades.codes:443?type=grpc&security=tls&sni=assets-fr4.pleiades.codes&serviceName=cdn.v1.AssetService&fp=chrome#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "2ed74c07cd9a160e": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://0dca2cfe-98eb-4f9d-9a47-cf87510c558b@assets-fr4.pleiades.codes:443?type=grpc&security=tls&sni=assets-fr4.pleiades.codes&serviceName=cdn.v1.AssetService&fp=qq#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "a9f2f2fb14280568": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://4e94bbd3-e785-480a-a945-59d8243e6867@88.216.189.253:8443?encryption=none&type=xhttp&security=reality&sni=swcdn-7f3a.cachenova-cdn.cc&pbk=U5tAMw8tNpVZZPxiTYPPsEnr5iCz8nJ2nzy1aHVUm0c&sid=3e7fba04443f849e&path=%2Fedge%2F9cbb3f3dfe4a%2F&host=swcdn-7f3a.cachenova-cdn.cc&mode=auto&extra=%7B%22noGRPCHeader%22%3Afalse%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%22900-1800%22%2C%22maxConcurrency%22%3A0%2C%22maxConnections%22%3A2%7D%7D&fp=firefox#%F0%9F%87%B8%F0%9F%87%AA%20Sweden%2C%20Stockholm%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "dfb935636835ca26": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://4e94bbd3-e785-480a-a945-59d8243e6867@88.216.189.253:8443?encryption=none&type=xhttp&security=reality&sni=swcdn-7f3a.cachenova-cdn.cc&pbk=U5tAMw8tNpVZZPxiTYPPsEnr5iCz8nJ2nzy1aHVUm0c&sid=3e7fba04443f849e&path=%2Fedge%2F9cbb3f3dfe4a%2F&host=swcdn-7f3a.cachenova-cdn.cc&mode=auto&extra=%7B%22noGRPCHeader%22%3Afalse%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%22900-1800%22%2C%22maxConcurrency%22%3A0%2C%22maxConnections%22%3A2%7D%7D&fp=qq#%F0%9F%87%B8%F0%9F%87%AA%20Sweden%2C%20Stockholm%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "6841c350973de61c": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://9198f982-ef72-5da8-c1fb-6ae60c6abf53@victoryprovpn-production-f93a.up.railway.app:443?Telegram=%40GozargahAzad%2C%40GozargahAzad%2C%40GozargahAzad%2C%40GozargahAzad%2C%40GozargahAzad%2C%40GozargahAzad%2C%40GozargahAzad&path=%2Fws%2F9198f982-ef72-5da8-c1fb-6ae60c6abf53&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=&type=ws&allowInsecure=0&sni=&fp=android#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%28Amsterdam-Zuidoost%29%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "fe86070419b6fd40": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://9198f982-ef72-5da8-c1fb-6ae60c6abf53@victoryprovpn-production-f93a.up.railway.app:443?path=%2Fws%2F9198f982-ef72-5da8-c1fb-6ae60c6abf53&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=victoryprovpn-production-f93a.up.railway.app&type=ws&allowInsecure=0&sni=victoryprovpn-production-f93a.up.railway.app&fp=safari#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%28Amsterdam-Zuidoost%29%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "1f1bdec86d9aab9b": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://9198f982-ef72-5da8-c1fb-6ae60c6abf53@victoryprovpn-production-f93a.up.railway.app:443?path=%2Fws%2F9198f982-ef72-5da8-c1fb-6ae60c6abf53&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=victoryprovpn-production-f93a.up.railway.app&type=ws&allowInsecure=0&sni=victoryprovpn-production-f93a.up.railway.app&fp=ios#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%28Amsterdam-Zuidoost%29%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "206b6bcac3104098": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://9198f982-ef72-5da8-c1fb-6ae60c6abf53@victoryprovpn-production-f93a.up.railway.app:443?Telegram=%40GozargahAzad%2C%40GozargahAzad%2C%40GozargahAzad%2C%40GozargahAzad%2C%40GozargahAzad%2C%40GozargahAzad%2C%40GozargahAzad&path=%2Fws%2F9198f982-ef72-5da8-c1fb-6ae60c6abf53&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=&type=ws&allowInsecure=0&sni=&fp=ios#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%28Amsterdam-Zuidoost%29%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "97e6db92d47e4d60": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://4e94bbd3-e785-480a-a945-59d8243e6867@88.216.223.4:8443?encryption=none&type=xhttp&security=reality&sni=edge-399a.qorecache.cc&pbk=4UFlBIuBCcTX5lKd6wZSp7uGwmN2MPt40peZCX8VnE0&sid=4e758137c40bdb36&path=%2Fedge%2F9cbb3f3dfe4a%2F&host=edge-399a.qorecache.cc&mode=auto&extra=%7B%22noGRPCHeader%22%3Afalse%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%22900-1800%22%2C%22maxConcurrency%22%3A0%2C%22maxConnections%22%3A2%7D%7D&fp=random#%F0%9F%87%B8%F0%9F%87%AA%20Sweden%2C%20Stockholm%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "e1a4e16ab6e971a8": {
+    "failures": 0,
+    "last_latency": 5499.7,
+    "url": "vless://834e5553-d80e-4078-8d7e-482fafe9bbaf@85.115.209.170:2018?encryption=none&security=reality&sni=gemini.com&pbk=Sn8z3wbt2Zpoo3mO3HLW6TZTjN8231Ylka7apFNb2X0&sid=cd5f260bcdd9c92d&type=tcp&fp=random#%F0%9F%87%B7%F0%9F%87%B4%20Romania%2C%20Bucharest%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_ok": 1790540893
+  },
+  "904829bd71f07bfe": {
+    "failures": 0,
+    "last_latency": 5983.0,
+    "url": "vless://834e5553-d80e-4078-8d7e-482fafe9bbaf@85.115.209.170:2018?encryption=none&security=reality&sni=gemini.com&pbk=Sn8z3wbt2Zpoo3mO3HLW6TZTjN8231Ylka7apFNb2X0&sid=cd5f260bcdd9c92d&type=tcp&fp=chrome#%F0%9F%87%B7%F0%9F%87%B4%20Romania%2C%20Bucharest%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_ok": 1790540893
+  },
+  "17e2849f522cd5a2": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://5e3ae3d6-2c4d-4b47-a7b0-420d1605f3fa@93.190.9.15:3090?encryption=none&security=none&type=grpc&serviceName=vless&mode=multi#%F0%9F%87%B9%F0%9F%87%B7%20Turkey%2C%20Mahmutbey%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "78a6a0c4b64dd678": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://5e3ae3d6-2c4d-4b47-a7b0-420d1605f3fa@93.190.9.52:3090?encryption=none&security=none&type=grpc&serviceName=vless&mode=multi#%F0%9F%87%B9%F0%9F%87%B7%20Turkey%2C%20Mahmutbey%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "88928330bb56ecf3": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://8ac4b519-287e-4ac0-8c95-4c1721c1ab76@93.190.9.131:3090?encryption=none&security=none&type=grpc&serviceName=vless&mode=multi#%F0%9F%87%B9%F0%9F%87%B7%20Turkey%2C%20Mahmutbey%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "12ac262f1e63bc14": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://8ac4b519-287e-4ac0-8c95-4c1721c1ab76@93.190.8.83:3090?encryption=none&security=none&type=grpc&serviceName=vless&mode=multi#%F0%9F%87%B9%F0%9F%87%B7%20Turkey%2C%20Mahmutbey%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "01a7c6bbc6ea7272": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://8ac4b519-287e-4ac0-8c95-4c1721c1ab76@93.190.9.59:3090?encryption=none&security=none&type=grpc&serviceName=vless&mode=multi#%F0%9F%87%B9%F0%9F%87%B7%20Turkey%2C%20Mahmutbey%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "d88a327df63a2734": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://9fa2fae0-141a-b983-ef0e-b3d5633f9592@1579e6d9-6b57-4fb1-b080-9c9a6da46ae5.fly.dev:443?encryption=none&security=tls&type=xhttp&mode=stream-up&host=1579e6d9-6b57-4fb1-b080-9c9a6da46ae5.fly.dev&path=%2Fxhttp-siz10%2Fstream-up%2F9fa2fae0-141a-b983-ef0e-b3d5633f9592&sni=1579e6d9-6b57-4fb1-b080-9c9a6da46ae5.fly.dev&alpn=h2%2Chttp%2F1.1&fp=firefox#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20San%20Jose%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "bcae72497f30ed75": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://9fa2fae0-141a-b983-ef0e-b3d5633f9592@1579e6d9-6b57-4fb1-b080-9c9a6da46ae5.fly.dev:443?encryption=none&security=tls&type=xhttp&mode=stream-up&host=1579e6d9-6b57-4fb1-b080-9c9a6da46ae5.fly.dev&path=%2Fxhttp-siz10%2Fstream-up%2F9fa2fae0-141a-b983-ef0e-b3d5633f9592&sni=1579e6d9-6b57-4fb1-b080-9c9a6da46ae5.fly.dev&alpn=h2%2Chttp%2F1.1&fp=chrome#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20San%20Jose%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "d5a025a82867a8ec": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://d3aeadf0-94bd-46bd-88f5-ed920a3449fd@45.86.245.188:443?type=tcp&security=reality&flow=xtls-rprx-vision&pbk=nilJ07r1KZ0-KhmRNYeICXGhM9HeG9uxnRaqjYz3fWg&sid=14ec954069663a7b&sni=au.netgridflow.com&fp=firefox#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A6%F0%9F%87%B9%20%F0%9F%87%AC%F0%9F%87%A7%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "9483f41a9e36bcaf": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://b55a33d7-83ee-416a-971e-eaaa0c928043@93.190.9.35:3090?encryption=none&security=none&type=grpc&serviceName=vless&mode=multi#%F0%9F%87%B9%F0%9F%87%B7%20Turkey%2C%20Mahmutbey%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "245953ca9c4b9073": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://d3aeadf0-94bd-46bd-88f5-ed920a3449fd@45.86.245.188:443?type=tcp&security=reality&flow=xtls-rprx-vision&pbk=nilJ07r1KZ0-KhmRNYeICXGhM9HeG9uxnRaqjYz3fWg&sid=14ec954069663a7b&sni=au.netgridflow.com&fp=random#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A6%F0%9F%87%B9%20%F0%9F%87%AC%F0%9F%87%A7%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "8a5545040c7ee3e5": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://5e3ae3d6-2c4d-4b47-a7b0-420d1605f3fa@104.143.223.231:2085?type=grpc&mode=multi&serviceName=vless#%F0%9F%87%BA%F0%9F%87%A6%20Ukraine%2C%20Kyiv%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "8abf2d3ccae715d4": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://d3aeadf0-94bd-46bd-88f5-ed920a3449fd@au.netgridflow.com:443?type=tcp&security=reality&flow=xtls-rprx-vision&pbk=nilJ07r1KZ0-KhmRNYeICXGhM9HeG9uxnRaqjYz3fWg&sid=14ec954069663a7b&sni=au.netgridflow.com&fp=edge#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A6%F0%9F%87%B9%20%F0%9F%87%AC%F0%9F%87%A7%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "f43ff0b19c1da5dc": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://d3aeadf0-94bd-46bd-88f5-ed920a3449fd@au.netgridflow.com:443?type=tcp&security=reality&flow=xtls-rprx-vision&pbk=nilJ07r1KZ0-KhmRNYeICXGhM9HeG9uxnRaqjYz3fWg&sid=14ec954069663a7b&sni=au.netgridflow.com&fp=qq#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A6%F0%9F%87%B9%20%F0%9F%87%AC%F0%9F%87%A7%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "f067057ede81eaa2": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://964e6322-afad-4594-8508-86d634d732e6@194.36.55.146:80?security=none&encryption=none&type=ws&sni=blacklegends.umc-mansur13.workers.dev&path=%2Fgmaetunnel%2Fproxyip%3D95.188.72.67%3Fed%3D2560&host=blacklegends.umc-mansur13.workers.dev&allowInsecure=1#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A6%F0%9F%87%B7%20%F0%9F%87%A9%F0%9F%87%AA%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "4a8707098830a63c": {
+    "failures": 0,
+    "last_latency": 918.6,
+    "url": "vless://cd3bb7d9-7df3-4644-ac05-c260990ac277@atatat.failspace.top:443?security=tls&flow=xtls-rprx-vision&sni=atatat.failspace.top&fp=chrome#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "last_ok": 1790540893
+  },
+  "ed9a90de9efdf702": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://d342d11e-d224-4463-b982-532309285094@cf.877774.xyz:443?security=tls&sni=ccc.010304.xyz&type=ws&headerType=none&host=ccc.010304.xyz&path=%2F&fp=qq#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%A9%F0%9F%87%AA%20%F0%9F%87%AE%F0%9F%87%AA%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "386cf3c026609f9c": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://d342d11e-d224-4463-b982-532309285094@cf.877774.xyz:443?security=tls&sni=ccc.010304.xyz&type=ws&headerType=none&host=ccc.010304.xyz&path=%2F&fp=chrome#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%A9%F0%9F%87%AA%20%F0%9F%87%AE%F0%9F%87%AA%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "0693fe2517f0bb34": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://0dca2cfe-98eb-4f9d-9a47-cf87510c558b@assets-nl3.pleiades.codes:443?encryption=none&security=tls&sni=assets-nl3.pleiades.codes&type=grpc&serviceName=cdn.v1.AssetService&fp=chrome#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "6a3e35c4505cde9a": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://d342d11e-d224-4463-b982-532309285094@cf.877774.xyz:443?security=tls&sni=ccc.010304.xyz&type=ws&headerType=none&host=ccc.010304.xyz&path=%2F&fp=android#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%A9%F0%9F%87%AA%20%F0%9F%87%AE%F0%9F%87%B6%20%F0%9F%87%B3%F0%9F%87%B1%20%F0%9F%87%B8%F0%9F%87%AA%20%F0%9F%87%BA%F0%9F%87%B8%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "7f41bee2d0f13f74": {
+    "failures": 0,
+    "last_latency": 607.1,
+    "url": "vless://cd3bb7d9-7df3-4644-ac05-c260990ac277@nl-dedic-mori-4.failspace.top:443?security=tls&flow=xtls-rprx-vision&sni=nl-dedic-mori-4.failspace.top&encryption=none&type=tcp&fp=chrome#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "last_ok": 1790540893
+  },
+  "90035d6b2ec3008e": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://0dca2cfe-98eb-4f9d-9a47-cf87510c558b@assets-nl3.pleiades.codes:443?encryption=none&security=tls&sni=assets-nl3.pleiades.codes&type=grpc&serviceName=cdn.v1.AssetService&fp=qq#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "8ef1577c68fd7ab4": {
+    "failures": 0,
+    "last_latency": 2538.3,
+    "url": "vless://61da8f4b-6ab1-4ca7-bae0-1cec4f9be2f8@13.143.166.112:443?type=tcp&security=reality&flow=xtls-rprx-vision&pbk=V-cWjK_GZ0PTJ3wnUHgwey_dNWI6_QNXsC9CdmA0mVI&sid=408c85938839e89f&sni=unpkg.com&fp=safari#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "last_ok": 1790540893
+  },
+  "adda14d3f7049311": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://3d9daa27-6283-406d-a2d4-c6f22c635a14@153.52.117.131:443?encryption=none&security=tls&serviceName=vless-grpc&sni=fi.astrafic.ru&type=grpc&fp=chrome#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "c9d123e597341f70": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://3d9daa27-6283-406d-a2d4-c6f22c635a14@153.52.117.131:443?encryption=none&security=tls&serviceName=vless-grpc&sni=fi.astrafic.ru&type=grpc&fp=qq#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "6c7301b6840ce25a": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://3d9daa27-6283-406d-a2d4-c6f22c635a14@fi.astrafic.ru:443?encryption=none&type=grpc&security=tls&sni=fi.astrafic.ru&alpn=h2%2Chttp%2F1.1&serviceName=vless-grpc&fp=qq#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "ac7e77a621e7f153": {
+    "failures": 0,
+    "last_latency": 634.0,
+    "url": "vless://ce5949b7-5137-4007-8a0a-063aad88b920@147.45.46.3:443?security=reality&encryption=none&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=sellflow.org&fp=qq#%F0%9F%87%AC%F0%9F%87%AA%20Georgia%2C%20Sukhumi%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "last_ok": 1790540893
+  },
+  "eb258d68e55818cc": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://eb98ab60-f16d-4662-a740-c89307400939@151.101.213.164:443?encryption=none&security=tls&sni=accounts.fastly.com&type=xhttp&path=%2F&host=fretranxrabet.net&mode=auto&fp=safari#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "00451a2c46222b08": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://0dca2cfe-98eb-4f9d-9a47-cf87510c558b@assets-fr4.pleiades.codes:443?type=grpc&security=tls&sni=assets-fr4.pleiades.codes&serviceName=cdn.v1.AssetService&fp=safari#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "6727eaa93b416953": {
+    "failures": 0,
+    "last_latency": 4610.4,
+    "url": "vless://68d89911-b92d-46fe-9007-3645c3b285f0@2.26.101.148:443?encryption=none&flow=xtls-rprx-vision&pbk=RjRxUMkBaWZPU2GlovSFYV4UdIFhc2LETtVUJVgoVj8&security=reality&sid=e9eb910e5af883e3&sni=se.chick-chirik.com&type=tcp&fp=edge#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "last_ok": 1790540893
+  },
+  "0ebd1ea7db666de7": {
+    "failures": 0,
+    "last_latency": 4275.1,
+    "url": "vless://68d89911-b92d-46fe-9007-3645c3b285f0@se.chick-chirik.com:443?security=reality&encryption=none&pbk=RjRxUMkBaWZPU2GlovSFYV4UdIFhc2LETtVUJVgoVj8&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=se.chick-chirik.com&sid=e9eb910e5af883e3&fp=safari#%F0%9F%87%B8%F0%9F%87%AA%20Sweden%2C%20Stockholm%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_ok": 1790540893
+  },
+  "4b964786feb489cc": {
+    "failures": 0,
+    "last_latency": 4599.6,
+    "url": "vless://68d89911-b92d-46fe-9007-3645c3b285f0@2.26.101.148:443?encryption=none&flow=xtls-rprx-vision&pbk=RjRxUMkBaWZPU2GlovSFYV4UdIFhc2LETtVUJVgoVj8&security=reality&sid=e9eb910e5af883e3&sni=se.chick-chirik.com&type=tcp&fp=random#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "last_ok": 1790540893
+  },
+  "1ff9c7f9dae991dc": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://3d9daa27-6283-406d-a2d4-c6f22c635a14@fi.astrafic.ru:443?type=grpc&security=tls&sni=fi.astrafic.ru&serviceName=vless-grpc&fp=qq#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "8d598e6835d26cb3": {
+    "failures": 0,
+    "last_latency": 4706.2,
+    "url": "vless://68d89911-b92d-46fe-9007-3645c3b285f0@2.26.101.148:443?encryption=none&flow=xtls-rprx-vision&pbk=RjRxUMkBaWZPU2GlovSFYV4UdIFhc2LETtVUJVgoVj8&security=reality&sid=e9eb910e5af883e3&sni=se.chick-chirik.com&type=tcp&fp=qq#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "last_ok": 1790540893
+  },
+  "dc7442bacff9ee2b": {
+    "failures": 0,
+    "last_latency": 4620.3,
+    "url": "vless://68d89911-b92d-46fe-9007-3645c3b285f0@se.chick-chirik.com:443?security=reality&encryption=none&pbk=RjRxUMkBaWZPU2GlovSFYV4UdIFhc2LETtVUJVgoVj8&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=se.chick-chirik.com&sid=e9eb910e5af883e3&fp=edge#%F0%9F%87%B8%F0%9F%87%AA%20Sweden%2C%20Stockholm%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_ok": 1790540893
+  },
+  "8809544fe5c37452": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://834e5553-d80e-4078-8d7e-482fafe9bbaf@85.115.209.170:2018?encryption=none&security=reality&sni=gemini.com&pbk=Sn8z3wbt2Zpoo3mO3HLW6TZTjN8231Ylka7apFNb2X0&sid=cd5f260bcdd9c92d&type=tcp&fp=android#%F0%9F%87%B7%F0%9F%87%B4%20Romania%2C%20Bucharest%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "411af82e46d56970": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://4e94bbd3-e785-480a-a945-59d8243e6867@185.150.116.246:8443?encryption=none&type=xhttp&security=reality&sni=lt-z513.nodeflux-cache.cc&pbk=olhEFLQwrlDOP4TEtsWWMAUzPo7mhe-LlFvqb4ThP1Y&sid=2eb0cf5bf22f88cb&path=%2Fedge%2F60c2864a48bb%2F&host=lt-z513.nodeflux-cache.cc&mode=auto&extra=%7B%22noGRPCHeader%22%3Afalse%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%22900-1800%22%2C%22maxConcurrency%22%3A0%2C%22maxConnections%22%3A2%7D%7D&fp=chrome#%F0%9F%87%B1%F0%9F%87%B9%20Lithuania%2C%20%C5%A0iauliai%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "669c66d9f84a8c3b": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://3d9daa27-6283-406d-a2d4-c6f22c635a14@fi.astrafic.ru:443?encryption=none&type=grpc&security=tls&sni=fi.astrafic.ru&alpn=h2%2Chttp%2F1.1&serviceName=vless-grpc&fp=safari#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "6f7705256fe65718": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://3d9daa27-6283-406d-a2d4-c6f22c635a14@fi.astrafic.ru:443?type=grpc&security=tls&sni=fi.astrafic.ru&serviceName=vless-grpc&fp=safari#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "df161d0417460d0e": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://4e94bbd3-e785-480a-a945-59d8243e6867@185.150.116.246:8443?encryption=none&type=xhttp&security=reality&sni=lt-z513.nodeflux-cache.cc&pbk=olhEFLQwrlDOP4TEtsWWMAUzPo7mhe-LlFvqb4ThP1Y&sid=2eb0cf5bf22f88cb&path=%2Fedge%2F60c2864a48bb%2F&host=lt-z513.nodeflux-cache.cc&mode=auto&extra=%7B%22noGRPCHeader%22%3Afalse%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%22900-1800%22%2C%22maxConcurrency%22%3A0%2C%22maxConnections%22%3A2%7D%7D&fp=safari#%F0%9F%87%B1%F0%9F%87%B9%20Lithuania%2C%20%C5%A0iauliai%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "8f58d80328e257b8": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://4e94bbd3-e785-480a-a945-59d8243e6867@84.32.151.208:8443?encryption=none&extra=%7B%22noGRPCHeader%22%3Afalse%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%22900-1800%22%2C%22maxConcurrency%22%3A0%2C%22maxConnections%22%3A2%7D%7D&host=sw8-fe87.nodeflux-cache.cc&path=%2Fedge%2F60c2864a48bb%2F&pbk=olhEFLQwrlDOP4TEtsWWMAUzPo7mhe-LlFvqb4ThP1Y&security=reality&sid=2eb0cf5bf22f88cb&sni=sw8-fe87.nodeflux-cache.cc&type=xhttp&fp=chrome#%F0%9F%87%B1%F0%9F%87%B9%20Lithuania%2C%20%C5%A0iauliai%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "fe0c82276682905c": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://4e94bbd3-e785-480a-a945-59d8243e6867@84.32.151.208:8443?encryption=none&extra=%7B%22noGRPCHeader%22%3Afalse%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%22900-1800%22%2C%22maxConcurrency%22%3A0%2C%22maxConnections%22%3A2%7D%7D&host=sw8-fe87.nodeflux-cache.cc&path=%2Fedge%2F60c2864a48bb%2F&pbk=olhEFLQwrlDOP4TEtsWWMAUzPo7mhe-LlFvqb4ThP1Y&security=reality&sid=2eb0cf5bf22f88cb&sni=sw8-fe87.nodeflux-cache.cc&type=xhttp&fp=firefox#%F0%9F%87%B1%F0%9F%87%B9%20Lithuania%2C%20%C5%A0iauliai%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "26ff33c0f5c890c1": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://4e94bbd3-e785-480a-a945-59d8243e6867@84.32.151.208:8443?encryption=none&extra=%7B%22noGRPCHeader%22%3Afalse%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%22900-1800%22%2C%22maxConcurrency%22%3A0%2C%22maxConnections%22%3A2%7D%7D&host=sw8-fe87.nodeflux-cache.cc&path=%2Fedge%2F60c2864a48bb%2F&pbk=olhEFLQwrlDOP4TEtsWWMAUzPo7mhe-LlFvqb4ThP1Y&security=reality&sid=2eb0cf5bf22f88cb&sni=sw8-fe87.nodeflux-cache.cc&type=xhttp&fp=qq#%F0%9F%87%B1%F0%9F%87%B9%20Lithuania%2C%20%C5%A0iauliai%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "c1682ff897422ed1": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://4e94bbd3-e785-480a-a945-59d8243e6867@88.216.127.220:8443?encryption=none&security=reality&sni=relay-3c61.strixedge.cc&pbk=olhEFLQwrlDOP4TEtsWWMAUzPo7mhe-LlFvqb4ThP1Y&sid=2eb0cf5bf22f88cb&type=xhttp&path=%2Fedge%2F60c2864a48bb%2F&host=relay-3c61.strixedge.cc&mode=auto&extra=%7B%22noGRPCHeader%22%3Afalse%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%22900-1800%22%2C%22maxConcurrency%22%3A0%2C%22maxConnections%22%3A2%7D%7D&fp=chrome#%F0%9F%87%B1%F0%9F%87%B9%20Lithuania%2C%20%C5%A0iauliai%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "c0fbb65cbac50156": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://4e94bbd3-e785-480a-a945-59d8243e6867@88.216.127.220:8443?encryption=none&security=reality&sni=relay-3c61.strixedge.cc&pbk=olhEFLQwrlDOP4TEtsWWMAUzPo7mhe-LlFvqb4ThP1Y&sid=2eb0cf5bf22f88cb&type=xhttp&path=%2Fedge%2F60c2864a48bb%2F&host=relay-3c61.strixedge.cc&mode=auto&extra=%7B%22noGRPCHeader%22%3Afalse%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%22900-1800%22%2C%22maxConcurrency%22%3A0%2C%22maxConnections%22%3A2%7D%7D&fp=qq#%F0%9F%87%B1%F0%9F%87%B9%20Lithuania%2C%20%C5%A0iauliai%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "b7ba68a3f2f4509c": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://4e94bbd3-e785-480a-a945-59d8243e6867@88.216.127.220:8443?encryption=none&security=reality&sni=relay-3c61.strixedge.cc&pbk=olhEFLQwrlDOP4TEtsWWMAUzPo7mhe-LlFvqb4ThP1Y&sid=2eb0cf5bf22f88cb&type=xhttp&path=%2Fedge%2F60c2864a48bb%2F&host=relay-3c61.strixedge.cc&mode=auto&extra=%7B%22noGRPCHeader%22%3Afalse%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%22900-1800%22%2C%22maxConcurrency%22%3A0%2C%22maxConnections%22%3A2%7D%7D&fp=random#%F0%9F%87%B1%F0%9F%87%B9%20Lithuania%2C%20%C5%A0iauliai%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "2679ff59a5245660": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://4e94bbd3-e785-480a-a945-59d8243e6867@88.216.189.253:8443?encryption=none&extra=%7B%22noGRPCHeader%22%3Afalse%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%22900-1800%22%2C%22maxConcurrency%22%3A0%2C%22maxConnections%22%3A2%7D%7D&host=swcdn-7f3a.cachenova-cdn.cc&path=%2Fedge%2F9cbb3f3dfe4a%2F&pbk=U5tAMw8tNpVZZPxiTYPPsEnr5iCz8nJ2nzy1aHVUm0c&security=reality&sid=3e7fba04443f849e&sni=swcdn-7f3a.cachenova-cdn.cc&type=xhttp&fp=chrome#%F0%9F%87%B8%F0%9F%87%AA%20Sweden%2C%20Stockholm%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "55f14c1c1f1ea799": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://4e94bbd3-e785-480a-a945-59d8243e6867@88.216.189.253:8443?encryption=none&extra=%7B%22noGRPCHeader%22%3Afalse%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%22900-1800%22%2C%22maxConcurrency%22%3A0%2C%22maxConnections%22%3A2%7D%7D&host=swcdn-7f3a.cachenova-cdn.cc&path=%2Fedge%2F9cbb3f3dfe4a%2F&pbk=U5tAMw8tNpVZZPxiTYPPsEnr5iCz8nJ2nzy1aHVUm0c&security=reality&sid=3e7fba04443f849e&sni=swcdn-7f3a.cachenova-cdn.cc&type=xhttp&fp=firefox#%F0%9F%87%B8%F0%9F%87%AA%20Sweden%2C%20Stockholm%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "c0dc4b233bf34e7b": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://9198f982-ef72-5da8-c1fb-6ae60c6abf53@victoryprovpn-production-f93a.up.railway.app:443?path=%2Fws%2F9198f982-ef72-5da8-c1fb-6ae60c6abf53&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=victoryprovpn-production-f93a.up.railway.app&type=ws&allowInsecure=0&sni=victoryprovpn-production-f93a.up.railway.app&fp=qq#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%28Amsterdam-Zuidoost%29%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "c37495606ba913f3": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://d3aeadf0-94bd-46bd-88f5-ed920a3449fd@45.86.245.188:443?encryption=none&flow=xtls-rprx-vision&pbk=nilJ07r1KZ0-KhmRNYeICXGhM9HeG9uxnRaqjYz3fWg&security=reality&sid=14ec954069663a7b&sni=au.netgridflow.com&type=tcp&fp=firefox#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A6%F0%9F%87%B9%20%F0%9F%87%AC%F0%9F%87%A7%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "48941b83ed664158": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://d3aeadf0-94bd-46bd-88f5-ed920a3449fd@45.86.245.188:443?encryption=none&flow=xtls-rprx-vision&pbk=nilJ07r1KZ0-KhmRNYeICXGhM9HeG9uxnRaqjYz3fWg&security=reality&sid=14ec954069663a7b&sni=au.netgridflow.com&type=tcp&fp=random#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A6%F0%9F%87%B9%20%F0%9F%87%AC%F0%9F%87%A7%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "5a8f48585c4c554c": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://9198f982-ef72-5da8-c1fb-6ae60c6abf53@victoryprovpn-production-f93a.up.railway.app:443?Telegram=%40GozargahAzad%2C%40GozargahAzad%2C%40GozargahAzad%2C%40GozargahAzad%2C%40GozargahAzad%2C%40GozargahAzad%2C%40GozargahAzad&path=%2Fws%2F9198f982-ef72-5da8-c1fb-6ae60c6abf53&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=&type=ws&allowInsecure=0&sni=&fp=qq#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%28Amsterdam-Zuidoost%29%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "50233862f732bfe3": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://9fa2fae0-141a-b983-ef0e-b3d5633f9592@1579e6d9-6b57-4fb1-b080-9c9a6da46ae5.fly.dev:443?encryption=none&security=tls&type=xhttp&mode=stream-up&host=1579e6d9-6b57-4fb1-b080-9c9a6da46ae5.fly.dev&path=%2Fxhttp-siz10%2Fstream-up%2F9fa2fae0-141a-b983-ef0e-b3d5633f9592&sni=1579e6d9-6b57-4fb1-b080-9c9a6da46ae5.fly.dev&alpn=h2%2Chttp%2F1.1&fp=qq#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20San%20Jose%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "5c712ef26bfa7489": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://d3aeadf0-94bd-46bd-88f5-ed920a3449fd@au.netgridflow.com:443?type=tcp&security=reality&flow=xtls-rprx-vision&pbk=nilJ07r1KZ0-KhmRNYeICXGhM9HeG9uxnRaqjYz3fWg&sid=14ec954069663a7b&sni=au.netgridflow.com&fp=chrome#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A6%F0%9F%87%B9%20%F0%9F%87%AC%F0%9F%87%A7%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "ac113dfecd9696d2": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://4e94bbd3-e785-480a-a945-59d8243e6867@88.216.189.253:8443?encryption=none&extra=%7B%22noGRPCHeader%22%3Afalse%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%22900-1800%22%2C%22maxConcurrency%22%3A0%2C%22maxConnections%22%3A2%7D%7D&host=swcdn-7f3a.cachenova-cdn.cc&path=%2Fedge%2F9cbb3f3dfe4a%2F&pbk=U5tAMw8tNpVZZPxiTYPPsEnr5iCz8nJ2nzy1aHVUm0c&security=reality&sid=3e7fba04443f849e&sni=swcdn-7f3a.cachenova-cdn.cc&type=xhttp&fp=qq#%F0%9F%87%B8%F0%9F%87%AA%20Sweden%2C%20Stockholm%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "b0d14acf62b234d5": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://4e94bbd3-e785-480a-a945-59d8243e6867@88.216.223.4:8443?encryption=none&security=reality&sni=edge-399a.qorecache.cc&pbk=4UFlBIuBCcTX5lKd6wZSp7uGwmN2MPt40peZCX8VnE0&sid=4e758137c40bdb36&type=xhttp&path=%2Fedge%2F9cbb3f3dfe4a%2F&host=edge-399a.qorecache.cc&mode=auto&extra=%7B%22noGRPCHeader%22%3Afalse%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%22900-1800%22%2C%22maxConcurrency%22%3A0%2C%22maxConnections%22%3A2%7D%7D&fp=qq#%F0%9F%87%B8%F0%9F%87%AA%20Sweden%2C%20Stockholm%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "e474bffbd882b9f6": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://4e94bbd3-e785-480a-a945-59d8243e6867@88.216.223.4:8443?encryption=none&security=reality&sni=edge-399a.qorecache.cc&pbk=4UFlBIuBCcTX5lKd6wZSp7uGwmN2MPt40peZCX8VnE0&sid=4e758137c40bdb36&type=xhttp&path=%2Fedge%2F9cbb3f3dfe4a%2F&host=edge-399a.qorecache.cc&mode=auto&extra=%7B%22noGRPCHeader%22%3Afalse%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%22900-1800%22%2C%22maxConcurrency%22%3A0%2C%22maxConnections%22%3A2%7D%7D&fp=random#%F0%9F%87%B8%F0%9F%87%AA%20Sweden%2C%20Stockholm%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "ae273bd64ab0c544": {
+    "failures": 0,
+    "last_latency": 2157.5,
+    "url": "vless://68d89911-b92d-46fe-9007-3645c3b285f0@se.chick-chirik.com:443?security=reality&encryption=none&pbk=RjRxUMkBaWZPU2GlovSFYV4UdIFhc2LETtVUJVgoVj8&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=se.chick-chirik.com&sid=e9eb910e5af883e3&fp=qq#%F0%9F%87%B8%F0%9F%87%AA%20Sweden%2C%20Stockholm%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "last_ok": 1790540893
+  },
+  "16965a22e3096a51": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://d342d11e-d224-4463-b982-532309285094@cf.877774.xyz:443?&security=tls&fp=chrome&sni=ccc.010304.xyz&type=ws&headerType=none&host=ccc.010304.xyz&path=%2F#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%B3%F0%9F%87%B1%20%F0%9F%87%B8%F0%9F%87%AA%20%F0%9F%87%BA%F0%9F%87%B8%20%7C%20%5BBL%5D",
+    "source": "Export/v2rayN_PC/BLACK_VLESS_RUS_mobile_v2rayN.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "30123718e7ba86d4": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://51e493d4-b275-45e0-a714-e014f40b3c32@34.79.178.1:443?type=tcp&security=reality&sni=www.cloudflare.com&pbk=nTLhc6e5HMgO-hpD8RUMp0cd2t6p2_RqHLHM0P39_xA&sid=95ae4a39d3933191#%F0%9F%87%A7%F0%9F%87%AA%20Belgium%2C%20Brussels%20%7C%20%5BBL%5D",
+    "source": "Export/v2rayN_PC/BLACK_VLESS_RUS_mobile_v2rayN.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "6f73deb38b6e4ade": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://0dca2cfe-98eb-4f9d-9a47-cf87510c558b@assets-nl3.pleiades.codes:443?encryption=none&security=tls&sni=assets-nl3.pleiades.codes&type=grpc&serviceName=cdn.v1.AssetService#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D",
+    "source": "Export/v2rayN_PC/BLACK_VLESS_RUS_mobile_v2rayN.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "0da052421546e30f": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://553d8193-d897-0037-bb46-f075b670f22a@84.38.187.169:443?encryption=none&security=reality&sni=mc.yandex.tr&pbk=rJMYW6mHgjs61mHxfm8Gmm_Re23sV_xe5b0IrTpLsiQ&sid=94c9dbbf07366d96&type=xhttp&path=%2Fscript&mode=auto&extra=%7B%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0.0%2C%22hKeepAlivePeriod%22%3A0.0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%221800-3000%22%2C%22maxConnections%22%3A2.0%7D%7D&fp=safari#%F0%9F%87%B1%F0%9F%87%BB%20Latvia%20%5B%2ACIDR%5D",
+    "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "e3f17d7dd9fbbf39": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://553d8193-d897-0024-bb46-f075b670f22a@161.104.38.98:443?encryption=none&host=161.104.38.98&path=%2Fassets&pbk=kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE&security=reality&sid=8ba6e72ee60667f6&sni=donatov.net&type=xhttp&fp=android#%F0%9F%87%B8%F0%9F%87%AA%20Sweden%20%7C%20%5B%2ACIDR%5D",
+    "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "024214ca61b911b3": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://553d8193-d897-0024-bb46-f075b670f22a@161.104.38.98:443?encryption=none&host=161.104.38.98&path=%2Fassets&pbk=kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE&security=reality&sid=8ba6e72ee60667f6&sni=donatov.net&type=xhttp&fp=firefox#%F0%9F%87%B8%F0%9F%87%AA%20Sweden%20%7C%20%5B%2ACIDR%5D",
+    "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "4f2ff217a4d9a531": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://553d8193-d897-0024-bb46-f075b670f22a@161.104.38.98:443?encryption=none&host=161.104.38.98&path=%2Fassets&pbk=kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE&security=reality&sid=8ba6e72ee60667f6&sni=donatov.net&type=xhttp&fp=safari#%F0%9F%87%B8%F0%9F%87%AA%20Sweden%20%7C%20%5B%2ACIDR%5D",
+    "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "2ad2e1c150bd49c6": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://5d16ac22-6eea-426f-b778-6f4c2961faef@176.123.167.90:9881?security=reality&encryption=none&pbk=Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0&type=grpc&serviceName=grpc-tunnel&sni=dl.google.com&sid=aa&fp=random#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%5B%2ACIDR%5D",
+    "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "c54332330f0c900b": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://5d16ac22-6eea-426f-b778-6f4c2961faef@176.123.167.90:9881?type=grpc&security=reality&pbk=Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0&sni=dl.google.com&serviceName=grpc-tunnel&fp=safari#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D",
+    "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "9a99d5bd3caa0232": {
+    "failures": 0,
+    "last_latency": 4268.0,
+    "url": "vless://68d89911-b92d-46fe-9007-3645c3b285f0@2.26.101.148:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=RjRxUMkBaWZPU2GlovSFYV4UdIFhc2LETtVUJVgoVj8&security=reality&sid=e9eb910e5af883e3&sni=se.chick-chirik.com&type=tcp#%F0%9F%87%B8%F0%9F%87%AA%20Sweden%2C%20Stockholm%20%7C%20%5BBL%5D",
+    "source": "Export/v2rayN_PC/BLACK_VLESS_RUS_mobile_v2rayN.txt",
+    "last_ok": 1790540893
+  },
+  "3f5076cce81ab1bd": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://553d8193-d897-0032-bb46-f075b670f22a@161.104.38.98:443?encryption=none&security=reality&sni=donatov.net&pbk=kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE&sid=8ba6e72ee60667f6&type=xhttp&path=%2Fassets&host=161.104.38.98&mode=auto&fp=edge#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D",
+    "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "4963918feef024d5": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://553d8193-d897-0032-bb46-f075b670f22a@161.104.38.98:443?encryption=none&security=reality&sni=donatov.net&pbk=kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE&sid=8ba6e72ee60667f6&type=xhttp&path=%2Fassets&host=161.104.38.98&mode=auto&fp=firefox#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D",
+    "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "33142a538d35e897": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://68d89911-b92d-46fe-9007-3645c3b285f0@185.147.27.201:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=youtube.sparxiecn.com&pbk=boyoshgS6sNQ7xgi36ggKQzv_YtAoiFPxMZj-R6XB38&sid=3acbb7d765702da3&allowInsecure=1&fp=android#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D",
+    "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "6899a4163ee9754e": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://4e94bbd3-e785-480a-a945-59d8243e6867@85.209.135.90:8443?encryption=none&type=xhttp&security=reality&sni=gw-fe72.strixedge.cc&pbk=ssTK2ZGSzOApCNRmshpuOprEnZ49PEO3aEZrnFnucms&sid=a2fbd78225b1d008&path=%2Fedge%2Ffbaf5b1811e6%2F&host=gw-fe72.strixedge.cc&mode=auto&extra=%7B%22noGRPCHeader%22%3Afalse%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%22900-1800%22%2C%22maxConcurrency%22%3A0%2C%22maxConnections%22%3A2%7D%7D&fp=android#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5B%2ACIDR%5D",
+    "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "6b266b096b1acef6": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://4e94bbd3-e785-480a-a945-59d8243e6867@85.209.135.90:8443?encryption=none&type=xhttp&security=reality&sni=gw-fe72.strixedge.cc&pbk=ssTK2ZGSzOApCNRmshpuOprEnZ49PEO3aEZrnFnucms&sid=a2fbd78225b1d008&path=%2Fedge%2Ffbaf5b1811e6%2F&host=gw-fe72.strixedge.cc&mode=auto&extra=%7B%22noGRPCHeader%22%3Afalse%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%22900-1800%22%2C%22maxConcurrency%22%3A0%2C%22maxConnections%22%3A2%7D%7D&fp=firefox#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5B%2ACIDR%5D",
+    "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "2ef372232c1a9c0d": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://68d89911-b92d-46fe-9007-3645c3b285f0@185.147.27.201:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=youtube.sparxiecn.com&pbk=boyoshgS6sNQ7xgi36ggKQzv_YtAoiFPxMZj-R6XB38&sid=3acbb7d765702da3&allowInsecure=1&fp=ios#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D",
+    "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "ec24dea5d23079d2": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://4e94bbd3-e785-480a-a945-59d8243e6867@85.209.135.90:8443?encryption=none&type=xhttp&security=reality&sni=gw-fe72.strixedge.cc&pbk=ssTK2ZGSzOApCNRmshpuOprEnZ49PEO3aEZrnFnucms&sid=a2fbd78225b1d008&path=%2Fedge%2Ffbaf5b1811e6%2F&host=gw-fe72.strixedge.cc&mode=auto&extra=%7B%22noGRPCHeader%22%3Afalse%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%22900-1800%22%2C%22maxConcurrency%22%3A0%2C%22maxConnections%22%3A2%7D%7D&fp=qq#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5B%2ACIDR%5D",
+    "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "209239ed8ce925b1": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://553d8193-d897-0032-bb46-f075b670f22a@161.104.38.98:443?encryption=none&security=reality&sni=donatov.net&pbk=kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE&sid=8ba6e72ee60667f6&type=xhttp&path=%2Fassets&host=161.104.38.98&mode=auto&fp=random#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5B%2ACIDR%5D",
+    "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "6b41cc38f90ffb16": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://68d89911-b92d-46fe-9007-3645c3b285f0@185.147.27.201:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=youtube.sparxiecn.com&pbk=boyoshgS6sNQ7xgi36ggKQzv_YtAoiFPxMZj-R6XB38&sid=3acbb7d765702da3&allowInsecure=1&fp=chrome#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D",
+    "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "783a15c953d9a71b": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?type=xhttp&security=reality&encryption=none&path=%2Fxhttp_client_upload&sni=bl3fk52.sysopnova.art&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&sid=5eca&headerType=none&mode=packet-up&fp=edge#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D",
+    "source": "Export/v2rayN_PC/WHITE-CIDR-RU-all-v2rayN.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "18d191f5c64618ed": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?type=xhttp&security=reality&encryption=none&path=%2Fxhttp_client_upload&sni=bl3fk52.sysopnova.art&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&sid=5eca&headerType=none&mode=packet-up&fp=firefox#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D",
+    "source": "Export/v2rayN_PC/WHITE-CIDR-RU-all-v2rayN.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "0545058d59e24b13": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?type=xhttp&security=reality&encryption=none&path=%2Fxhttp_client_upload&sni=bl3fk52.sysopnova.art&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&sid=5eca&headerType=none&mode=packet-up&fp=safari#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D",
+    "source": "Export/v2rayN_PC/WHITE-CIDR-RU-all-v2rayN.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "c1c5d4a173ef3df4": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://68d89911-b92d-46fe-9007-3645c3b285f0@185.147.27.120:443?security=reality&encryption=none&pbk=boyoshgS6sNQ7xgi36ggKQzv_YtAoiFPxMZj-R6XB38&type=tcp&flow=xtls-rprx-vision&sni=youtube.sparxiecn.com&sid=3acbb7d765702da3&fp=chrome#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D",
+    "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "51a30df05d2d869c": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://68d89911-b92d-46fe-9007-3645c3b285f0@185.147.27.120:443?security=reality&encryption=none&pbk=boyoshgS6sNQ7xgi36ggKQzv_YtAoiFPxMZj-R6XB38&type=tcp&flow=xtls-rprx-vision&sni=youtube.sparxiecn.com&sid=3acbb7d765702da3&fp=ios#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D",
+    "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "f39ea37a0e5c22cf": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://68d89911-b92d-46fe-9007-3645c3b285f0@185.147.27.120:443?security=reality&encryption=none&pbk=boyoshgS6sNQ7xgi36ggKQzv_YtAoiFPxMZj-R6XB38&type=tcp&flow=xtls-rprx-vision&sni=youtube.sparxiecn.com&sid=3acbb7d765702da3&fp=qq#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D",
+    "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "2d2191d161c34307": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://68d89911-b92d-46fe-9007-3645c3b285f0@194.55.235.176:443?Telegram=%40GozargahAzad%2C%40GozargahAzad%2C%40GozargahAzad%2C%40GozargahAzad%2C%40GozargahAzad%2C%40GozargahAzad%2C%40GozargahAzad&security=reality&encryption=none&pbk=boyoshgS6sNQ7xgi36ggKQzv_YtAoiFPxMZj-R6XB38&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=youtube.sparxiecn.com&sid=3acbb7d765702da3&fp=chrome#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D",
+    "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "f53193b7c185e1b1": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://68d89911-b92d-46fe-9007-3645c3b285f0@194.55.235.176:443?Telegram=%40GozargahAzad%2C%40GozargahAzad%2C%40GozargahAzad%2C%40GozargahAzad%2C%40GozargahAzad%2C%40GozargahAzad%2C%40GozargahAzad&security=reality&encryption=none&pbk=boyoshgS6sNQ7xgi36ggKQzv_YtAoiFPxMZj-R6XB38&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=youtube.sparxiecn.com&sid=3acbb7d765702da3&fp=firefox#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D",
+    "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "38b3cfc2aa661b6d": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://68d89911-b92d-46fe-9007-3645c3b285f0@194.55.235.176:443?Telegram=%40GozargahAzad%2C%40GozargahAzad%2C%40GozargahAzad%2C%40GozargahAzad%2C%40GozargahAzad%2C%40GozargahAzad%2C%40GozargahAzad&security=reality&encryption=none&pbk=boyoshgS6sNQ7xgi36ggKQzv_YtAoiFPxMZj-R6XB38&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=youtube.sparxiecn.com&sid=3acbb7d765702da3&fp=safari#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D",
+    "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
+    "last_error": "proxy_test_failed"
+  },
+  "d20dbe124955ceac": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "hysteria2://e9dc02d400b67c727aca1620@185.174.137.172:8446?insecure=1#%F0%9F%87%AA%F0%9F%87%B8%20Spain%2C%20Madrid%20%7C%20%5BBL%5D",
+    "source": "BLACK_SS+All_RUS.txt",
+    "last_error": "tcp_failed:ConnectionRefusedError"
+  },
+  "86b58a18964c0ad1": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "hysteria2://0db8b567-77f3-4698-80c7-4d7889be8f02@108.181.6.53:50524?sni=iosapps.itunes.apple.com&insecure=1#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Los%20Angeles%20%7C%20%5BBL%5D",
+    "source": "BLACK_SS+All_RUS.txt",
+    "last_error": "tcp_failed:ConnectionRefusedError"
+  },
+  "6c193820eaf0318c": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "hysteria2://0Qt9oXAHwBYeEGkGirVu@130.94.12.136:30734?insecure=1#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20San%20Jose%20%7C%20%5BBL%5D",
+    "source": "BLACK_SS+All_RUS.txt",
+    "last_error": "tcp_failed:ConnectionRefusedError"
+  },
+  "1dd5c5d516ee33bc": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ@36.224.141.124:50099#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D",
+    "source": "BLACK_SS_WEAK_DPI_RUS.txt",
+    "last_error": "tcp_failed:ConnectionRefusedError"
+  },
+  "244e4c8d2cfd133a": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://cdd6bfce-781a-4454-b7d5-4778abb5c24f@kosta6.api3-max.ru:443?security=tls&flow=xtls-rprx-vision&sni=kosta6.api3-max.ru&encryption=none&type=tcp&fp=chrome#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "tcp_failed:TimeoutError"
+  },
+  "936d02a6711fa5f5": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://cdd6bfce-781a-4454-b7d5-4778abb5c24f@kosta6.api3-max.ru:443?security=tls&flow=xtls-rprx-vision&sni=kosta6.api3-max.ru&encryption=none&type=tcp&fp=ios#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "tcp_failed:TimeoutError"
+  },
+  "2a35b5b74bcda48d": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://85261643-2fd5-4889-8da9-43abc3c08405@130.49.188.4:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=lk.s.dn.iki-servers.com&pbk=GW-DWwk3vtXtXBEqQxY_Cf83JIisyyk34rUrtkMZ90g&spx=%2F&type=tcp&fp=safari#%F0%9F%87%A9%F0%9F%87%B0%20Denmark%2C%20R%C3%B8dding%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "tcp_failed:TimeoutError"
+  },
+  "d5e5e1b94ab34a10": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://eec2f6a7-c10f-43b0-b133-61f9bf9bbc27@45.130.254.10:443?encryption=none&flow=xtls-rprx-vision&pbk=G8SING6Ibc_igZ5vI5578fXCT_mBMRuq_o8_Ymnj2SQ&security=reality&sid=eba1498e012ef580&sni=amazon.de&type=tcp&fp=random#%F0%9F%87%B5%F0%9F%87%AD%20Philippines%2C%20Butuan%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "tcp_failed:TimeoutError"
+  },
+  "0d2782201e20ab83": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://cdd6bfce-781a-4454-b7d5-4778abb5c24f@192.209.62.152:443?type=tcp&security=tls&flow=xtls-rprx-vision&sni=kosta6.api3-max.ru&fp=firefox#%F0%9F%87%B9%F0%9F%87%B7%20Turkey%2C%20Istanbul%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "tcp_failed:TimeoutError"
+  },
+  "819f3e24ede47f6e": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://cdd6bfce-781a-4454-b7d5-4778abb5c24f@192.209.62.152:443?type=tcp&security=tls&flow=xtls-rprx-vision&sni=kosta6.api3-max.ru&fp=safari#%F0%9F%87%B9%F0%9F%87%B7%20Turkey%2C%20Istanbul%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "tcp_failed:TimeoutError"
+  },
+  "9163a24fd5275d57": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://eec2f6a7-c10f-43b0-b133-61f9bf9bbc27@45.130.254.10:443?encryption=none&flow=xtls-rprx-vision&pbk=G8SING6Ibc_igZ5vI5578fXCT_mBMRuq_o8_Ymnj2SQ&security=reality&sid=eba1498e012ef580&sni=amazon.de&type=tcp&fp=safari#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%B3%F0%9F%87%B1%20%F0%9F%87%B5%F0%9F%87%AD%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "tcp_failed:TimeoutError"
+  },
+  "b165098d2cd14279": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://eec2f6a7-c10f-43b0-b133-61f9bf9bbc27@45.130.254.10:443?encryption=none&flow=xtls-rprx-vision&pbk=G8SING6Ibc_igZ5vI5578fXCT_mBMRuq_o8_Ymnj2SQ&security=reality&sid=eba1498e012ef580&sni=amazon.de&type=tcp&fp=edge#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%B5%F0%9F%87%AD%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS.txt",
+    "last_error": "tcp_failed:TimeoutError"
+  },
+  "e9475e72fe525da8": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://61da8f4b-6ab1-4ca7-bae0-1cec4f9be2f8@13.143.166.112:443?type=tcp&security=reality&flow=xtls-rprx-vision&pbk=V-cWjK_GZ0PTJ3wnUHgwey_dNWI6_QNXsC9CdmA0mVI&sid=408c85938839e89f&sni=unpkg.com&fp=chrome#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "last_error": "tcp_failed:TimeoutError"
+  },
+  "7787079bcfab5760": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://cdd6bfce-781a-4454-b7d5-4778abb5c24f@kosta6.api3-max.ru:443?security=tls&flow=xtls-rprx-vision&sni=kosta6.api3-max.ru&encryption=none&type=tcp&fp=safari#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "last_error": "tcp_failed:TimeoutError"
+  },
+  "a340a54a68052252": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://cdd6bfce-781a-4454-b7d5-4778abb5c24f@kosta6.api3-max.ru:443?security=tls&flow=xtls-rprx-vision&sni=kosta6.api3-max.ru&encryption=none&type=tcp&fp=qq#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "last_error": "tcp_failed:TimeoutError"
+  },
+  "581c7a16012854c8": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://63be06d6-a169-482e-a047-4101797d0420@139.100.236.49:66?encryption=none&security=none&type=tcp#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D",
+    "source": "Vless-Reality-White-Lists-Rus-Mobile.txt",
+    "last_error": "tcp_failed:ConnectionRefusedError"
+  },
+  "2b3f743e601c6eaa": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://cdd6bfce-781a-4454-b7d5-4778abb5c24f@192.209.62.152:443?type=tcp&security=tls&flow=xtls-rprx-vision&sni=kosta6.api3-max.ru&fp=qq#%F0%9F%87%B9%F0%9F%87%B7%20Turkey%2C%20Istanbul%20%7C%20%5BBL%5D",
+    "source": "BLACK_VLESS_RUS_mobile.txt",
+    "last_error": "tcp_failed:TimeoutError"
+  },
+  "ee1754838fe0de53": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://eec2f6a7-c10f-43b0-b133-61f9bf9bbc27@45.130.254.10:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=amazon.de&fp=random&pbk=G8SING6Ibc_igZ5vI5578fXCT_mBMRuq_o8_Ymnj2SQ&sid=eba1498e012ef580&type=tcp#%F0%9F%87%B5%F0%9F%87%AD%20Philippines%2C%20Butuan%20%7C%20%5BBL%5D",
+    "source": "Export/v2rayN_PC/BLACK_VLESS_RUS_mobile_v2rayN.txt",
+    "last_error": "tcp_failed:TimeoutError"
+  },
+  "9e84c98e00824ade": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://6f73611a-bfd9-4712-9f33-fda2da70332a@201.51.4.39:443?security=tls&encryption=none&headerType=&type=tcp&flow=xtls-rprx-vision&sni=freevk.cryposikel.ru&fp=chrome#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5B%2ACIDR%5D",
+    "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
+    "last_error": "tcp_failed:TimeoutError"
+  },
+  "2c8faaf9c0e27230": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://6f73611a-bfd9-4712-9f33-fda2da70332a@201.51.4.39:443?security=tls&encryption=none&headerType=&type=tcp&flow=xtls-rprx-vision&sni=freevk.cryposikel.ru&fp=edge#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5B%2ACIDR%5D",
+    "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
+    "last_error": "tcp_failed:TimeoutError"
+  },
+  "8427790fb50ce2fc": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://6f73611a-bfd9-4712-9f33-fda2da70332a@201.51.4.39:443?security=tls&encryption=none&headerType=&type=tcp&flow=xtls-rprx-vision&sni=freevk.cryposikel.ru&fp=firefox#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5B%2ACIDR%5D",
+    "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
+    "last_error": "tcp_failed:TimeoutError"
+  },
+  "d1838572e47f8133": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "vless://6f73611a-bfd9-4712-9f33-fda2da70332a@201.51.4.39:443?security=tls&encryption=none&headerType=&type=tcp&flow=xtls-rprx-vision&sni=freevk.cryposikel.ru&fp=safari#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5B%2ACIDR%5D",
+    "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
+    "last_error": "tcp_failed:TimeoutError"
+  },
+  "36f6fbd1167718de": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?insecure=0#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D",
+    "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
+    "last_error": "tcp_failed:TimeoutError"
+  },
+  "8953a383de30bb70": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?alpn=h3#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D",
+    "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
+    "last_error": "tcp_failed:TimeoutError"
+  },
+  "4a08bdc25280e677": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "hysteria2://d900526f-30d7-4f4b-9dbe-e98f17b6fbcc@vpn.ai-boost.tech:2086?sni=vpn.ai-boost.tech&fp=firefox#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%B3%F0%9F%87%B1%20%F0%9F%87%BA%F0%9F%87%B8%20%5B%2ACIDR%5D",
+    "source": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
+    "last_error": "tcp_failed:TimeoutError"
+  },
+  "ec9bbb423994c5dc": {
+    "failures": 1,
+    "last_latency": null,
+    "url": "hysteria2://d900526f-30d7-4f4b-9dbe-e98f17b6fbcc@vpn.ai-boost.tech:2086?sni=vpn.ai-boost.tech&insecure=1&alpn=h3#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A9%F0%9F%87%AA%20%F0%9F%87%AA%F0%9F%87%B8%20%F0%9F%87%B3%F0%9F%87%B1%20%F0%9F%87%BA%F0%9F%87%B8%20%5B%2ACIDR%5D",
     "source": "WHITE-CIDR-RU-all.txt",
     "last_error": "tcp_failed:TimeoutError"
   }
