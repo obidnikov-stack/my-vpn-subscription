@@ -1,47 +1,45 @@
 # VolkovVPN failed/quarantine report
-# failures=102 reason=tcp_failed:ConnectionRefusedError source=WHITE-CIDR-RU-all.txt
+# failures=103 reason=tcp_failed:ConnectionRefusedError source=WHITE-CIDR-RU-all.txt
 hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?insecure=1&alpn=h3#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-# failures=33 reason=proxy_test_failed source=BLACK_SS+All_RUS.txt
+# failures=34 reason=proxy_test_failed source=BLACK_SS+All_RUS.txt
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@134.195.101.118:2377?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3D%28Telegram%F0%9F%87%A8%F0%9F%87%B3+%40VPNine1%299f6b1e7%3A141612#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-# failures=32 reason=proxy_test_failed source=BLACK_SS+All_RUS.txt
+# failures=33 reason=proxy_test_failed source=BLACK_SS+All_RUS.txt
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@134.195.101.117:2377?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3D%28Telegram%F0%9F%87%A8%F0%9F%87%B3+%40VPNine1%29fa03bb5%3A137563#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-# failures=31 reason=proxy_test_failed source=BLACK_SS+All_RUS.txt
+# failures=32 reason=proxy_test_failed source=BLACK_SS+All_RUS.txt
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@134.195.101.119:2377?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3D%28Telegram%F0%9F%87%A8%F0%9F%87%B3+%40VPNine1%29fa03bb5%3A137563#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-# failures=13 reason=tcp_failed:ConnectionRefusedError source=BLACK_SS+All_RUS.txt
+# failures=30 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
+vless://eb98ab60-f16d-4662-a740-c89307400939@151.101.213.164:443?encryption=none&security=tls&sni=accounts.fastly.com&type=xhttp&path=%2F&host=fretranxrabet.net&mode=auto&fp=safari#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
+# failures=26 reason=proxy_test_failed source=BLACK_VLESS_RUS_mobile.txt
+vless://eb98ab60-f16d-4662-a740-c89307400939@151.101.213.164:443?encryption=none&security=tls&sni=accounts.fastly.com&type=xhttp&path=%2F&host=fretranxrabet.net&mode=auto&fp=chrome#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
+# failures=25 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
+vless://eb98ab60-f16d-4662-a740-c89307400939@151.101.213.164:443?encryption=none&security=tls&sni=accounts.fastly.com&type=xhttp&path=%2F&host=fretranxrabet.net&mode=auto&fp=qq#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
+# failures=21 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
+vless://eb98ab60-f16d-4662-a740-c89307400939@151.101.213.164:443?encryption=none&security=tls&sni=accounts.fastly.com&type=xhttp&path=%2F&host=fretranxrabet.net&mode=auto&fp=ios#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
+# failures=15 reason=tcp_failed:TimeoutError source=BLACK_SS+All_RUS.txt
+hysteria2://ee872217-9c78-402c-a002-6a2af50b0227@160.16.71.52:8843?sni=updates.cdn-apple.com&insecure=1#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
+# failures=14 reason=tcp_failed:ConnectionRefusedError source=BLACK_SS+All_RUS.txt
 hysteria2://5d0a6445-a30d-4522-bb1f-94f1d3ad63be@els.mangshe.xyz:2060?insecure=1&sni=els.mangshe.xyz#%F0%9F%87%B7%F0%9F%87%BA%20Russia%2C%20Zelenograd%20%28Zelenogradskiy%20administrativnyy%20okrug%29%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-# failures=12 reason=proxy_test_failed source=BLACK_SS+All_RUS.txt
-vmess://eyJ2IjoiMiIsInBzIjoi8J+HrfCfh7AgSG9uZyBLb25nLCBIb25nIEtvbmcgfCBbQkxdIiwiYWRkIjoiY3UuODc3Nzc0Lnh5eiIsInBvcnQiOiI0NDMiLCJpZCI6ImYzMjQ0ZTI4LTE1N2ItNDllOS05NzMwLTg5ODMyZjg5ZWJjYyIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoibm9uZSIsInRscyI6InRscyIsInNuaSI6ImJhbGFuY2VkLW1pbmRzLWNhcnJpZXItZGVtYW5kaW5nLnRyeWNsb3VkZmxhcmUuY29tIiwicGF0aCI6Ii92bWVzcy1hcmdvIiwiaG9zdCI6ImJhbGFuY2VkLW1pbmRzLWNhcnJpZXItZGVtYW5kaW5nLnRyeWNsb3VkZmxhcmUuY29tIiwiYWxwbiI6IiIsImZwIjoiIn0=
-# failures=11 reason=proxy_test_failed source=BLACK_SS+All_RUS.txt
-vmess://eyJhZGQiOiJ5ZzEueWdra2suZHBkbnMub3JnIiwiYWlkIjoiMCIsImhvc3QiOiJqbXAxLjkwNzczNy54eXoiLCJpZCI6ImIyYmE0YTczLTMxMjMtNDc5ZS1hYTk2LTU5NzNhOWVjZDBjMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9iMmJhNGE3My0zMTIzLTQ3OWUtYWE5Ni01OTczYTllY2QwYzAtdm0iLCJwb3J0IjoiNDQzIiwicHMiOiLwn4et8J+HsCBIb25nIEtvbmcsIEhvbmcgS29uZyB8IFtCTF0iLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiYXV0byIsInNlY3VyaXR5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOmZhbHNlLCJzbmkiOiJqbXAxLjkwNzczNy54eXoiLCJ2IjoiMiIsInNjeSI6ImF1dG8iLCJhbHBuIjoiIiwiZnAiOiIifQ==
-# failures=11 reason=tcp_failed:ConnectionRefusedError source=BLACK_SS+All_RUS.txt
-hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?sni=msk.frkn.org&upmbps=0#%F0%9F%87%B7%F0%9F%87%BA%20Russia%2C%20Moscow%20%7C%20%5BBL%5D
-# failures=8 reason=tcp_failed:ConnectionRefusedError source=BLACK_SS+All_RUS.txt
+# failures=9 reason=tcp_failed:TimeoutError source=BLACK_SS+All_RUS.txt
 hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?sni=msk.frkn.org&insecure=1&alpn=h3#%F0%9F%87%B7%F0%9F%87%BA%20Russia%2C%20Moscow%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-# failures=7 reason=proxy_test_failed source=BLACK_SS+All_RUS.txt
-vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7ggVW5pdGVkIFN0YXRlcywgU3QgTG91aXMgKERvd250b3duKSB8IFtCTF0iLCJhZGQiOiJjaGF0Z3B0LmNvbSIsInBvcnQiOiI4NDQzIiwiaWQiOiI2MDQ0MTU0OC1iNjhlLTQzYjItODE5MS1lM2I4ODRiZTRiM2MiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJ0eXBlIjoibm9uZSIsInRscyI6InRscyIsInNuaSI6InYycmF5MS5kb3phcHAueHl6IiwicGF0aCI6Ii9sTW5zWlVONC8iLCJob3N0IjoiIiwic2N5IjoiYXV0byIsImFscG4iOiIiLCJmcCI6IiJ9
-# failures=6 reason=proxy_test_failed source=BLACK_SS+All_RUS.txt
-vmess://eyJhZGQiOiJjdS44Nzc3NzQueHl6IiwicG9ydCI6IjQ0MyIsImlkIjoiZjMyNDRlMjgtMTU3Yi00OWU5LTk3MzAtODk4MzJmODllYmNjIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInYiOiIyIiwicHMiOiLwn4et8J+HsCBIb25nIEtvbmcsIEhvbmcgS29uZyB8IFtCTF0iLCJob3N0IjoiYmFsYW5jZWQtbWluZHMtY2Fycmllci1kZW1hbmRpbmcudHJ5Y2xvdWRmbGFyZS5jb20iLCJwYXRoIjoiL3ZtZXNzLWFyZ28iLCJ0bHMiOiJ0bHMiLCJzbmkiOiIiLCJ0eXBlIjoibm9uZSIsInNlcnZlclBvcnQiOjAsIm5hdGlvbiI6IiIsImFscG4iOiIiLCJmcCI6IiJ9
-# failures=6 reason=tcp_failed:ConnectionRefusedError source=WHITE-CIDR-RU-all.txt
+# failures=8 reason=tcp_failed:TimeoutError source=BLACK_SS+All_RUS.txt
+hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?upmbps=0#%F0%9F%87%B7%F0%9F%87%BA%20Russia%2C%20Moscow%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
+# failures=7 reason=tcp_failed:ConnectionRefusedError source=BLACK_SS+All_RUS.txt
+hysteria2://099830134df5ac3a04a4b21d39b8c395@163.192.14.135:50160?insecure=1&sni=www.bing.com#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20San%20Jose%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
+# failures=7 reason=tcp_failed:ConnectionRefusedError source=WHITE-CIDR-RU-all.txt
 hysteria2://5d0a6445-a30d-4522-bb1f-94f1d3ad63be@els.mangshe.xyz:2060?insecure=1&sni=els.mangshe.xyz#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
-# failures=4 reason=proxy_test_failed source=BLACK_SS+All_RUS.txt
-vmess://eyJhZGQiOiJ5ZzEueWdra2suZHBkbnMub3JnIiwiYWlkIjoiMCIsImhvc3QiOiJqbXAxLjkwNzczNy54eXoiLCJpZCI6ImIyYmE0YTczLTMxMjMtNDc5ZS1hYTk2LTU5NzNhOWVjZDBjMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9iMmJhNGE3My0zMTIzLTQ3OWUtYWE5Ni01OTczYTllY2QwYzAtdm0iLCJwb3J0IjoiNDQzIiwicHMiOiLwn4et8J+HsCBIb25nIEtvbmcsIEhvbmcgS29uZyB8IFtCTF0iLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiYXV0byIsInNlY3VyaXR5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6IiIsInYiOiIyIiwic2N5IjoiYXV0byIsImFscG4iOiIiLCJmcCI6IiJ9
-# failures=4 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
-vless://87fd990d-ca93-440a-bbd4-e8281c4a0910@87.58.201.170:443?encryption=none&type=grpc&security=tls&sni=d3-nl1.cloud-cdn.xyz&alpn=h2&serviceName=vlgrpc&fp=chrome#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%5BBL%5D
-# failures=4 reason=tcp_failed:TimeoutError source=BLACK_VLESS_RUS.txt
-vless://c0e8fb58-a60f-4c15-9444-4e7c109797a8@176.96.131.251:1280?path=/&security=&encryption=none&type=ws#%F0%9F%87%B9%F0%9F%87%B7%20Turkey%2C%20Beyo%C4%9Flu%20%7C%20%5BBL%5D
-# failures=3 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
-vless://9b5df664-8725-4f72-acaa-3d9f52e3c69a@146.75.119.82:80?path=ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048&security=none&encryption=none&host=rb24.ir&type=ws#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-# failures=3 reason=proxy_test_failed source=BLACK_VLESS_RUS_mobile.txt
-vmess://eyJ2IjoiMiIsInBzIjoi8J+HqfCfh6ogR2VybWFueSwgRnJhbmtmdXJ0IGFtIE1haW4gKElubmVuc3RhZHQgSSkgfCBbQkxdIiwiYWRkIjoiMzEuNTkuNTguMjMyIiwicG9ydCI6IjIwNzcyIiwidHlwZSI6Im5vbmUiLCJpZCI6ImQ2OTAwN2Y5LWIwMzgtNDE1Ni1kMjdmLWY4MWYxODA5NGVjZiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvcmF5IiwiaG9zdCI6IiIsInRscyI6IiIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJhbHBuIjoiIiwiZnAiOiIifQ==
-# failures=3 reason=proxy_test_failed source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
+# failures=4 reason=proxy_test_failed source=BLACK_SS_WEAK_DPI_RUS.txt
+ss://Y2hhY2hhMjAtaWV0Zjphc2QxMjM0NTY=@103.141.221.101:8388#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%2C%20Mong%20Kok%20%7C%20%5BBL%5D
+# failures=4 reason=second_test_failed source=BLACK_SS_WEAK_DPI_RUS.txt
+ss://Y2hhY2hhMjAtaWV0Zjphc2QxMjM0NTY=@103.141.221.124:8388#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%2C%20Mong%20Kok%20%7C%20%5BBL%5D
+# failures=4 reason=proxy_test_failed source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
 vless://1c1baccf-91e0-4ba0-8965-9c8d022c9a98@ru-svo-1.blook.network:443?alpn=h3&extra=%7B%22noGRPCHeader%22%3Atrue%2C%22scMaxEachPostBytes%22%3A1000000%2C%22scMinPostsIntervalMs%22%3A30%2C%22xPaddingBytes%22%3A%22100-1000%22%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A%2216-32%22%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%22300-900%22%2C%22maxConnections%22%3A%223-6%22%7D%7D&headerType=&mode=stream-one&path=%2FVLSpdG9k&security=tls&sni=ru-svo-1.blook.network&type=xhttp&fp=firefox#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D
-# failures=3 reason=proxy_test_failed source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
+# failures=4 reason=proxy_test_failed source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
 vless://1c1baccf-91e0-4ba0-8965-9c8d022c9a98@ru-svo-1.blook.network:443?alpn=h3&extra=%7B%22noGRPCHeader%22%3Atrue%2C%22scMaxEachPostBytes%22%3A1000000%2C%22scMinPostsIntervalMs%22%3A30%2C%22xPaddingBytes%22%3A%22100-1000%22%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A%2216-32%22%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%22300-900%22%2C%22maxConnections%22%3A%223-6%22%7D%7D&headerType=&mode=stream-one&path=%2FVLSpdG9k&security=tls&sni=ru-svo-1.blook.network&type=xhttp&fp=safari#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D
-# failures=3 reason=proxy_test_failed source=Export/v2rayN_PC/WHITE-SNI-RU-all-v2rayN.txt
-vless://88c5cf5c-2910-4e57-91ff-6dd1ad6ecc44@135.136.178.36:443?encryption=none&extra=%7B%22noGRPCHeader%22%3Afalse%2C%22scMaxEachPostBytes%22%3A1000000%2C%22xPaddingBytes%22%3A%22100-1000%22%2C%22scMinPostsIntervalMs%22%3A30%7D&host=ya.ru&path=%2Fxvru&pbk=J0wsOjbRgcuh0_Btlci3kQoXM9LBGL8lvD5IPftExS8&security=reality&sid=5563d518&sni=ya.ru&type=xhttp&fp=android#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A9%F0%9F%87%AA%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BSNI-RU%5D%20ya.ru
-# failures=3 reason=proxy_test_failed source=Export/v2rayN_PC/WHITE-SNI-RU-all-v2rayN.txt
+# failures=4 reason=proxy_test_failed source=Export/v2rayN_PC/WHITE-SNI-RU-all-v2rayN.txt
 vless://612ace20-eddd-4756-a99f-fe4d96c22d06@138.124.241.15:1443?encryption=none&flow=xtls-rprx-vision&pbk=zlz_WrAKjBp8fkpigYpMKvTilhuiMrxn19EJ5gAIiRw&security=reality&sid=7895f62a040af988&sni=ya.ru&type=tcp&fp=android#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%7C%20%F0%9F%8C%90%20%7C%20%5BSNI-RU%5D%20ya.ru
-# failures=3 reason=tcp_failed:TimeoutError source=BLACK_VLESS_RUS.txt
-vless://8f6e49e6-7f03-4f10-9da9-1716158d80ed@95.85.254.245:443?type=tcp&security=reality&flow=xtls-rprx-vision&pbk=V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8&sid=5629431325884ff0&sni=pol4.o4ka-internet.com&fp=android#%F0%9F%87%B5%F0%9F%87%B1%20Poland%2C%20Warsaw%20%7C%20%5BBL%5D
-# failures=3 reason=tcp_failed:TimeoutError source=BLACK_VLESS_RUS.txt
-vless://ffac6b3c-d79c-4543-ab4a-3bd3019edbc1@94.198.54.132:8443?security=reality&type=grpc&serviceName=grpc&sni=reels.frkn.org&pbk=ZXvgBIvhN87thoELQot4o6b6Fe9n_wATxfobHRAwgys&sid=0498897564df&fp=chrome#%F0%9F%87%B7%F0%9F%87%BA%20Russia%2C%20Moscow%20%7C%20%5BBL%5D
+# failures=4 reason=proxy_test_failed source=Export/v2rayN_PC/WHITE-SNI-RU-all-v2rayN.txt
+vless://88c5cf5c-2910-4e57-91ff-6dd1ad6ecc44@135.136.178.36:443?encryption=none&extra=%7B%22noGRPCHeader%22%3Afalse%2C%22scMaxEachPostBytes%22%3A1000000%2C%22xPaddingBytes%22%3A%22100-1000%22%2C%22scMinPostsIntervalMs%22%3A30%7D&host=ya.ru&path=%2Fxvru&pbk=J0wsOjbRgcuh0_Btlci3kQoXM9LBGL8lvD5IPftExS8&security=reality&sid=5563d518&sni=ya.ru&type=xhttp&fp=android#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A9%F0%9F%87%AA%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BSNI-RU%5D%20ya.ru
+# failures=3 reason=second_test_failed source=BLACK_VLESS_RUS.txt
+vless://b98d4c6e-6770-4a31-8256-a4750cdea0e7@t11.qifei.app:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.amazon.com&pbk=0i_xAxYgSNx5NMpK2lOaWGS-CvAiD_LneYPO0MF0owo&sid=1a&type=tcp&fp=firefox#%F0%9F%87%AF%F0%9F%87%B5%20Japan%2C%20Chiyoda%20City%20%7C%20%5BBL%5D
+# failures=3 reason=tcp_failed:TimeoutError source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
+hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?sni=msk.frkn.org&upmbps=0#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
