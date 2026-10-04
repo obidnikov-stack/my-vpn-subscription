@@ -1,101 +1,109 @@
 # VolkovVPN failed/quarantine report
-# failures=56 reason=proxy_test_failed source=BLACK_SS+All_RUS.txt
+# failures=57 reason=proxy_test_failed source=BLACK_SS+All_RUS.txt
 vmess://eyJhZGQiOiJxdGtkcjhqeGUzd2VmeGptLnYuM2Rucy52aXAiLCJhaWQiOiIwIiwiaG9zdCI6InFUS0RSOGpYRTN3RUZ4Sk0udi4zZG5zLnZpcCIsImlkIjoiZjIzYmI0MjdjMWY5NDM3Mzg3NmMyZjQzZTlmNzkwZjMiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3Mtdm1lc3MiLCJwb3J0IjoiNDQzIiwicHMiOiLwn4et8J+HsCBIb25nIEtvbmcsIEhvbmcgS29uZyB8IFtCTF0iLCJzZWN1cml0eSI6ImF1dG8iLCJzbmkiOiJxVEtEUjhqWEUzd0VGeEpNLnYuM2Rucy52aXAiLCJ0bHMiOiJ0bHMiLCJ2IjoiMiIsInR5cGUiOiJub25lIiwic2N5IjoiYXV0byIsImFscG4iOiIiLCJmcCI6IiJ9
-# failures=32 reason=proxy_test_failed source=BLACK_SS+All_RUS.txt
+# failures=33 reason=proxy_test_failed source=BLACK_SS+All_RUS.txt
 vmess://eyJ2IjoiMiIsInBzIjoi8J+HrfCfh7AgSG9uZyBLb25nLCBIb25nIEtvbmcgfCBbQkxdIiwiYWRkIjoicXRrZHI4anhlM3dlZnhqbS52LjNkbnMudmlwIiwicG9ydCI6IjQ0MyIsImlkIjoiZjIzYmI0MjdjMWY5NDM3Mzg3NmMyZjQzZTlmNzkwZjMiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6Im5vbmUiLCJwYXRoIjoiL3dzLXZtZXNzIiwidGxzIjoidGxzIiwiaG9zdCI6IiIsInNuaSI6IiIsImFscG4iOiIiLCJmcCI6IiJ9
-# failures=22 reason=tcp_failed:ConnectionRefusedError source=BLACK_SS+All_RUS.txt
+# failures=23 reason=tcp_failed:ConnectionRefusedError source=BLACK_SS+All_RUS.txt
 hysteria2://ee872217-9c78-402c-a002-6a2af50b0227@160.16.71.52:8843?sni=updates.cdn-apple.com&insecure=1#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-# failures=18 reason=proxy_test_failed source=BLACK_SS+All_RUS.txt
+# failures=19 reason=proxy_test_failed source=BLACK_SS+All_RUS.txt
 vmess://eyJ2IjoiMiIsInBzIjoi8J+HrfCfh7AgSG9uZyBLb25nLCBIb25nIEtvbmcgfCBbQkxdIiwiYWRkIjoiY3UuODc3Nzc0Lnh5eiIsInBvcnQiOiI0NDMiLCJpZCI6ImYzMjQ0ZTI4LTE1N2ItNDllOS05NzMwLTg5ODMyZjg5ZWJjYyIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoibm9uZSIsInRscyI6InRscyIsInNuaSI6ImJhbGFuY2VkLW1pbmRzLWNhcnJpZXItZGVtYW5kaW5nLnRyeWNsb3VkZmxhcmUuY29tIiwicGF0aCI6Ii92bWVzcy1hcmdvIiwiaG9zdCI6ImJhbGFuY2VkLW1pbmRzLWNhcnJpZXItZGVtYW5kaW5nLnRyeWNsb3VkZmxhcmUuY29tIiwiYWxwbiI6IiIsImZwIjoiIn0=
-# failures=18 reason=tcp_failed:ConnectionRefusedError source=BLACK_SS+All_RUS.txt
+# failures=19 reason=tcp_failed:ConnectionRefusedError source=BLACK_SS+All_RUS.txt
 hysteria2://e4fa7b90-b8ee-45bb-b3be-cb3bfdc551e3@156.229.160.253:55000?insecure=1&sni=www.bing.com#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%AD%F0%9F%87%B0%20%F0%9F%87%BA%F0%9F%87%B8%20%7C%20%5BBL%5D
-# failures=10 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
+# failures=11 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
 vless://00bfbf66-a0ba-459a-8c14-4e68c9e25bd5@151.101.214.143:443?encryption=none&security=tls&sni=mail.fastly.com&alpn=h3&type=xhttp&mode=auto&host=danmark-fastly.global.ssl.fastly.net&path=%2F#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D
-# failures=10 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
+# failures=11 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
 vless://00bfbf66-a0ba-459a-8c14-4e68c9e25bd5@151.101.214.143:443?encryption=none&security=tls&sni=mail.fastly.com&alpn=h3&type=xhttp&mode=auto&host=danmark-fastly.global.ssl.fastly.net&path=%2F&fp=android#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D
-# failures=10 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
+# failures=11 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
 vless://00bfbf66-a0ba-459a-8c14-4e68c9e25bd5@151.101.214.143:443?encryption=none&security=tls&sni=mail.fastly.com&alpn=h3&type=xhttp&mode=auto&host=danmark-fastly.global.ssl.fastly.net&path=%2F&fp=edge#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D
-# failures=10 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
+# failures=11 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
 vless://00bfbf66-a0ba-459a-8c14-4e68c9e25bd5@151.101.214.143:443?encryption=none&security=tls&sni=mail.fastly.com&alpn=h3&type=xhttp&mode=auto&host=danmark-fastly.global.ssl.fastly.net&path=%2F&fp=ios#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D
-# failures=9 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
+# failures=10 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
 vless://00bfbf66-a0ba-459a-8c14-4e68c9e25bd5@151.101.214.143:443?encryption=none&security=tls&sni=mail.fastly.com&alpn=h3&type=xhttp&mode=auto&host=danmark-fastly.global.ssl.fastly.net&path=%2F&fp=chrome#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D
-# failures=9 reason=proxy_test_failed source=Export/v2rayN_PC/WHITE-SNI-RU-all-v2rayN.txt
+# failures=10 reason=proxy_test_failed source=Export/v2rayN_PC/WHITE-SNI-RU-all-v2rayN.txt
 vless://6bcb8792-50d9-4e4c-8cbe-f1343a62acbc@104.194.144.195:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=cdn.tbank.ru&pbk=3vgqsFm1j-00-_jN25zuuty59lk7yn5YFMIfL5LwwRw&sid=2bd6a47090adc591&spx=%2F&allowInsecure=1&fp=android#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20%F0%9F%8C%90%20%7C%20%5BSNI-RU%5D%20cdn.tbank.ru
-# failures=8 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
+# failures=9 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
 vless://00bfbf66-a0ba-459a-8c14-4e68c9e25bd5@151.101.214.143:443?encryption=none&security=tls&sni=mail.fastly.com&alpn=h3&type=xhttp&mode=auto&host=danmark-fastly.global.ssl.fastly.net&path=%2F&fp=qq#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D
-# failures=8 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
+# failures=9 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
 vless://00bfbf66-a0ba-459a-8c14-4e68c9e25bd5@151.101.214.143:443?encryption=none&security=tls&sni=mail.fastly.com&alpn=h3&type=xhttp&mode=auto&host=danmark-fastly.global.ssl.fastly.net&path=%2F&fp=safari#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D
-# failures=7 reason=proxy_test_failed source=BLACK_SS+All_RUS.txt
+# failures=8 reason=proxy_test_failed source=BLACK_SS+All_RUS.txt
 vmess://eyJ2IjoiMiIsInBzIjoi8J+HrfCfh7AgSG9uZyBLb25nLCBIb25nIEtvbmcgfCBbQkxdIiwiYWRkIjoicXRrZHI4anhlM3dlZnhqbS52LjNkbnMudmlwIiwicG9ydCI6IjQ0MyIsImlkIjoiZjIzYmI0MjctYzFmOS00MzczLTg3NmMtMmY0M2U5Zjc5MGYzIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiJub25lIiwiaG9zdCI6IiIsInBhdGgiOiIvd3Mtdm1lc3MiLCJ0bHMiOiJ0bHMiLCJzbmkiOiJxdGtkcjhqeGUzd2VmeGptLnYuM2Rucy52aXAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6InJhbmRvbSJ9
-# failures=7 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
-vless://00bfbf66-a0ba-459a-8c14-4e68c9e25bd5@151.101.214.143:443?encryption=none&security=tls&sni=mail.fastly.com&alpn=h3&type=xhttp&mode=auto&host=danmark-fastly.global.ssl.fastly.net&path=%2F&fp=firefox#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D
-# failures=7 reason=proxy_test_failed source=BLACK_SS+All_RUS.txt
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@60.249.39.203:2377?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3D%28TG%2B%40WangCai2%2932cf132%3A178330#%F0%9F%87%B9%F0%9F%87%BC%20Taiwan%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-# failures=7 reason=proxy_test_failed source=BLACK_SS_WEAK_DPI_RUS.txt
+# failures=8 reason=second_test_failed source=BLACK_SS_WEAK_DPI_RUS.txt
 ss://Y2hhY2hhMjAtaWV0Zjphc2QxMjM0NTY=@103.141.221.124:8388#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%2C%20Mong%20Kok%20%7C%20%5BBL%5D
-# failures=7 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
+# failures=8 reason=proxy_test_failed source=BLACK_SS+All_RUS.txt
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@60.249.39.203:2377?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3D%28TG%2B%40WangCai2%2932cf132%3A178330#%F0%9F%87%B9%F0%9F%87%BC%20Taiwan%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
+# failures=8 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
+vless://00bfbf66-a0ba-459a-8c14-4e68c9e25bd5@151.101.214.143:443?encryption=none&security=tls&sni=mail.fastly.com&alpn=h3&type=xhttp&mode=auto&host=danmark-fastly.global.ssl.fastly.net&path=%2F&fp=firefox#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D
+# failures=8 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
 vless://4b21fbc7-00c2-4665-9788-02153832f9e5@45.12.69.139:443?encryption=none&security=tls&sni=v2ray.aizgl.com&type=ws&path=%2Fxray-ws&host=v2ray.aizgl.com&fp=chrome#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20East%20Los%20Angeles%20%7C%20%5BBL%5D
-# failures=7 reason=proxy_test_failed source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
+# failures=8 reason=proxy_test_failed source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
 vless://1bb2af63-4472-44ed-9c70-8f316258b68b@62.152.58.90:443?encryption=none&mode=gun&pbk=JBKJlzuJH1YzDHAoz28wEKbzWTGpDpKjgtSq0oT0a0k&security=reality&sid=27e53bbcab7593d7&sni=360.yandex.ru&type=grpc&fp=chrome#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20%5B%2ACIDR%5D
-# failures=7 reason=proxy_test_failed source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
+# failures=8 reason=proxy_test_failed source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
 vless://1c1baccf-91e0-4ba0-8965-9c8d022c9a98@ru-svo-1.blook.network:443?alpn=h3&extra=%7B%22noGRPCHeader%22%3Atrue%2C%22scMaxEachPostBytes%22%3A1000000%2C%22scMinPostsIntervalMs%22%3A30%2C%22xPaddingBytes%22%3A%22100-1000%22%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A%2216-32%22%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%22300-900%22%2C%22maxConnections%22%3A%223-6%22%7D%7D&headerType=&mode=stream-one&path=%2FVLSpdG9k&security=tls&sni=ru-svo-1.blook.network&type=xhttp&fp=safari#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D
-# failures=6 reason=proxy_test_failed source=BLACK_SS+All_RUS.txt
+# failures=7 reason=proxy_test_failed source=BLACK_SS+All_RUS.txt
 vmess://eyJhZGQiOiJxdGtkcjhqeGUzd2VmeGptLnYuM2Rucy52aXAiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6InFUS0RSOGpYRTN3RUZ4Sk0udi4zZG5zLnZpcCIsImlkIjoiZjIzYmI0MjdjMWY5NDM3Mzg3NmMyZjQzZTlmNzkwZjMiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3Mtdm1lc3MiLCJwb3J0IjoiNDQzIiwicHMiOiLwn4et8J+HsCBIb25nIEtvbmcsIEhvbmcgS29uZyB8IFtCTF0iLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoidGxzIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
-# failures=5 reason=proxy_test_failed source=BLACK_SS+All_RUS.txt
+# failures=6 reason=proxy_test_failed source=BLACK_SS+All_RUS.txt
 vmess://eyJ2IjoiMiIsInBzIjoi8J+HrfCfh7AgSG9uZyBLb25nLCBIb25nIEtvbmcgfCBbQkxdIiwiYWRkIjoieWcxLnlna2trLmRwZG5zLm9yZyIsInBvcnQiOiI0NDMiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6Im5vbmUiLCJ0bHMiOiJ0bHMiLCJpZCI6ImIyYmE0YTczLTMxMjMtNDc5ZS1hYTk2LTU5NzNhOWVjZDBjMCIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6ImptcDEuOTA3NzM3Lnh5eiIsImhvc3QiOiJqbXAxLjkwNzczNy54eXoiLCJwYXRoIjoiL2IyYmE0YTczLTMxMjMtNDc5ZS1hYTk2LTU5NzNhOWVjZDBjMC12bSIsImFscG4iOiIiLCJmcCI6IiJ9
-# failures=5 reason=proxy_test_failed source=BLACK_SS_WEAK_DPI_RUS.txt
-ss://Y2hhY2hhMjAtaWV0Zjphc2QxMjM0NTY=@103.149.182.79:8388#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%2C%20Wan%20Chai%20%7C%20%5BBL%5D
-# failures=5 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
+# failures=6 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
 vless://fc88a93d-68cb-409d-a64d-e438cf9fb4d9@ar-eze-1.blook.rs:443?alpn=h3&extra=%7B%22noGRPCHeader%22%3Atrue%2C%22scMaxEachPostBytes%22%3A1000000%2C%22scMinPostsIntervalMs%22%3A30%2C%22xPaddingBytes%22%3A%22100-1000%22%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A%2216-32%22%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%22300-900%22%2C%22maxConnections%22%3A%223-6%22%7D%7D&headerType=&mode=stream-one&path=%2FVLSpdG9k&security=tls&sni=ar-eze-1.blook.rs&type=xhttp&fp=qq#%F0%9F%87%A6%F0%9F%87%B7%20Argentina%2C%20Burzaco%20%7C%20%5BBL%5D
-# failures=5 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
+# failures=6 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
 vless://9d672694-c146-422e-b3b5-3717a38a0fcc@8.47.69.0:2053/?type=ws&encryption=none&flow=&host=fr.api-music-fa.com&path=%2Fapi%2Fvoip%2Fupdates%2Fstatic%2Ffr2035&security=tls&sni=fr.api-music-fa.com&allowInsecure=0&insecure=0#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Roubaix%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-# failures=5 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
+# failures=6 reason=proxy_test_failed source=BLACK_SS_WEAK_DPI_RUS.txt
+ss://Y2hhY2hhMjAtaWV0Zjphc2QxMjM0NTY=@103.149.182.79:8388#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%2C%20Wan%20Chai%20%7C%20%5BBL%5D
+# failures=6 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
 vless://4b21fbc7-00c2-4665-9788-02153832f9e5@47.251.95.178:443?encryption=none&security=tls&sni=v2ray.aizgl.com&type=ws&path=%2Fxray-ws&host=v2ray.aizgl.com&fp=ios#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20East%20Los%20Angeles%20%7C%20%5BBL%5D
-# failures=5 reason=proxy_test_failed source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
+# failures=6 reason=proxy_test_failed source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
 vless://1bb2af63-4472-44ed-9c70-8f316258b68b@62.152.58.90:443?encryption=none&mode=gun&pbk=JBKJlzuJH1YzDHAoz28wEKbzWTGpDpKjgtSq0oT0a0k&security=reality&sid=27e53bbcab7593d7&sni=360.yandex.ru&type=grpc&fp=edge#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20%5B%2ACIDR%5D
-# failures=5 reason=proxy_test_failed source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
+# failures=6 reason=proxy_test_failed source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
 vless://1c1baccf-91e0-4ba0-8965-9c8d022c9a98@ru-svo-1.blook.network:443?alpn=h3&extra=%7B%22noGRPCHeader%22%3Atrue%2C%22scMaxEachPostBytes%22%3A1000000%2C%22scMinPostsIntervalMs%22%3A30%2C%22xPaddingBytes%22%3A%22100-1000%22%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A%2216-32%22%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%22300-900%22%2C%22maxConnections%22%3A%223-6%22%7D%7D&headerType=&mode=stream-one&path=%2FVLSpdG9k&security=tls&sni=ru-svo-1.blook.network&type=xhttp&fp=android#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
-# failures=5 reason=proxy_test_failed source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
+# failures=6 reason=proxy_test_failed source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
 vless://1c1baccf-91e0-4ba0-8965-9c8d022c9a98@ru-svo-1.blook.network:443?alpn=h3&extra=%7B%22noGRPCHeader%22%3Atrue%2C%22scMaxEachPostBytes%22%3A1000000%2C%22scMinPostsIntervalMs%22%3A30%2C%22xPaddingBytes%22%3A%22100-1000%22%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A%2216-32%22%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%22300-900%22%2C%22maxConnections%22%3A%223-6%22%7D%7D&headerType=&mode=stream-one&path=%2FVLSpdG9k&security=tls&sni=ru-svo-1.blook.network&type=xhttp&fp=ios#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
-# failures=5 reason=tcp_failed:ConnectionRefusedError source=BLACK_SS+All_RUS.txt
+# failures=6 reason=tcp_failed:ConnectionRefusedError source=BLACK_SS+All_RUS.txt
 hysteria2://c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9@e4e38271-tly2o0-tqbai3-1hpo0.nw4.hyhuawei.com:443?sni=e4e38271-tly2o0-tqbai3-1hpo0.nw4.hyhuawei.com&insecure=1#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%2C%20Central%20%7C%20%5BBL%5D
-# failures=5 reason=tcp_failed:TimeoutError source=WHITE-CIDR-RU-all.txt
+# failures=6 reason=tcp_failed:ConnectionRefusedError source=WHITE-CIDR-RU-all.txt
 hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?alpn=h3&insecure=1#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-# failures=5 reason=tcp_failed:TimeoutError source=WHITE-CIDR-RU-all.txt
+# failures=6 reason=tcp_failed:TimeoutError source=WHITE-CIDR-RU-all.txt
 hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?insecure=1#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
-# failures=4 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
+# failures=5 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
 vless://fc88a93d-68cb-409d-a64d-e438cf9fb4d9@ar-eze-1.blook.rs:443?alpn=h3&extra=%7B%22noGRPCHeader%22%3Atrue%2C%22scMaxEachPostBytes%22%3A1000000%2C%22scMinPostsIntervalMs%22%3A30%2C%22xPaddingBytes%22%3A%22100-1000%22%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A%2216-32%22%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%22300-900%22%2C%22maxConnections%22%3A%223-6%22%7D%7D&headerType=&mode=stream-one&path=%2FVLSpdG9k&security=tls&sni=ar-eze-1.blook.rs&type=xhttp&fp=edge#%F0%9F%87%A6%F0%9F%87%B7%20Argentina%2C%20Burzaco%20%7C%20%5BBL%5D
-# failures=4 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
+# failures=5 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
 vless://4b21fbc7-00c2-4665-9788-02153832f9e5@47.251.95.178:443?encryption=none&security=tls&sni=v2ray.aizgl.com&type=ws&path=%2Fxray-ws&host=v2ray.aizgl.com&fp=android#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20East%20Los%20Angeles%20%7C%20%5BBL%5D
-# failures=4 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
+# failures=5 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
 vless://4b21fbc7-00c2-4665-9788-02153832f9e5@47.251.95.178:443?encryption=none&security=tls&sni=v2ray.aizgl.com&type=ws&path=%2Fxray-ws&host=v2ray.aizgl.com&fp=edge#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20East%20Los%20Angeles%20%7C%20%5BBL%5D
-# failures=3 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
-vless://0c4e0fa4-d16e-47a2-8325-39a1a8fb04d8@gfgfdgdfg.apruxdomain.online:443?type=httpupgrade&security=tls&sni=gfgfdgdfg.apruxdomain.online&fp=qq#%F0%9F%87%A7%F0%9F%87%BE%20Belarus%2C%20Minsk%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-# failures=3 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
-vless://42b2279b-3564-495f-b72e-44f29dd9f8f1@89.169.15.154:443?encryption=none&security=reality&sni=p2.archive.rubuntu.space&fp=random&pbk=yPbjEx3j1wgPh6AD4HqsAaLS7ozbIp8rjmJjiDpskQc&sid=7a5fbfa3&type=xhttp&path=%2F&mode=packet-up&extra=%7B%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A%2264-128%22%2C%22hKeepAlivePeriod%22%3A20%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%22300-600%22%2C%22maxConcurrency%22%3A%228-16%22%2C%22maxConnections%22%3A0%7D%7D#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%2C%20Tallinn%20%7C%20%5BBL%5D
-# failures=3 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
-vless://d666e16b-2b64-4499-bb32-896c26dc2e3d@13.143.239.63:34451?encryption=none&fp=firefox&host=ee-2e06d85dc0.shamanapp.online&path=/ShamanXHTTP2026&security=tls&sni=ee-2e06d85dc0.shamanapp.online&type=xhttp#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%2C%20Tallinn%20%7C%20%5BBL%5D
-# failures=3 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
-vless://24f9d11d-ceca-4f75-93ca-ad143ca18b28@50.7.29.181:443?encryption=none&extra={"xmux":{"maxConnections":1,"maxReuseTimes":0}}&fp=firefox&host=de.vmagnum.win&security=tls&sni=id-24f9d11d.ferrin.uk&type=xhttp#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
-# failures=3 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
-vless://d666e16b-2b64-4499-bb32-896c26dc2e3d@ee-2e06d85dc0.shamanapp.online:34451?encryption=none&type=xhttp&security=tls&sni=ee-2e06d85dc0.shamanapp.online&fp=chrome&alpn=h2%2Chttp/1.1&path=/ShamanXHTTP2026&host=ee-2e06d85dc0.shamanapp.online&mode=stream-up#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%2C%20Tallinn%20%7C%20%5BBL%5D
-# failures=3 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
-vless://d666e16b-2b64-4499-bb32-896c26dc2e3d@pl-2070d4dca0.shamanapp.online:33740?encryption=none&type=xhttp&security=tls&sni=pl-2070d4dca0.shamanapp.online&fp=chrome&alpn=h2%2Chttp/1.1&path=/ShamanXHTTP2026&host=pl-2070d4dca0.shamanapp.online&mode=stream-up#%F0%9F%87%B5%F0%9F%87%B1%20Poland%2C%20Warsaw%20%7C%20%5BBL%5D
-# failures=3 reason=proxy_test_failed source=BLACK_SS_WEAK_DPI_RUS.txt
+# failures=4 reason=proxy_test_failed source=BLACK_SS_WEAK_DPI_RUS.txt
 ss://Y2hhY2hhMjAtaWV0Zjphc2QxMjM0NTY=@103.149.182.105:8388#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%2C%20Mong%20Kok%20%7C%20%5BBL%5D
-# failures=3 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
+# failures=4 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
+vless://0c4e0fa4-d16e-47a2-8325-39a1a8fb04d8@gfgfdgdfg.apruxdomain.online:443?type=httpupgrade&security=tls&sni=gfgfdgdfg.apruxdomain.online&fp=qq#%F0%9F%87%A7%F0%9F%87%BE%20Belarus%2C%20Minsk%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
+# failures=4 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
+vless://42b2279b-3564-495f-b72e-44f29dd9f8f1@89.169.15.154:443?encryption=none&security=reality&sni=p2.archive.rubuntu.space&fp=random&pbk=yPbjEx3j1wgPh6AD4HqsAaLS7ozbIp8rjmJjiDpskQc&sid=7a5fbfa3&type=xhttp&path=%2F&mode=packet-up&extra=%7B%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A%2264-128%22%2C%22hKeepAlivePeriod%22%3A20%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%22300-600%22%2C%22maxConcurrency%22%3A%228-16%22%2C%22maxConnections%22%3A0%7D%7D#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%2C%20Tallinn%20%7C%20%5BBL%5D
+# failures=4 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
+vless://d666e16b-2b64-4499-bb32-896c26dc2e3d@13.143.239.63:34451?encryption=none&fp=firefox&host=ee-2e06d85dc0.shamanapp.online&path=/ShamanXHTTP2026&security=tls&sni=ee-2e06d85dc0.shamanapp.online&type=xhttp#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%2C%20Tallinn%20%7C%20%5BBL%5D
+# failures=4 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
+vless://d666e16b-2b64-4499-bb32-896c26dc2e3d@ee-2e06d85dc0.shamanapp.online:34451?encryption=none&type=xhttp&security=tls&sni=ee-2e06d85dc0.shamanapp.online&fp=chrome&alpn=h2%2Chttp/1.1&path=/ShamanXHTTP2026&host=ee-2e06d85dc0.shamanapp.online&mode=stream-up#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%2C%20Tallinn%20%7C%20%5BBL%5D
+# failures=4 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
+vless://24f9d11d-ceca-4f75-93ca-ad143ca18b28@50.7.29.181:443?encryption=none&extra={"xmux":{"maxConnections":1,"maxReuseTimes":0}}&fp=firefox&host=de.vmagnum.win&security=tls&sni=id-24f9d11d.ferrin.uk&type=xhttp#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
+# failures=4 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
 vless://0b3c3f4f-843a-5b0a-98fe-132c88fbefc0@86153507-1976-48f1-ac86-e8ab274470a8.fly.dev:443?type=ws&security=tls&path=/ws/0b3c3f4f-843a-5b0a-98fe-132c88fbefc0&sni=86153507-1976-48f1-ac86-e8ab274470a8.fly.dev&fp=chrome#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-# failures=3 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
-vless://4b21fbc7-00c2-4665-9788-02153832f9e5@109.120.154.167:443?encryption=none&security=tls&sni=v2ray.aizgl.com&type=ws&path=%2Fxray-ws&host=v2ray.aizgl.com&fp=android#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20East%20Los%20Angeles%20%7C%20%5BBL%5D
-# failures=3 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
-vless://4b21fbc7-00c2-4665-9788-02153832f9e5@109.120.154.167:443?encryption=none&security=tls&sni=v2ray.aizgl.com&type=ws&path=%2Fxray-ws&host=v2ray.aizgl.com&fp=safari#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20East%20Los%20Angeles%20%7C%20%5BBL%5D
-# failures=3 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
-vless://4b21fbc7-00c2-4665-9788-02153832f9e5@109.120.154.167:443?encryption=none&security=tls&sni=v2ray.aizgl.com&type=ws&path=%2Fxray-ws&host=v2ray.aizgl.com&fp=edge#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20East%20Los%20Angeles%20%7C%20%5BBL%5D
-# failures=3 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
+# failures=4 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
 vless://d666e16b-2b64-4499-bb32-896c26dc2e3d@fi-966ffd3f4f.shamanapp.online:33742?encryption=none&type=xhttp&security=tls&sni=fi-966ffd3f4f.shamanapp.online&fp=chrome&alpn=h2%2Chttp/1.1&path=/ShamanXHTTP2026&host=fi-966ffd3f4f.shamanapp.online&mode=stream-up#%F0%9F%87%B9%F0%9F%87%B7%20Turkey%2C%20Istanbul%20%7C%20%5BBL%5D
-# failures=3 reason=proxy_test_failed source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
+# failures=4 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
+vless://4b21fbc7-00c2-4665-9788-02153832f9e5@109.120.154.167:443?encryption=none&security=tls&sni=v2ray.aizgl.com&type=ws&path=%2Fxray-ws&host=v2ray.aizgl.com&fp=android#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20East%20Los%20Angeles%20%7C%20%5BBL%5D
+# failures=4 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
+vless://4b21fbc7-00c2-4665-9788-02153832f9e5@109.120.154.167:443?encryption=none&security=tls&sni=v2ray.aizgl.com&type=ws&path=%2Fxray-ws&host=v2ray.aizgl.com&fp=edge#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20East%20Los%20Angeles%20%7C%20%5BBL%5D
+# failures=4 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
+vless://4b21fbc7-00c2-4665-9788-02153832f9e5@109.120.154.167:443?encryption=none&security=tls&sni=v2ray.aizgl.com&type=ws&path=%2Fxray-ws&host=v2ray.aizgl.com&fp=safari#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20East%20Los%20Angeles%20%7C%20%5BBL%5D
+# failures=4 reason=proxy_test_failed source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
 vless://1bb2af63-4472-44ed-9c70-8f316258b68b@62.152.58.90:443?encryption=none&mode=gun&pbk=JBKJlzuJH1YzDHAoz28wEKbzWTGpDpKjgtSq0oT0a0k&security=reality&sid=27e53bbcab7593d7&sni=360.yandex.ru&type=grpc&fp=qq#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20%5B%2ACIDR%5D
-# failures=3 reason=proxy_test_failed source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
+# failures=4 reason=proxy_test_failed source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
 vless://1c1baccf-91e0-4ba0-8965-9c8d022c9a98@ru-svo-1.blook.network:443?alpn=h3&extra=%7B%22noGRPCHeader%22%3Atrue%2C%22scMaxEachPostBytes%22%3A1000000%2C%22scMinPostsIntervalMs%22%3A30%2C%22xPaddingBytes%22%3A%22100-1000%22%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A%2216-32%22%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%22300-900%22%2C%22maxConnections%22%3A%223-6%22%7D%7D&headerType=&mode=stream-one&path=%2FVLSpdG9k&security=tls&sni=ru-svo-1.blook.network&type=xhttp&fp=chrome#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
-# failures=3 reason=proxy_test_failed source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
+# failures=4 reason=proxy_test_failed source=Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt
 vless://1c1baccf-91e0-4ba0-8965-9c8d022c9a98@ru-svo-1.blook.network:443?alpn=h3&extra=%7B%22noGRPCHeader%22%3Atrue%2C%22scMaxEachPostBytes%22%3A1000000%2C%22scMinPostsIntervalMs%22%3A30%2C%22xPaddingBytes%22%3A%22100-1000%22%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A%2216-32%22%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%22300-900%22%2C%22maxConnections%22%3A%223-6%22%7D%7D&headerType=&mode=stream-one&path=%2FVLSpdG9k&security=tls&sni=ru-svo-1.blook.network&type=xhttp&fp=firefox#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
+# failures=4 reason=tcp_failed:TimeoutError source=BLACK_VLESS_RUS.txt
+vless://d666e16b-2b64-4499-bb32-896c26dc2e3d@pl-2070d4dca0.shamanapp.online:33740?encryption=none&type=xhttp&security=tls&sni=pl-2070d4dca0.shamanapp.online&fp=chrome&alpn=h2%2Chttp/1.1&path=/ShamanXHTTP2026&host=pl-2070d4dca0.shamanapp.online&mode=stream-up#%F0%9F%87%B5%F0%9F%87%B1%20Poland%2C%20Warsaw%20%7C%20%5BBL%5D
+# failures=3 reason=proxy_test_failed source=BLACK_VLESS_RUS.txt
+vless://ebaecbea-68ee-46d4-ae8c-96a61eacce08@sg-sin-2.blook.network:443?alpn=h3&extra=%7B%22noGRPCHeader%22%3Atrue%2C%22scMaxEachPostBytes%22%3A1000000%2C%22scMinPostsIntervalMs%22%3A30%2C%22xPaddingBytes%22%3A%22100-1000%22%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A%2216-32%22%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%22300-900%22%2C%22maxConnections%22%3A%223-6%22%7D%7D&fp=firefox&headerType=&mode=stream-one&path=%2FVLSpdG9k&security=tls&sni=sg-sin-2.blook.network&type=xhttp#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%7C%20%5BBL%5D
+# failures=3 reason=second_test_failed source=Export/v2rayN_PC/WHITE-CIDR-RU-checked-v2rayN.txt
+vless://adc11f30-e4cb-4985-bf5e-f9ded69c019f@90.156.218.163:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=eh.vk.ru&pbk=fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI&sid=db04ce8bdb8900f1&type=tcp&fp=safari#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20%5B%2ACIDR%5D%20VK
+# failures=3 reason=tcp_failed:TimeoutError source=BLACK_SS+All_RUS.txt
+hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?insecure=1&sni=msk.frkn.org#%F0%9F%87%B7%F0%9F%87%BA%20Russia%2C%20Moscow%20%7C%20%5BBL%5D
+# failures=3 reason=tcp_failed:TimeoutError source=BLACK_VLESS_RUS.txt
+vless://4b21fbc7-00c2-4665-9788-02153832f9e5@109.120.154.167:443?encryption=none&security=tls&sni=v2ray.aizgl.com&type=ws&path=%2Fxray-ws&host=v2ray.aizgl.com&fp=ios#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20East%20Los%20Angeles%20%7C%20%5BBL%5D
